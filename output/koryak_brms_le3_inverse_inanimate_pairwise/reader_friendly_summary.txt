@@ -1,0 +1,73 @@
+Koryak LE1 Bayesian pairwise model: inverse inanimate patients
+================================================================
+
+Comparison: inverse 2 agents, 2 patients, inanimate patient vs inverse 2 agents, 1 patient, inanimate patient 
+Coding: +1 = inverse 2 agents, 2 patients, inanimate patient ; -1 = inverse 2 agents, 1 patient, inanimate patient 
+Model: empirical-logit fixation proportions ~ cubic time * contrast + random effects by participant condition, participant, and item.
+
+Counts:
+# A tibble: 2 × 6
+  condition_key            contrast_id comparison participants total_bins trials
+  <chr>                    <chr>       <chr>             <dbl>      <dbl>  <dbl>
+1 inverse_2_agents_1_pati… inverse_2_… inverse 2…           16       1953     93
+2 inverse_2_agents_2_pati… inverse_2_… inverse 2…           14       1554     74
+
+Fixed effects:
+# A tibble: 16 × 11
+   contrast_id           comparison model term  estimate ci_95_lower ci_95_upper
+   <chr>                 <chr>      <chr> <chr>    <dbl>       <dbl>       <dbl>
+ 1 inverse_2_2_inanimat… inverse 2… agen… Inte…    0.508      -0.239       1.29 
+ 2 inverse_2_2_inanimat… inverse 2… agen… poly…  -20.5       -35.0        -5.62 
+ 3 inverse_2_2_inanimat… inverse 2… agen… poly…   -7.11      -12.3        -1.77 
+ 4 inverse_2_2_inanimat… inverse 2… agen… poly…   -1.76       -7.47        3.79 
+ 5 inverse_2_2_inanimat… inverse 2… agen… cont…   -0.310      -0.892       0.290
+ 6 inverse_2_2_inanimat… inverse 2… agen… poly…    2.75       -9.31       15.7  
+ 7 inverse_2_2_inanimat… inverse 2… agen… poly…    7.79        2.19       13.3  
+ 8 inverse_2_2_inanimat… inverse 2… agen… poly…   -1.31       -6.73        4.18 
+ 9 inverse_2_2_inanimat… inverse 2… pati… Inte…   -1.40       -2.42       -0.408
+10 inverse_2_2_inanimat… inverse 2… pati… poly…   19.5        -3.09       41.7  
+11 inverse_2_2_inanimat… inverse 2… pati… poly…   -2.68       -8.21        2.99 
+12 inverse_2_2_inanimat… inverse 2… pati… poly…   10.6         5.06       16.2  
+13 inverse_2_2_inanimat… inverse 2… pati… cont…    0.446      -0.322       1.21 
+14 inverse_2_2_inanimat… inverse 2… pati… poly…    0.805     -15.9        17.8  
+15 inverse_2_2_inanimat… inverse 2… pati… poly…   -0.610      -6.19        5.07 
+16 inverse_2_2_inanimat… inverse 2… pati… poly…    1.96       -3.92        7.73 
+# ℹ 4 more variables: p_beta_gt_0 <dbl>, full_difference_estimate <dbl>,
+#   full_difference_ci_95_lower <dbl>, full_difference_ci_95_upper <dbl>
+
+Fixed-effect diagnostics:
+# A tibble: 16 × 11
+   contrast_id     comparison model term  estimate estimate_error    q2.5  q97.5
+   <chr>           <chr>      <chr> <chr>    <dbl>          <dbl>   <dbl>  <dbl>
+ 1 inverse_2_2_in… inverse 2… agen… Inte…    0.508          0.388  -0.239  1.29 
+ 2 inverse_2_2_in… inverse 2… agen… poly…  -20.5            7.49  -35.0   -5.62 
+ 3 inverse_2_2_in… inverse 2… agen… poly…   -7.11           2.80  -12.3   -1.77 
+ 4 inverse_2_2_in… inverse 2… agen… poly…   -1.76           2.82   -7.47   3.79 
+ 5 inverse_2_2_in… inverse 2… agen… cont…   -0.310          0.299  -0.892  0.290
+ 6 inverse_2_2_in… inverse 2… agen… poly…    2.75           6.34   -9.31  15.7  
+ 7 inverse_2_2_in… inverse 2… agen… poly…    7.79           2.82    2.19  13.3  
+ 8 inverse_2_2_in… inverse 2… agen… poly…   -1.31           2.74   -6.73   4.18 
+ 9 inverse_2_2_in… inverse 2… pati… Inte…   -1.40           0.512  -2.42  -0.408
+10 inverse_2_2_in… inverse 2… pati… poly…   19.5           11.6    -3.09  41.7  
+11 inverse_2_2_in… inverse 2… pati… poly…   -2.68           2.81   -8.21   2.99 
+12 inverse_2_2_in… inverse 2… pati… poly…   10.6            2.89    5.06  16.2  
+13 inverse_2_2_in… inverse 2… pati… cont…    0.446          0.387  -0.322  1.21 
+14 inverse_2_2_in… inverse 2… pati… poly…    0.805          8.49  -15.9   17.8  
+15 inverse_2_2_in… inverse 2… pati… poly…   -0.610          2.90   -6.19   5.07 
+16 inverse_2_2_in… inverse 2… pati… poly…    1.96           2.91   -3.92   7.73 
+# ℹ 3 more variables: rhat <dbl>, bulk_ess <dbl>, tail_ess <dbl>
+
+All-parameter diagnostics:
+# A tibble: 2 × 8
+  contrast_id                comparison model max_rhat min_bulk_ess min_tail_ess
+  <chr>                      <chr>      <chr>    <dbl>        <dbl>        <dbl>
+1 inverse_2_2_inanimate_vs_… inverse 2… agen…     1.00         774.        1194.
+2 inverse_2_2_inanimate_vs_… inverse 2… pati…     1.01         647.        1273.
+# ℹ 2 more variables: worst_bulk_variable <chr>, worst_tail_variable <chr>
+
+Sampler diagnostics:
+# A tibble: 2 × 5
+  contrast_id          comparison model divergent_transitions max_treedepth_hits
+  <chr>                <chr>      <chr>                 <dbl>              <dbl>
+1 inverse_2_2_inanima… inverse 2… agen…                     0                  0
+2 inverse_2_2_inanima… inverse 2… pati…                     0                  0

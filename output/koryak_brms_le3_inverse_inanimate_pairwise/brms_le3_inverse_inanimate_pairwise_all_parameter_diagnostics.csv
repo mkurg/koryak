@@ -1,0 +1,3 @@
+contrast_id,comparison,model,max_rhat,min_bulk_ess,min_tail_ess,worst_bulk_variable,worst_tail_variable
+inverse_2_2_inanimate_vs_inverse_2_1_inanimate,"inverse 2 agents, 2 patients, inanimate patient vs inverse 2 agents, 1 patient, inanimate patient",agent_looks,1.0049230565168434,774.0759812023027,1194.0668963021155,sd_participant__Intercept,sd_participant__Intercept
+inverse_2_2_inanimate_vs_inverse_2_1_inanimate,"inverse 2 agents, 2 patients, inanimate patient vs inverse 2 agents, 1 patient, inanimate patient",patient_looks,1.007099596619688,647.1619139809004,1272.7421273730863,sd_participant__time,sd_participant__time

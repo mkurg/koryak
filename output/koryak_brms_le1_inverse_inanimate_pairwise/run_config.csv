@@ -1,0 +1,2 @@
+chains,cores,iter,warmup,refresh,adapt_delta,max_treedepth,file_refit,window_key,window_label,contrast_id,positive_condition,negative_condition
+4,4,2000,1000,100,0.99,12,on_change,linguistic_encoding_1,le1,inverse_2_2_inanimate_vs_inverse_2_1_inanimate,inverse_2_agents_2_patients_inanimate_patient,inverse_2_agents_1_patient_inanimate_patient

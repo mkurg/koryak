@@ -1,0 +1,3 @@
+contrast_id,comparison,model,divergent_transitions,max_treedepth_hits
+inverse_2_2_inanimate_vs_inverse_2_1_inanimate,"inverse 2 agents, 2 patients, inanimate patient vs inverse 2 agents, 1 patient, inanimate patient",agent_looks,0,0
+inverse_2_2_inanimate_vs_inverse_2_1_inanimate,"inverse 2 agents, 2 patients, inanimate patient vs inverse 2 agents, 1 patient, inanimate patient",patient_looks,0,0
