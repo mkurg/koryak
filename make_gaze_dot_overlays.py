@@ -199,7 +199,16 @@ def phase_label(phase: str) -> str:
     return "display window, no RT split"
 
 
-def svg_url_for(stimulus_path: Path, svg_path: Path) -> str:
+def svg_url_for(
+    stimulus_path: Path,
+    svg_path: Path,
+    asset_base_url: str | None = None,
+    asset_root: Path | None = None,
+) -> str:
+    if asset_base_url:
+        root = asset_root or stimulus_path.parent
+        rel = os.path.relpath(stimulus_path, start=root)
+        return f"{asset_base_url.rstrip('/')}/{quote(Path(rel).as_posix(), safe='/')}"
     rel = os.path.relpath(stimulus_path, start=svg_path.parent)
     return quote(Path(rel).as_posix(), safe="/")
 
@@ -263,8 +272,10 @@ def write_trial_svg(
     stimulus_path: Path,
     trial: dict[str, object],
     dots: list[dict[str, object]],
+    asset_base_url: str | None = None,
+    asset_root: Path | None = None,
 ) -> None:
-    href = svg_url_for(stimulus_path, svg_path)
+    href = svg_url_for(stimulus_path, svg_path, asset_base_url, asset_root)
     title = (
         f"{trial.get('participant')} / {trial.get('asc_file')} block {trial.get('block')} | "
         f"{trial.get('image')} | RT {trial.get('rt_ms') or 'NA'} ms | {len(dots)} fixations"
@@ -315,8 +326,10 @@ def write_aggregate_svg(
     image_name: str,
     dots: list[dict[str, object]],
     trial_count: int,
+    asset_base_url: str | None = None,
+    asset_root: Path | None = None,
 ) -> None:
-    href = svg_url_for(stimulus_path, svg_path)
+    href = svg_url_for(stimulus_path, svg_path, asset_base_url, asset_root)
     participants = len({d["participant"] for d in dots})
     phase_counts = Counter(str(d.get("phase", "unknown")) for d in dots)
     title = f"{image_name} | {participants} participants | {trial_count} trials | {len(dots)} fixations"
@@ -558,7 +571,14 @@ def process(args: argparse.Namespace) -> Counter:
             trial_index = safe_stem(trial.get("Trial_Index_", trial.get("block")))
             svg_name = f"b{int(trial.get('block', 0)):03d}_t{trial_index}_{safe_stem(image)}.svg"
             svg_path = participant_dir / svg_name
-            write_trial_svg(svg_path, stimulus_path, trial, dots)
+            write_trial_svg(
+                svg_path,
+                stimulus_path,
+                trial,
+                dots,
+                args.svg_asset_base_url,
+                args.stimuli_dir,
+            )
 
             for dot in dots:
                 dot["trial_svg"] = svg_path.relative_to(out_dir).as_posix()
@@ -595,7 +615,15 @@ def process(args: argparse.Namespace) -> Counter:
     for image, dots in sorted(aggregate_dots.items()):
         stimulus_path = stimuli[image]
         svg_path = aggregate_dir / f"{safe_stem(image)}.svg"
-        write_aggregate_svg(svg_path, stimulus_path, image, dots, aggregate_trials[image])
+        write_aggregate_svg(
+            svg_path,
+            stimulus_path,
+            image,
+            dots,
+            aggregate_trials[image],
+            args.svg_asset_base_url,
+            args.stimuli_dir,
+        )
         aggregate_files.append(svg_path)
 
     csv_fields = [
@@ -675,6 +703,10 @@ def main() -> None:
     parser.add_argument("--stimuli-dir", type=Path, default=Path("stimuli"))
     parser.add_argument("--behavior-csv", type=Path, default=Path("Koryak stimuli - final.csv"))
     parser.add_argument("--output-dir", type=Path, default=Path("output/gaze_dots"))
+    parser.add_argument(
+        "--svg-asset-base-url",
+        help="Public base URL for stimulus PNG hrefs in generated SVGs, for example a GitHub raw stimuli URL.",
+    )
     parser.add_argument("--post-onset-ms", type=int, default=POST_ONSET_MS)
     parser.add_argument("--include-practice", action="store_true", help="Include practice trials when their PNG exists.")
     args = parser.parse_args()
