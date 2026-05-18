@@ -1,0 +1,21 @@
+window_key,window,sentence_type,condition_key,condition,agent_num,patient_num,clean_behavior_trials,plotted_trials,plotted_50ms_bins
+speech_planning,Speech planning,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,208,194,2134
+speech_planning,Speech planning,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,208,198,2178
+speech_planning,Speech planning,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,196,184,2024
+speech_planning,Speech planning,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,171,163,1793
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,208,194,3907
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,208,198,4126
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,196,184,4066
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,171,163,3376
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,208,194,3907
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,208,198,4123
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,196,184,4063
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,171,163,3376
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,208,194,4074
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,208,198,4158
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,196,184,3864
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,171,163,3423
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,208,194,6014
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,208,198,6138
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,196,184,5704
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,171,163,5053

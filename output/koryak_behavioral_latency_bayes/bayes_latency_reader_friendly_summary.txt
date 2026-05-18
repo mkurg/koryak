@@ -1,0 +1,60 @@
+Koryak Bayesian speech onset latency models
+==========================================
+
+Models:
+1. log(rt) ~ direct + (1 + direct | item) + (1 + direct | participant)
+2. log(rt) ~ condition4 + (1 + condition4 | item) + (1 + condition4 | participant)
+
+Priors: normal(7.8, 1) intercept; normal(0, 0.5) fixed effects; exponential(2) SD/sigma; LKJ(2) correlations.
+
+Direct vs inverse fixed effects:
+# A tibble: 2 × 11
+  model  term  estimate_log_ms ci_95_lower_log_ms ci_95_upper_log_ms p_beta_gt_0
+  <chr>  <chr>           <dbl>              <dbl>              <dbl>       <dbl>
+1 direc… Inte…          7.91                7.76              8.06         1    
+2 direc… dire…         -0.0403             -0.106             0.0223       0.108
+# ℹ 5 more variables: ratio <dbl>, ci_95_lower_ratio <dbl>,
+#   ci_95_upper_ratio <dbl>, percent_change <dbl>, interpretation <chr>
+
+Four-way fixed effects:
+# A tibble: 4 × 11
+  model  term  estimate_log_ms ci_95_lower_log_ms ci_95_upper_log_ms p_beta_gt_0
+  <chr>  <chr>           <dbl>              <dbl>              <dbl>       <dbl>
+1 fourw… Inte…          7.85               7.69                8.00        1    
+2 fourw… cond…          0.0296            -0.0709              0.132       0.722
+3 fourw… cond…          0.0377            -0.0719              0.145       0.753
+4 fourw… cond…          0.0788            -0.0275              0.183       0.924
+# ℹ 5 more variables: ratio <dbl>, ci_95_lower_ratio <dbl>,
+#   ci_95_upper_ratio <dbl>, percent_change <dbl>, interpretation <chr>
+
+Four-way pairwise contrasts:
+# A tibble: 6 × 10
+  comparison                 interpretation   estimate_log_ms ci_95_lower_log_ms
+  <chr>                      <chr>                      <dbl>              <dbl>
+1 direct_1_1 vs direct_1_2   direct_1_1 minu…        -0.0296              -0.132
+2 direct_1_1 vs inverse_2_2  direct_1_1 minu…        -0.0377              -0.145
+3 direct_1_1 vs inverse_2_1  direct_1_1 minu…        -0.0788              -0.183
+4 direct_1_2 vs inverse_2_2  direct_1_2 minu…        -0.00802             -0.118
+5 direct_1_2 vs inverse_2_1  direct_1_2 minu…        -0.0492              -0.162
+6 inverse_2_2 vs inverse_2_1 inverse_2_2 min…        -0.0412              -0.160
+# ℹ 6 more variables: ci_95_upper_log_ms <dbl>, p_beta_gt_0 <dbl>, ratio <dbl>,
+#   ci_95_lower_ratio <dbl>, ci_95_upper_ratio <dbl>, percent_change <dbl>
+
+Fixed-effect diagnostics:
+# A tibble: 6 × 9
+  model     term  estimate estimate_error    q2.5  q97.5  rhat bulk_ess tail_ess
+  <chr>     <chr>    <dbl>          <dbl>   <dbl>  <dbl> <dbl>    <dbl>    <dbl>
+1 direct_i… Inte…   7.91           0.0744  7.76   8.06    1.01     908.    1546.
+2 direct_i… dire…  -0.0403         0.0327 -0.106  0.0223  1.00    3327.    3151.
+3 fourway   Inte…   7.85           0.0783  7.69   8.00    1.00     791.    1246.
+4 fourway   cond…   0.0296         0.0516 -0.0709 0.132   1.00    2247.    2545.
+5 fourway   cond…   0.0377         0.0552 -0.0719 0.145   1.00    2402.    2624.
+6 fourway   cond…   0.0788         0.0545 -0.0275 0.183   1.00    2119.    2610.
+
+All-parameter diagnostics:
+# A tibble: 2 × 6
+  model          max_rhat min_bulk_ess min_tail_ess worst_bulk_variable         
+  <chr>             <dbl>        <dbl>        <dbl> <chr>                       
+1 direct_inverse     1.01         173.         413. sd_item__direct             
+2 fourway            1.01         372.         725. sd_item__condition4inverse_…
+# ℹ 1 more variable: worst_tail_variable <chr>

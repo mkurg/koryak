@@ -1,0 +1,49 @@
+ Family: gaussian 
+  Links: mu = identity 
+Formula: log.agent | weights(1/wts.agent) ~ poly(time, degree = 3) * direct_vs_inverse + (1 + time || participant_condition) + (1 + time || participant) + (1 | item) 
+   Data: le3 (Number of observations: 17365) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Multilevel Hyperparameters:
+~item (Number of levels: 128) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.52      0.04     0.44     0.60 1.00     1192     2167
+
+~participant (Number of levels: 16) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.71      0.19     0.41     1.14 1.00     1203     1387
+sd(time)          0.74      0.31     0.10     1.36 1.00      784      667
+
+~participant_condition (Number of levels: 32) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.34      0.12     0.15     0.60 1.00      974     1504
+sd(time)          0.77      0.21     0.42     1.23 1.00      866     1692
+
+Regression Coefficients:
+                                     Estimate Est.Error l-95% CI u-95% CI Rhat
+Intercept                                0.80      0.23     0.34     1.27 1.00
+polytimedegreeEQ31                      27.69     10.05     8.47    47.71 1.00
+polytimedegreeEQ32                      -2.54      2.67    -7.88     2.55 1.00
+polytimedegreeEQ33                      -4.11      2.59    -9.08     0.90 1.00
+direct_vs_inverse                        0.07      0.11    -0.14     0.29 1.00
+polytimedegreeEQ31:direct_vs_inverse    12.97      6.22     0.90    25.89 1.00
+polytimedegreeEQ32:direct_vs_inverse     4.05      2.65    -1.08     9.25 1.00
+polytimedegreeEQ33:direct_vs_inverse    -1.17      2.65    -6.46     4.08 1.00
+                                     Bulk_ESS Tail_ESS
+Intercept                                1523     2284
+polytimedegreeEQ31                       2419     2581
+polytimedegreeEQ32                       8292     3252
+polytimedegreeEQ33                       6788     2846
+direct_vs_inverse                        2307     2256
+polytimedegreeEQ31:direct_vs_inverse     2380     2016
+polytimedegreeEQ32:direct_vs_inverse     7223     3023
+polytimedegreeEQ33:direct_vs_inverse     6971     2852
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sigma     2.75      0.01     2.73     2.78 1.00     8486     3027
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

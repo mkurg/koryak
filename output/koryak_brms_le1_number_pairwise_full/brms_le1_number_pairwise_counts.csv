@@ -1,0 +1,7 @@
+condition_key,contrast_id,comparison,participants,total_bins
+direct_1_agent_1_patient,direct_1_1_vs_direct_1_2,"direct 1 agent, 1 patient vs direct 1 agent, 2 patients",16,3907
+direct_1_agent_2_patients,direct_1_1_vs_direct_1_2,"direct 1 agent, 1 patient vs direct 1 agent, 2 patients",16,4126
+inverse_2_agents_1_patient,inverse_2_1_vs_inverse_2_2,"inverse 2 agents, 1 patient vs inverse 2 agents, 2 patients",16,4066
+inverse_2_agents_2_patients,inverse_2_1_vs_inverse_2_2,"inverse 2 agents, 1 patient vs inverse 2 agents, 2 patients",16,3376
+direct_1_agent_1_patient,direct_1_1_vs_inverse_2_2,"direct 1 agent, 1 patient vs inverse 2 agents, 2 patients",16,3907
+inverse_2_agents_2_patients,direct_1_1_vs_inverse_2_2,"direct 1 agent, 1 patient vs inverse 2 agents, 2 patients",16,3376

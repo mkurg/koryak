@@ -1,0 +1,50 @@
+Koryak speech onset latency model
+=================================
+
+Khanty source model: lmer(log(sol) ~ type + (1 + type | item) + (1 + type | ppt.no))
+Koryak model: lmer(log(rt) ~ direct + (1 + direct | item) + (1 + direct | participant))
+Coding: direct = 1, inverse = 0. Positive direct coefficient means longer direct latencies.
+
+N trials: 879 
+Participants: 16 
+Items: 128 
+
+Counts by sentence type:
+# A tibble: 2 × 2
+  sentence_type     n
+  <chr>         <int>
+1 direct          496
+2 inverse         383
+
+Descriptives:
+# A tibble: 2 × 8
+  sentence_type     n mean_rt_ms sd_rt_ms median_rt_ms min_rt_ms max_rt_ms
+  <chr>         <int>      <dbl>    <dbl>        <dbl>     <dbl>     <dbl>
+1 direct          496      2574.    1081.        2330.      1029      5981
+2 inverse         383      2646.    1115.        2337       1105      5981
+# ℹ 1 more variable: khanty_style_2se_ms <dbl>
+
+Singular fit: TRUE 
+
+Convergence messages:
+[1] "boundary (singular) fit: see help('isSingular')"
+
+Fixed effects table:
+# A tibble: 2 × 12
+  term       estimate_log_ms std_error    df t_value  p_value ci_95_lower_log_ms
+  <chr>                <dbl>     <dbl> <dbl>   <dbl>    <dbl>              <dbl>
+1 (Intercep…          7.91      0.0701  17.4  113.   2.13e-26              7.78 
+2 direct             -0.0499    0.0325 107.    -1.54 1.27e- 1             -0.114
+# ℹ 5 more variables: ci_95_upper_log_ms <dbl>, ratio_direct_to_inverse <dbl>,
+#   percent_change_direct_vs_inverse <dbl>, ci_95_lower_ratio <dbl>,
+#   ci_95_upper_ratio <dbl>
+
+Random-effects variance/correlation table:
+          grp        var1   var2          vcov       sdcor
+1        item (Intercept)   <NA>  0.0268476150  0.16385242
+2        item      direct   <NA>  0.0490618929  0.22149919
+3        item (Intercept) direct -0.0305304374 -0.84121696
+4 participant (Intercept)   <NA>  0.0674427944  0.25969751
+5 participant      direct   <NA>  0.0001908915  0.01381635
+6 participant (Intercept) direct -0.0035880712 -1.00000000
+7    Residual        <NA>   <NA>  0.0865845946  0.29425260

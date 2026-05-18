@@ -1,0 +1,19 @@
+participant,image,n_candidates,chosen_asc_file,chosen_block,candidate_asc_files,candidate_blocks
+К15,boil-1-1-r.png,2,k15_2.asc,53,k15.asc; k15_2.asc,70; 53
+К15,break-1-1-r.png,2,k15_2.asc,5,k15.asc; k15_2.asc,9; 5
+К15,call-2-2-r.png,2,k15_2.asc,4,k15.asc; k15_2.asc,8; 4
+К15,cut_hair-1-1-r.png,2,k15_2.asc,16,k15.asc; k15_2.asc,24; 16
+К15,eat-2-2-r.png,2,k15_2.asc,40,k15.asc; k15_2.asc,55; 40
+К15,feed-2-1-l.png,2,k15_2.asc,6,k15.asc; k15_2.asc,10; 6
+К15,hit-2-2-r.png,2,k15_2.asc,68,k15.asc; k15_2.asc,110; 68
+К15,open-2-1-l.png,2,k15_2.asc,63,k15.asc; k15_2.asc,101; 63
+К15,pick-1-2-l.png,2,k15_2.asc,42,k15.asc; k15_2.asc,57; 42
+К15,pull-1-2-l.png,2,k15_2.asc,31,k15.asc; k15_2.asc,44; 31
+К15,scold-2-1-l.png,2,k15_2.asc,66,k15.asc; k15_2.asc,108; 66
+К15,shoot-1-2-l.png,2,k15_2.asc,62,k15.asc; k15_2.asc,100; 62
+К15,teach-1-2-l.png,2,k15_2.asc,54,k15.asc; k15_2.asc,71; 54
+К15,teach-2-2-r.png,2,k15_2.asc,12,k15.asc; k15_2.asc,17; 12
+К15,throw-1-2-l.png,2,k15_2.asc,15,k15.asc; k15_2.asc,23; 15
+К15,tie-1-2-l.png,2,k15_2.asc,26,k15.asc; k15_2.asc,39; 26
+К15,tie-2-2-r.png,2,k15_2.asc,43,k15.asc; k15_2.asc,59; 43
+К15,wake-2-1-l.png,2,k15_2.asc,50,k15.asc; k15_2.asc,67; 50

@@ -1,0 +1,2 @@
+chains,cores,iter,warmup,refresh,adapt_delta,max_treedepth,file_refit
+1,1,120,60,10,0.8,12,always

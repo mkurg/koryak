@@ -1,0 +1,82 @@
+# Local config for the flattened project layout.
+
+paths:
+  # Behavioral/stimulus CSV from the Koryak experiment.
+  behavior_csv: "Koryak stimuli - final.csv"
+
+  # Optional participant-info CSV, used for age summaries if present.
+  participant_info_csv: ""
+
+  # Folder containing all EyeLink .asc files, e.g. k01.asc, k03.asc, ...
+  asc_dir: "ASC files"
+
+  # Where outputs will be written.
+  output_dir: "output/analysis"
+
+cleaning:
+  # Participants kept after the earlier minimum-trial cutoff.
+  included_participants:
+    - "К01"
+    - "К03"
+    - "К04"
+    - "К05"
+    - "К06"
+    - "К07"
+    - "К10"
+    - "К13"
+    - "К14"
+    - "К15"
+    - "К16"
+    - "К17"
+    - "К20"
+    - "К22"
+    - "К24"
+    - "К25"
+
+  excluded_participants:
+    - "К02"
+    - "К08"
+    - "К09"
+    - "К11"
+    - "К18"
+    - "К19"
+
+  rt_max_ms: 6000
+  fluency_ok_value: "yes"
+  word_order: "AVP"
+
+  # "contains" matches rows like "direct; inverse"; "exact" only matches exactly direct/inverse.
+  sentence_type_match: "contains"
+
+columns:
+  participant_id: "participant's id"
+  trial_num: "trial_num"
+  reaction_time: "reaction time"
+  fluency: "fluency"
+  sentence_type: "sentence type"
+  word_order: "word order"
+  patient_animacy: "patiens_animacy"
+
+  # Participant-info file columns.
+  info_id: "ID"
+  info_age: "Возраст"
+
+gaze:
+  # ASC-to-behavior merge keys. In this Koryak CSV, trial_num repeats within participant,
+  # so image is the safest default. You can change to ["ans"] or ["image", "ans"] if needed.
+  merge_keys: ["image"]
+
+  # If no .ias AOI files are available, use the agent/patient top-left coordinates
+  # encoded in the ASC TRIAL_VAR lines and these box dimensions.
+  aoi_width_px: 850
+  aoi_height_px: 850
+
+  pre_window_start: "display"      # display -> DISPLAY_SENTENCE timestamp
+  post_window_ms: 2000             # speech onset to speech onset + 2000
+
+  # Gaze sampling rate is usually 1000 Hz. ms is row_number in the trial window,
+  # matching the old R pipeline.
+  bin_sizes: [20, 50]
+
+  # Whether to create the same time-window variable used in the Khanty pipeline.
+  make_tw: true

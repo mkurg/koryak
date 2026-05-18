@@ -1,0 +1,106 @@
+window_key,window,time_rel,raw_samples,blink_samples_excluded,nonblink_samples,track_loss_samples,track_loss_percent_excluding_blinks
+linguistic_encoding_1,Linguistic encoding I,0.000000,44100,4002,40098,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.050000,23250,1603,21647,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.100000,47400,3810,43590,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.150000,47950,4158,43792,3,0.006851
+linguistic_encoding_1,Linguistic encoding I,0.200000,46000,3938,42062,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.250000,48000,4387,43613,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.300000,45250,4765,40485,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.350000,47900,4817,43083,14,0.032495
+linguistic_encoding_1,Linguistic encoding I,0.400000,46850,4369,42481,50,0.117700
+linguistic_encoding_1,Linguistic encoding I,0.450000,46750,4795,41955,50,0.119175
+linguistic_encoding_1,Linguistic encoding I,0.500000,47250,5316,41934,1,0.002385
+linguistic_encoding_1,Linguistic encoding I,0.550000,45100,4854,40246,5,0.012424
+linguistic_encoding_1,Linguistic encoding I,0.600000,47198,4541,42657,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.650000,47300,5166,42134,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.700000,46600,4279,42321,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.750000,47500,4234,43266,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.800000,46850,4663,42187,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.850000,45899,4964,40935,4,0.009772
+linguistic_encoding_1,Linguistic encoding I,0.900000,46388,4890,41498,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,0.950000,45051,4991,40060,0,0.000000
+linguistic_encoding_1,Linguistic encoding I,1.000000,26965,3198,23767,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.000000,44950,5368,39582,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.050000,23150,2542,20608,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.100000,47300,4665,42635,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.150000,47800,5087,42713,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.200000,45900,5751,40149,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.250000,47850,5673,42177,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.300000,45150,5265,39885,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.350000,47750,5811,41939,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.400000,46750,6375,40375,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.450000,46600,5704,40896,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.500000,47150,5497,41653,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.550000,44950,6398,38552,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.600000,47100,6286,40814,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.650000,47300,5930,41370,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.700000,46600,5865,40735,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.750000,47500,5396,42104,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.800000,46850,5577,41273,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.850000,45898,5642,40256,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.900000,46374,6424,39950,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,0.950000,44983,7089,37894,0,0.000000
+linguistic_encoding_2,Linguistic encoding II,1.000000,26610,3905,22705,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.000000,44002,6203,37799,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.050000,44900,6397,38503,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.100000,44900,5986,38914,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.150000,44900,5870,39030,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.200000,44900,5247,39653,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.250000,44900,4622,40278,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.300000,44900,4418,40482,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.350000,44900,4347,40553,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.400000,44900,4285,40615,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.450000,44900,4560,40340,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.500000,44900,5489,39411,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.550000,44900,6393,38507,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.600000,44900,7061,37839,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.650000,44900,7446,37454,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.700000,44900,6936,37964,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.750000,44900,6833,38067,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.800000,44900,6327,38573,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.850000,44900,6361,38539,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.900000,44900,6639,38261,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,0.950000,44900,6370,38530,0,0.000000
+linguistic_encoding_3,Linguistic encoding III,1.000000,44900,6327,38573,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.000000,44900,6327,38573,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.033333,44900,6579,38321,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.066667,44880,7055,37825,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.100000,44850,6871,37979,44,0.115853
+post_onset_1000_2500,Post-onset 1000-2500,0.133333,44850,6308,38542,50,0.129729
+post_onset_1000_2500,Post-onset 1000-2500,0.166667,44850,5812,39038,50,0.128080
+post_onset_1000_2500,Post-onset 1000-2500,0.200000,44850,6270,38580,14,0.036288
+post_onset_1000_2500,Post-onset 1000-2500,0.233333,44850,6621,38229,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.266667,44850,6385,38465,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.300000,44829,6073,38756,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.333333,44800,5863,38937,43,0.110435
+post_onset_1000_2500,Post-onset 1000-2500,0.366667,44800,6460,38340,50,0.130412
+post_onset_1000_2500,Post-onset 1000-2500,0.400000,44800,6270,38530,50,0.129769
+post_onset_1000_2500,Post-onset 1000-2500,0.433333,44800,6352,38448,50,0.130046
+post_onset_1000_2500,Post-onset 1000-2500,0.466667,44800,6466,38334,8,0.020869
+post_onset_1000_2500,Post-onset 1000-2500,0.500000,44800,6634,38166,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.533333,44761,6992,37769,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.566667,44707,7087,37620,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.600000,44700,7463,37237,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.633333,44700,7522,37178,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.666667,44700,7543,37157,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.700000,44700,7037,37663,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.733333,44700,6610,38090,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.766667,44700,6804,37896,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.800000,44700,6854,37846,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.833333,44700,7431,37269,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.866667,44700,7391,37309,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.900000,44700,7114,37586,2,0.005321
+post_onset_1000_2500,Post-onset 1000-2500,0.933333,44700,6900,37800,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,0.966667,44700,6315,38385,0,0.000000
+post_onset_1000_2500,Post-onset 1000-2500,1.000000,44657,6370,38287,0,0.000000
+speech_planning,Speech planning,0.000000,45000,2218,42782,0,0.000000
+speech_planning,Speech planning,0.100000,45000,1851,43149,0,0.000000
+speech_planning,Speech planning,0.200000,45000,915,44085,0,0.000000
+speech_planning,Speech planning,0.300000,45000,410,44590,0,0.000000
+speech_planning,Speech planning,0.400000,45000,268,44732,0,0.000000
+speech_planning,Speech planning,0.500000,45000,419,44581,0,0.000000
+speech_planning,Speech planning,0.600000,45000,584,44416,0,0.000000
+speech_planning,Speech planning,0.700000,45000,1006,43994,0,0.000000
+speech_planning,Speech planning,0.800000,45000,1817,43183,0,0.000000
+speech_planning,Speech planning,0.900000,45000,3003,41997,0,0.000000
+speech_planning,Speech planning,1.000000,45000,4077,40923,0,0.000000

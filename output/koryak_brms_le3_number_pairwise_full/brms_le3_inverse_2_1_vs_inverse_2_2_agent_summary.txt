@@ -1,0 +1,49 @@
+ Family: gaussian 
+  Links: mu = identity 
+Formula: log.agent | weights(1/wts.agent) ~ poly(time, degree = 3) * contrast_code + (1 + time || participant_condition) + (1 + time || participant) + (1 | item) 
+   Data: model_df (Number of observations: 7287) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Multilevel Hyperparameters:
+~item (Number of levels: 62) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.84      0.09     0.68     1.03 1.00      879     1466
+
+~participant (Number of levels: 16) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.87      0.36     0.12     1.60 1.01      455      522
+sd(time)          0.54      0.37     0.02     1.37 1.01      554     1355
+
+~participant_condition (Number of levels: 32) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.91      0.24     0.52     1.42 1.01      564     1801
+sd(time)          1.44      0.30     0.93     2.10 1.00     1246     2306
+
+Regression Coefficients:
+                                 Estimate Est.Error l-95% CI u-95% CI Rhat
+Intercept                            0.59      0.34    -0.08     1.28 1.00
+polytimedegreeEQ31                 -27.12      8.67   -44.09    -9.68 1.00
+polytimedegreeEQ32                  -6.96      2.70   -12.31    -1.81 1.00
+polytimedegreeEQ33                   1.03      2.72    -4.19     6.45 1.00
+contrast_code                        0.21      0.24    -0.26     0.69 1.01
+polytimedegreeEQ31:contrast_code    -0.67      7.74   -15.33    15.01 1.01
+polytimedegreeEQ32:contrast_code    -6.00      2.73   -11.41    -0.51 1.00
+polytimedegreeEQ33:contrast_code    -0.69      2.62    -5.81     4.47 1.00
+                                 Bulk_ESS Tail_ESS
+Intercept                            1233     1950
+polytimedegreeEQ31                   1441     2044
+polytimedegreeEQ32                   6272     3233
+polytimedegreeEQ33                   5439     3237
+contrast_code                        1098     2068
+polytimedegreeEQ31:contrast_code     1139     1716
+polytimedegreeEQ32:contrast_code     5606     2994
+polytimedegreeEQ33:contrast_code     7351     3409
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sigma     2.81      0.02     2.77     2.85 1.00     6897     2760
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

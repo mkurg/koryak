@@ -1,0 +1,40 @@
+ Family: gaussian 
+  Links: mu = identity 
+Formula: log_rt ~ direct + (1 + direct | item) + (1 + direct | participant) 
+   Data: direct_inverse_df (Number of observations: 879) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Multilevel Hyperparameters:
+~item (Number of levels: 128) 
+                      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+sd(Intercept)             0.15      0.02     0.11     0.20 1.00      788
+sd(direct)                0.14      0.07     0.01     0.26 1.01      173
+cor(Intercept,direct)    -0.57      0.30    -0.90     0.31 1.00      303
+                      Tail_ESS
+sd(Intercept)             2339
+sd(direct)                 413
+cor(Intercept,direct)      526
+
+~participant (Number of levels: 16) 
+                      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+sd(Intercept)             0.27      0.06     0.19     0.41 1.00     1357
+sd(direct)                0.03      0.02     0.00     0.08 1.00     2590
+cor(Intercept,direct)    -0.09      0.43    -0.84     0.75 1.00     8221
+                      Tail_ESS
+sd(Intercept)             2204
+sd(direct)                1978
+cor(Intercept,direct)     2439
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept     7.91      0.07     7.76     8.06 1.01      908     1546
+direct       -0.04      0.03    -0.11     0.02 1.00     3327     3151
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sigma     0.30      0.01     0.28     0.31 1.00     3600     2943
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

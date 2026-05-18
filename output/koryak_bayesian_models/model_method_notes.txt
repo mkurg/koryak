@@ -1,0 +1,33 @@
+Koryak gaze models
+==================
+
+Local limitation: this workspace has no R/Rscript, brms, Stan, PyMC, or statsmodels installed, so these
+models are not literal brms fits. They are Bayesian weighted Gaussian regressions fit analytically in
+Python/numpy on the same Khanty-style log-odds bin outcome.
+
+Data:
+- Clean behavioral filter: included participants, RT < 6000 ms, fluency == yes, word order == AVP,
+  sentence type direct/inverse.
+- Behavioral clean set: 879 trials.
+- Fitted gaze rows use the matched ASC/bin data from the graph pipeline, so the all-direct/all-inverse
+  models have 830 trials with usable gaze samples.
+
+Outcome, separately for agent and patient:
+- success = referent looks in a trial/time bin.
+- N = all samples in that trial/time bin.
+- log_odds = log((success + .5) / (N - success + .5)).
+- weight = 1 / (1/(success + .5) + 1/(N - success + .5)), matching the Khanty log-odds weighting logic.
+
+Formula:
+- log_odds ~ time + time^2 + time^3 + contrast + time:contrast + time^2:contrast + time^3:contrast
+  + participant fixed intercepts + item/image fixed intercepts.
+- time is relative time centered at 0.5 within each window.
+- contrast is coded +1 for the first condition and -1 for the second condition, matching the Khanty
+  contrast-coding style. Therefore the contrast coefficient is a coded beta, not a raw full difference.
+
+Posterior summary:
+- Weak Normal priors are used for coefficients.
+- The reported estimate is posterior mean.
+- 95% CI is the central posterior interval from posterior draws.
+- P(beta > 0) is the posterior draw proportion above zero.
+

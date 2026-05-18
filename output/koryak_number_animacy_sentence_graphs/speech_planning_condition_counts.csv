@@ -1,0 +1,41 @@
+window_key,window,sentence_type,condition_key,condition,agent_num,patient_num,patient_animacy,clean_behavior_trials,plotted_trials,plotted_50ms_bins
+speech_planning,Early event apprehension,direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",1,1,animate,106,99,1089
+speech_planning,Early event apprehension,direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",1,1,inanimate,102,95,1045
+speech_planning,Early event apprehension,direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",1,2,animate,109,106,1166
+speech_planning,Early event apprehension,direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",1,2,inanimate,99,92,1012
+speech_planning,Early event apprehension,inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",2,1,animate,97,91,1001
+speech_planning,Early event apprehension,inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",2,1,inanimate,99,93,1023
+speech_planning,Early event apprehension,inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",2,2,animate,94,89,979
+speech_planning,Early event apprehension,inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",2,2,inanimate,77,74,814
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",1,1,animate,106,99,2047
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",1,1,inanimate,102,95,1860
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",1,2,animate,109,106,2232
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",1,2,inanimate,99,92,1894
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",2,1,animate,97,91,2102
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",2,1,inanimate,99,93,1964
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",2,2,animate,94,89,2019
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",2,2,inanimate,77,74,1357
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",1,1,animate,106,99,2047
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",1,1,inanimate,102,95,1860
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",1,2,animate,109,106,2230
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",1,2,inanimate,99,92,1893
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",2,1,animate,97,91,2099
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",2,1,inanimate,99,93,1964
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",2,2,animate,94,89,2019
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",2,2,inanimate,77,74,1357
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",1,1,animate,106,99,2079
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",1,1,inanimate,102,95,1995
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",1,2,animate,109,106,2226
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",1,2,inanimate,99,92,1932
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",2,1,animate,97,91,1911
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",2,1,inanimate,99,93,1953
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",2,2,animate,94,89,1869
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",2,2,inanimate,77,74,1554
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",1,1,animate,106,99,3069
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",1,1,inanimate,102,95,2945
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",1,2,animate,109,106,3286
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",1,2,inanimate,99,92,2852
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",2,1,animate,97,91,2821
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",2,1,inanimate,99,93,2883
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",2,2,animate,94,89,2759
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",2,2,inanimate,77,74,2294

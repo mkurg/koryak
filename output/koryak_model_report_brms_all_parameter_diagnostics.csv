@@ -1,0 +1,17 @@
+window,model_set,comparison,looks,max_rhat,min_bulk_ess,min_tail_ess,worst_bulk_variable,worst_tail_variable
+LE1,All direct vs all inverse,direct inverse,agent looks,1.0049931447026896,734.6794611577711,667.1778609642843,lp__,sd_participant__time
+LE1,All direct vs all inverse,direct inverse,patient looks,1.0146813722002632,603.4800618648651,1190.0752030618733,sd_participant__time,sd_participant__Intercept
+LE1,Number pairwise,direct 1 1 vs direct 1 2,agent looks,1.0191214011188663,480.013130142418,1567.1037967457753,sd_participant__Intercept,lp__
+LE1,Number pairwise,direct 1 1 vs direct 1 2,patient looks,1.0155510395615173,448.4723872320244,824.0746438688356,sd_participant__Intercept,sd_participant__Intercept
+LE1,Number pairwise,direct 1 1 vs inverse 2 2,agent looks,1.007640225100387,793.9270916902324,991.1410616842824,sd_participant__time,sd_participant__Intercept
+LE1,Number pairwise,direct 1 1 vs inverse 2 2,patient looks,1.0102610180841427,635.8469968757825,746.769445353248,sd_participant__time,sd_participant__Intercept
+LE1,Number pairwise,inverse 2 1 vs inverse 2 2,agent looks,1.006016479134638,615.0086550463676,1546.1142165038777,sd_participant__Intercept,lp__
+LE1,Number pairwise,inverse 2 1 vs inverse 2 2,patient looks,1.0077208331573808,432.87951031022453,1312.673811317016,sd_participant__Intercept,sd_participant__Intercept
+LE3,All direct vs all inverse,direct inverse,agent looks,1.0066106197907922,656.5430319789618,691.5813203765745,lp__,sd_participant__time
+LE3,All direct vs all inverse,direct inverse,patient looks,1.005069154055706,736.3314111689574,325.0294630667267,lp__,"r_participant_condition[К10.direct,Intercept]"
+LE3,Number pairwise,direct 1 1 vs direct 1 2,agent looks,1.0110506583330392,770.4122016978108,1143.857558262362,lp__,sd_participant__time
+LE3,Number pairwise,direct 1 1 vs direct 1 2,patient looks,1.0069182873192624,590.262097481395,980.2314430620781,sd_participant__time,sd_participant__Intercept
+LE3,Number pairwise,direct 1 1 vs inverse 2 2,agent looks,1.0054061313441975,758.6530103036803,650.6070319290769,sd_participant__time,sd_participant__Intercept
+LE3,Number pairwise,direct 1 1 vs inverse 2 2,patient looks,1.00775227344923,511.3778818528743,844.8258913116542,sd_participant__Intercept,sd_participant__Intercept
+LE3,Number pairwise,inverse 2 1 vs inverse 2 2,agent looks,1.0134094939553169,455.3141966522339,521.918710161241,sd_participant__Intercept,sd_participant__Intercept
+LE3,Number pairwise,inverse 2 1 vs inverse 2 2,patient looks,1.0072966366855136,580.3856627319846,1278.1605612670128,sd_participant__time,sd_participant__Intercept

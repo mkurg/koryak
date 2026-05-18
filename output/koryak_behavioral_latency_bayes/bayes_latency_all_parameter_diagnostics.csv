@@ -1,0 +1,3 @@
+model,max_rhat,min_bulk_ess,min_tail_ess,worst_bulk_variable,worst_tail_variable
+direct_inverse,1.0104676152925456,173.03867705239878,413.0469801736216,sd_item__direct,sd_item__direct
+fourway,1.0115688063105792,372.1164442180729,725.3227804627363,sd_item__condition4inverse_2_2,sd_item__condition4inverse_2_1

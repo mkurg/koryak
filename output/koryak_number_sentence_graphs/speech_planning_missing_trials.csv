@@ -1,0 +1,221 @@
+window_key,window,participant,image,sentence_type,condition_key,condition,agent_num,patient_num,patient_animacy,rt
+speech_planning,Speech planning,К05,boil-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2122.000000
+speech_planning,Speech planning,К05,boil-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1959.000000
+speech_planning,Speech planning,К05,break-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1818.000000
+speech_planning,Speech planning,К05,break-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1633.000000
+speech_planning,Speech planning,К05,burn-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1488.000000
+speech_planning,Speech planning,К05,burn-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1834.000000
+speech_planning,Speech planning,К05,call-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1970.000000
+speech_planning,Speech planning,К05,carry-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,3434.000000
+speech_planning,Speech planning,К05,cover-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2053.000000
+speech_planning,Speech planning,К05,cut_hair-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1737.000000
+speech_planning,Speech planning,К05,cut_hair-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1498.000000
+speech_planning,Speech planning,К05,dress-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1572.000000
+speech_planning,Speech planning,К05,feed-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1324.000000
+speech_planning,Speech planning,К05,feed-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1887.000000
+speech_planning,Speech planning,К05,give_water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,3147.000000
+speech_planning,Speech planning,К05,give_water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,3574.000000
+speech_planning,Speech planning,К05,hang-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2095.000000
+speech_planning,Speech planning,К05,hang-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2323.000000
+speech_planning,Speech planning,К05,hit-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,2569.000000
+speech_planning,Speech planning,К05,open-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1810.000000
+speech_planning,Speech planning,К05,open-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1658.000000
+speech_planning,Speech planning,К05,paint-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2316.000000
+speech_planning,Speech planning,К05,paint-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1471.000000
+speech_planning,Speech planning,К05,pick-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1583.000000
+speech_planning,Speech planning,К05,plant-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1461.000000
+speech_planning,Speech planning,К05,plant-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,2656.000000
+speech_planning,Speech planning,К05,pour-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2523.000000
+speech_planning,Speech planning,К05,pour-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1459.000000
+speech_planning,Speech planning,К05,pull-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2458.000000
+speech_planning,Speech planning,К05,push-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1941.000000
+speech_planning,Speech planning,К05,saw-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1573.000000
+speech_planning,Speech planning,К05,saw-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2012.000000
+speech_planning,Speech planning,К05,scold-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1893.000000
+speech_planning,Speech planning,К05,scold-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1625.000000
+speech_planning,Speech planning,К05,shoot-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,1211.000000
+speech_planning,Speech planning,К05,throw-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1709.000000
+speech_planning,Speech planning,К05,tie-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1231.000000
+speech_planning,Speech planning,К05,treat-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,3241.000000
+speech_planning,Speech planning,К05,wake-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2069.000000
+speech_planning,Speech planning,К05,wake-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1452.000000
+speech_planning,Speech planning,К05,wash-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,2328.000000
+speech_planning,Speech planning,К05,wash-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1280.000000
+speech_planning,Speech planning,К05,water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1447.000000
+speech_planning,Speech planning,К05,water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1253.000000
+linguistic_encoding_1,Linguistic encoding I,К05,boil-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2122.000000
+linguistic_encoding_1,Linguistic encoding I,К05,boil-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1959.000000
+linguistic_encoding_1,Linguistic encoding I,К05,break-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1818.000000
+linguistic_encoding_1,Linguistic encoding I,К05,break-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1633.000000
+linguistic_encoding_1,Linguistic encoding I,К05,burn-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1488.000000
+linguistic_encoding_1,Linguistic encoding I,К05,burn-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1834.000000
+linguistic_encoding_1,Linguistic encoding I,К05,call-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1970.000000
+linguistic_encoding_1,Linguistic encoding I,К05,carry-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,3434.000000
+linguistic_encoding_1,Linguistic encoding I,К05,cover-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2053.000000
+linguistic_encoding_1,Linguistic encoding I,К05,cut_hair-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1737.000000
+linguistic_encoding_1,Linguistic encoding I,К05,cut_hair-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1498.000000
+linguistic_encoding_1,Linguistic encoding I,К05,dress-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1572.000000
+linguistic_encoding_1,Linguistic encoding I,К05,feed-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1324.000000
+linguistic_encoding_1,Linguistic encoding I,К05,feed-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1887.000000
+linguistic_encoding_1,Linguistic encoding I,К05,give_water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,3147.000000
+linguistic_encoding_1,Linguistic encoding I,К05,give_water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,3574.000000
+linguistic_encoding_1,Linguistic encoding I,К05,hang-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2095.000000
+linguistic_encoding_1,Linguistic encoding I,К05,hang-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2323.000000
+linguistic_encoding_1,Linguistic encoding I,К05,hit-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,2569.000000
+linguistic_encoding_1,Linguistic encoding I,К05,open-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1810.000000
+linguistic_encoding_1,Linguistic encoding I,К05,open-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1658.000000
+linguistic_encoding_1,Linguistic encoding I,К05,paint-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2316.000000
+linguistic_encoding_1,Linguistic encoding I,К05,paint-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1471.000000
+linguistic_encoding_1,Linguistic encoding I,К05,pick-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1583.000000
+linguistic_encoding_1,Linguistic encoding I,К05,plant-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1461.000000
+linguistic_encoding_1,Linguistic encoding I,К05,plant-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,2656.000000
+linguistic_encoding_1,Linguistic encoding I,К05,pour-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2523.000000
+linguistic_encoding_1,Linguistic encoding I,К05,pour-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1459.000000
+linguistic_encoding_1,Linguistic encoding I,К05,pull-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2458.000000
+linguistic_encoding_1,Linguistic encoding I,К05,push-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1941.000000
+linguistic_encoding_1,Linguistic encoding I,К05,saw-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1573.000000
+linguistic_encoding_1,Linguistic encoding I,К05,saw-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2012.000000
+linguistic_encoding_1,Linguistic encoding I,К05,scold-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1893.000000
+linguistic_encoding_1,Linguistic encoding I,К05,scold-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1625.000000
+linguistic_encoding_1,Linguistic encoding I,К05,shoot-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,1211.000000
+linguistic_encoding_1,Linguistic encoding I,К05,throw-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1709.000000
+linguistic_encoding_1,Linguistic encoding I,К05,tie-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1231.000000
+linguistic_encoding_1,Linguistic encoding I,К05,treat-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,3241.000000
+linguistic_encoding_1,Linguistic encoding I,К05,wake-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2069.000000
+linguistic_encoding_1,Linguistic encoding I,К05,wake-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1452.000000
+linguistic_encoding_1,Linguistic encoding I,К05,wash-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,2328.000000
+linguistic_encoding_1,Linguistic encoding I,К05,wash-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1280.000000
+linguistic_encoding_1,Linguistic encoding I,К05,water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1447.000000
+linguistic_encoding_1,Linguistic encoding I,К05,water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1253.000000
+linguistic_encoding_2,Linguistic encoding II,К05,boil-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2122.000000
+linguistic_encoding_2,Linguistic encoding II,К05,boil-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1959.000000
+linguistic_encoding_2,Linguistic encoding II,К05,break-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1818.000000
+linguistic_encoding_2,Linguistic encoding II,К05,break-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1633.000000
+linguistic_encoding_2,Linguistic encoding II,К05,burn-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1488.000000
+linguistic_encoding_2,Linguistic encoding II,К05,burn-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1834.000000
+linguistic_encoding_2,Linguistic encoding II,К05,call-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1970.000000
+linguistic_encoding_2,Linguistic encoding II,К05,carry-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,3434.000000
+linguistic_encoding_2,Linguistic encoding II,К05,cover-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2053.000000
+linguistic_encoding_2,Linguistic encoding II,К05,cut_hair-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1737.000000
+linguistic_encoding_2,Linguistic encoding II,К05,cut_hair-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1498.000000
+linguistic_encoding_2,Linguistic encoding II,К05,dress-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1572.000000
+linguistic_encoding_2,Linguistic encoding II,К05,feed-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1324.000000
+linguistic_encoding_2,Linguistic encoding II,К05,feed-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1887.000000
+linguistic_encoding_2,Linguistic encoding II,К05,give_water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,3147.000000
+linguistic_encoding_2,Linguistic encoding II,К05,give_water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,3574.000000
+linguistic_encoding_2,Linguistic encoding II,К05,hang-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2095.000000
+linguistic_encoding_2,Linguistic encoding II,К05,hang-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2323.000000
+linguistic_encoding_2,Linguistic encoding II,К05,hit-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,2569.000000
+linguistic_encoding_2,Linguistic encoding II,К05,open-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1810.000000
+linguistic_encoding_2,Linguistic encoding II,К05,open-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1658.000000
+linguistic_encoding_2,Linguistic encoding II,К05,paint-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2316.000000
+linguistic_encoding_2,Linguistic encoding II,К05,paint-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1471.000000
+linguistic_encoding_2,Linguistic encoding II,К05,pick-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1583.000000
+linguistic_encoding_2,Linguistic encoding II,К05,plant-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1461.000000
+linguistic_encoding_2,Linguistic encoding II,К05,plant-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,2656.000000
+linguistic_encoding_2,Linguistic encoding II,К05,pour-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2523.000000
+linguistic_encoding_2,Linguistic encoding II,К05,pour-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1459.000000
+linguistic_encoding_2,Linguistic encoding II,К05,pull-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2458.000000
+linguistic_encoding_2,Linguistic encoding II,К05,push-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1941.000000
+linguistic_encoding_2,Linguistic encoding II,К05,saw-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1573.000000
+linguistic_encoding_2,Linguistic encoding II,К05,saw-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2012.000000
+linguistic_encoding_2,Linguistic encoding II,К05,scold-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1893.000000
+linguistic_encoding_2,Linguistic encoding II,К05,scold-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1625.000000
+linguistic_encoding_2,Linguistic encoding II,К05,shoot-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,1211.000000
+linguistic_encoding_2,Linguistic encoding II,К05,throw-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1709.000000
+linguistic_encoding_2,Linguistic encoding II,К05,tie-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1231.000000
+linguistic_encoding_2,Linguistic encoding II,К05,treat-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,3241.000000
+linguistic_encoding_2,Linguistic encoding II,К05,wake-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2069.000000
+linguistic_encoding_2,Linguistic encoding II,К05,wake-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1452.000000
+linguistic_encoding_2,Linguistic encoding II,К05,wash-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,2328.000000
+linguistic_encoding_2,Linguistic encoding II,К05,wash-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1280.000000
+linguistic_encoding_2,Linguistic encoding II,К05,water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1447.000000
+linguistic_encoding_2,Linguistic encoding II,К05,water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1253.000000
+linguistic_encoding_3,Linguistic encoding III,К05,boil-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2122.000000
+linguistic_encoding_3,Linguistic encoding III,К05,boil-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1959.000000
+linguistic_encoding_3,Linguistic encoding III,К05,break-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1818.000000
+linguistic_encoding_3,Linguistic encoding III,К05,break-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1633.000000
+linguistic_encoding_3,Linguistic encoding III,К05,burn-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1488.000000
+linguistic_encoding_3,Linguistic encoding III,К05,burn-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1834.000000
+linguistic_encoding_3,Linguistic encoding III,К05,call-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1970.000000
+linguistic_encoding_3,Linguistic encoding III,К05,carry-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,3434.000000
+linguistic_encoding_3,Linguistic encoding III,К05,cover-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2053.000000
+linguistic_encoding_3,Linguistic encoding III,К05,cut_hair-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1737.000000
+linguistic_encoding_3,Linguistic encoding III,К05,cut_hair-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1498.000000
+linguistic_encoding_3,Linguistic encoding III,К05,dress-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1572.000000
+linguistic_encoding_3,Linguistic encoding III,К05,feed-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1324.000000
+linguistic_encoding_3,Linguistic encoding III,К05,feed-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1887.000000
+linguistic_encoding_3,Linguistic encoding III,К05,give_water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,3147.000000
+linguistic_encoding_3,Linguistic encoding III,К05,give_water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,3574.000000
+linguistic_encoding_3,Linguistic encoding III,К05,hang-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2095.000000
+linguistic_encoding_3,Linguistic encoding III,К05,hang-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2323.000000
+linguistic_encoding_3,Linguistic encoding III,К05,hit-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,2569.000000
+linguistic_encoding_3,Linguistic encoding III,К05,open-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1810.000000
+linguistic_encoding_3,Linguistic encoding III,К05,open-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1658.000000
+linguistic_encoding_3,Linguistic encoding III,К05,paint-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2316.000000
+linguistic_encoding_3,Linguistic encoding III,К05,paint-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1471.000000
+linguistic_encoding_3,Linguistic encoding III,К05,pick-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1583.000000
+linguistic_encoding_3,Linguistic encoding III,К05,plant-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1461.000000
+linguistic_encoding_3,Linguistic encoding III,К05,plant-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,2656.000000
+linguistic_encoding_3,Linguistic encoding III,К05,pour-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2523.000000
+linguistic_encoding_3,Linguistic encoding III,К05,pour-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1459.000000
+linguistic_encoding_3,Linguistic encoding III,К05,pull-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2458.000000
+linguistic_encoding_3,Linguistic encoding III,К05,push-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1941.000000
+linguistic_encoding_3,Linguistic encoding III,К05,saw-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1573.000000
+linguistic_encoding_3,Linguistic encoding III,К05,saw-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2012.000000
+linguistic_encoding_3,Linguistic encoding III,К05,scold-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1893.000000
+linguistic_encoding_3,Linguistic encoding III,К05,scold-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1625.000000
+linguistic_encoding_3,Linguistic encoding III,К05,shoot-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,1211.000000
+linguistic_encoding_3,Linguistic encoding III,К05,throw-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1709.000000
+linguistic_encoding_3,Linguistic encoding III,К05,tie-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1231.000000
+linguistic_encoding_3,Linguistic encoding III,К05,treat-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,3241.000000
+linguistic_encoding_3,Linguistic encoding III,К05,wake-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2069.000000
+linguistic_encoding_3,Linguistic encoding III,К05,wake-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1452.000000
+linguistic_encoding_3,Linguistic encoding III,К05,wash-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,2328.000000
+linguistic_encoding_3,Linguistic encoding III,К05,wash-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1280.000000
+linguistic_encoding_3,Linguistic encoding III,К05,water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1447.000000
+linguistic_encoding_3,Linguistic encoding III,К05,water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1253.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,boil-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2122.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,boil-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1959.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,break-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1818.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,break-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1633.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,burn-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1488.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,burn-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1834.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,call-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1970.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,carry-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,3434.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,cover-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2053.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,cut_hair-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1737.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,cut_hair-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1498.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,dress-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1572.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,feed-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1324.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,feed-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1887.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,give_water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,3147.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,give_water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,3574.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,hang-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2095.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,hang-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2323.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,hit-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,2569.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,open-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1810.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,open-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1658.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,paint-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,2316.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,paint-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,1471.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,pick-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1583.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,plant-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1461.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,plant-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,2656.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,pour-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2523.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,pour-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1459.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,pull-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,2458.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,push-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1941.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,saw-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,inanimate,1573.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,saw-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,inanimate,2012.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,scold-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,1893.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,scold-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1625.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,shoot-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,1211.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,throw-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1709.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,tie-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1231.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,treat-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,3241.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,wake-1-1-r.png,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,animate,2069.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,wake-2-1-l.png,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,animate,1452.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,wash-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,animate,2328.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,wash-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,animate,1280.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,water-1-2-l.png,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,inanimate,1447.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,water-2-2-r.png,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,inanimate,1253.000000

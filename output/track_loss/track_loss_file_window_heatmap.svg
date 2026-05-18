@@ -1,0 +1,473 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="865" height="859" viewBox="0 0 865 859">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.small{font-size:11px}.head{font-size:12px;font-weight:700}.title{font-size:18px;font-weight:700}</style>
+<text class="title" x="20" y="28">Track loss by ASC file and planning window</text>
+<text class="small" x="20" y="45">Percent excludes blink intervals from the denominator.</text>
+<text class="head" x="214.0" y="50" text-anchor="middle">Speech planning</text>
+<text class="head" x="352.0" y="50" text-anchor="middle">Linguistic encoding I</text>
+<text class="head" x="490.0" y="50" text-anchor="middle">Linguistic encoding II</text>
+<text class="head" x="628.0" y="50" text-anchor="middle">Linguistic encoding III</text>
+<text class="head" x="766.0" y="50" text-anchor="middle">Post-onset 1000-2500</text>
+<text class="small" x="137" y="71" text-anchor="end">k01.asc</text>
+<rect x="145" y="58" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="71" text-anchor="middle">0.0%</text>
+<rect x="283" y="58" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="71" text-anchor="middle">0.0%</text>
+<rect x="421" y="58" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="71" text-anchor="middle">0.0%</text>
+<rect x="559" y="58" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="71" text-anchor="middle">0.0%</text>
+<rect x="697" y="58" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="71" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="89" text-anchor="end">k01_2.asc</text>
+<rect x="145" y="76" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="89" text-anchor="middle">0.0%</text>
+<rect x="283" y="76" width="136" height="17" fill="#e58665" stroke="#ddd"/>
+<text class="small" x="352.0" y="89" text-anchor="middle">0.4%</text>
+<rect x="421" y="76" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="89" text-anchor="middle">0.0%</text>
+<rect x="559" y="76" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="89" text-anchor="middle">0.0%</text>
+<rect x="697" y="76" width="136" height="17" fill="#d74b1e" stroke="#ddd"/>
+<text class="small" x="766.0" y="89" text-anchor="middle">0.6%</text>
+<text class="small" x="137" y="107" text-anchor="end">k02.asc</text>
+<rect x="145" y="94" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="107" text-anchor="middle">0.0%</text>
+<rect x="283" y="94" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="107" text-anchor="middle">0.0%</text>
+<rect x="421" y="94" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="107" text-anchor="middle">0.0%</text>
+<rect x="559" y="94" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="107" text-anchor="middle">0.0%</text>
+<rect x="697" y="94" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="107" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="125" text-anchor="end">k03.asc</text>
+<rect x="145" y="112" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="125" text-anchor="middle">0.0%</text>
+<rect x="283" y="112" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="125" text-anchor="middle">0.0%</text>
+<rect x="421" y="112" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="125" text-anchor="middle">0.0%</text>
+<rect x="559" y="112" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="125" text-anchor="middle">0.0%</text>
+<rect x="697" y="112" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="125" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="143" text-anchor="end">k03_2.asc</text>
+<rect x="145" y="130" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="143" text-anchor="middle">0.0%</text>
+<rect x="283" y="130" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="143" text-anchor="middle">0.0%</text>
+<rect x="421" y="130" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="143" text-anchor="middle">0.0%</text>
+<rect x="559" y="130" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="143" text-anchor="middle">0.0%</text>
+<rect x="697" y="130" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="143" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="161" text-anchor="end">k04.asc</text>
+<rect x="145" y="148" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="161" text-anchor="middle">0.0%</text>
+<rect x="283" y="148" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="161" text-anchor="middle">0.0%</text>
+<rect x="421" y="148" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="161" text-anchor="middle">0.0%</text>
+<rect x="559" y="148" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="161" text-anchor="middle">0.0%</text>
+<rect x="697" y="148" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="161" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="179" text-anchor="end">k04_1.asc</text>
+<rect x="145" y="166" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="179" text-anchor="middle">0.0%</text>
+<rect x="283" y="166" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="179" text-anchor="middle">0.0%</text>
+<rect x="421" y="166" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="179" text-anchor="middle">0.0%</text>
+<rect x="559" y="166" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="179" text-anchor="middle">0.0%</text>
+<rect x="697" y="166" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="179" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="197" text-anchor="end">k05.asc</text>
+<rect x="145" y="184" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="197" text-anchor="middle">0.0%</text>
+<rect x="283" y="184" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="197" text-anchor="middle">0.0%</text>
+<rect x="421" y="184" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="197" text-anchor="middle">0.0%</text>
+<rect x="559" y="184" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="197" text-anchor="middle">0.0%</text>
+<rect x="697" y="184" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="197" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="215" text-anchor="end">k06.asc</text>
+<rect x="145" y="202" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="215" text-anchor="middle">0.0%</text>
+<rect x="283" y="202" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="215" text-anchor="middle">0.0%</text>
+<rect x="421" y="202" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="215" text-anchor="middle">0.0%</text>
+<rect x="559" y="202" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="215" text-anchor="middle">0.0%</text>
+<rect x="697" y="202" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="215" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="233" text-anchor="end">k06_1.asc</text>
+<rect x="145" y="220" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="233" text-anchor="middle">0.0%</text>
+<rect x="283" y="220" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="233" text-anchor="middle">0.0%</text>
+<rect x="421" y="220" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="233" text-anchor="middle">0.0%</text>
+<rect x="559" y="220" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="233" text-anchor="middle">0.0%</text>
+<rect x="697" y="220" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="233" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="251" text-anchor="end">k07.asc</text>
+<rect x="145" y="238" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="251" text-anchor="middle">0.0%</text>
+<rect x="283" y="238" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="251" text-anchor="middle">0.0%</text>
+<rect x="421" y="238" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="251" text-anchor="middle">0.0%</text>
+<rect x="559" y="238" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="251" text-anchor="middle">0.0%</text>
+<rect x="697" y="238" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="251" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="269" text-anchor="end">k07_2.asc</text>
+<rect x="145" y="256" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="269" text-anchor="middle">0.0%</text>
+<rect x="283" y="256" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="269" text-anchor="middle">0.0%</text>
+<rect x="421" y="256" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="269" text-anchor="middle">0.0%</text>
+<rect x="559" y="256" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="269" text-anchor="middle">0.0%</text>
+<rect x="697" y="256" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="269" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="287" text-anchor="end">k08_2_p2.asc</text>
+<rect x="145" y="274" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="287" text-anchor="middle">0.0%</text>
+<rect x="283" y="274" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="287" text-anchor="middle">0.0%</text>
+<rect x="421" y="274" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="287" text-anchor="middle">0.0%</text>
+<rect x="559" y="274" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="287" text-anchor="middle">0.0%</text>
+<rect x="697" y="274" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="287" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="305" text-anchor="end">k09.asc</text>
+<rect x="145" y="292" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="305" text-anchor="middle">0.0%</text>
+<rect x="283" y="292" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="305" text-anchor="middle">0.0%</text>
+<rect x="421" y="292" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="305" text-anchor="middle">0.0%</text>
+<rect x="559" y="292" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="305" text-anchor="middle">0.0%</text>
+<rect x="697" y="292" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="305" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="323" text-anchor="end">k09_2.asc</text>
+<rect x="145" y="310" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="323" text-anchor="middle">0.0%</text>
+<rect x="283" y="310" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="323" text-anchor="middle">0.0%</text>
+<rect x="421" y="310" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="323" text-anchor="middle">0.0%</text>
+<rect x="559" y="310" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="323" text-anchor="middle">0.0%</text>
+<rect x="697" y="310" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="323" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="341" text-anchor="end">k10.asc</text>
+<rect x="145" y="328" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="341" text-anchor="middle">0.0%</text>
+<rect x="283" y="328" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="341" text-anchor="middle">0.0%</text>
+<rect x="421" y="328" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="341" text-anchor="middle">0.0%</text>
+<rect x="559" y="328" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="341" text-anchor="middle">0.0%</text>
+<rect x="697" y="328" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="341" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="359" text-anchor="end">k10_1.asc</text>
+<rect x="145" y="346" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="359" text-anchor="middle">0.0%</text>
+<rect x="283" y="346" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="359" text-anchor="middle">0.0%</text>
+<rect x="421" y="346" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="359" text-anchor="middle">0.0%</text>
+<rect x="559" y="346" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="359" text-anchor="middle">0.0%</text>
+<rect x="697" y="346" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="359" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="377" text-anchor="end">k11.asc</text>
+<rect x="145" y="364" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="377" text-anchor="middle">0.0%</text>
+<rect x="283" y="364" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="377" text-anchor="middle">0.0%</text>
+<rect x="421" y="364" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="377" text-anchor="middle">0.0%</text>
+<rect x="559" y="364" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="377" text-anchor="middle">0.0%</text>
+<rect x="697" y="364" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="377" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="395" text-anchor="end">k11_2.asc</text>
+<rect x="145" y="382" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="395" text-anchor="middle">0.0%</text>
+<rect x="283" y="382" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="395" text-anchor="middle">0.0%</text>
+<rect x="421" y="382" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="395" text-anchor="middle">0.0%</text>
+<rect x="559" y="382" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="395" text-anchor="middle">0.0%</text>
+<rect x="697" y="382" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="395" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="413" text-anchor="end">k13.asc</text>
+<rect x="145" y="400" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="413" text-anchor="middle">0.0%</text>
+<rect x="283" y="400" width="136" height="17" fill="#fdede1" stroke="#ddd"/>
+<text class="small" x="352.0" y="413" text-anchor="middle">0.0%</text>
+<rect x="421" y="400" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="413" text-anchor="middle">0.0%</text>
+<rect x="559" y="400" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="413" text-anchor="middle">0.0%</text>
+<rect x="697" y="400" width="136" height="17" fill="#fef2e8" stroke="#ddd"/>
+<text class="small" x="766.0" y="413" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="431" text-anchor="end">k13_2.asc</text>
+<rect x="145" y="418" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="431" text-anchor="middle">0.0%</text>
+<rect x="283" y="418" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="431" text-anchor="middle">0.0%</text>
+<rect x="421" y="418" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="431" text-anchor="middle">0.0%</text>
+<rect x="559" y="418" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="431" text-anchor="middle">0.0%</text>
+<rect x="697" y="418" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="431" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="449" text-anchor="end">k14.asc</text>
+<rect x="145" y="436" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="449" text-anchor="middle">0.0%</text>
+<rect x="283" y="436" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="449" text-anchor="middle">0.0%</text>
+<rect x="421" y="436" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="449" text-anchor="middle">0.0%</text>
+<rect x="559" y="436" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="449" text-anchor="middle">0.0%</text>
+<rect x="697" y="436" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="449" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="467" text-anchor="end">k14_1.asc</text>
+<rect x="145" y="454" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="467" text-anchor="middle">0.0%</text>
+<rect x="283" y="454" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="467" text-anchor="middle">0.0%</text>
+<rect x="421" y="454" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="467" text-anchor="middle">0.0%</text>
+<rect x="559" y="454" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="467" text-anchor="middle">0.0%</text>
+<rect x="697" y="454" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="467" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="485" text-anchor="end">k15.asc</text>
+<rect x="145" y="472" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="485" text-anchor="middle">0.0%</text>
+<rect x="283" y="472" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="485" text-anchor="middle">0.0%</text>
+<rect x="421" y="472" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="485" text-anchor="middle">0.0%</text>
+<rect x="559" y="472" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="485" text-anchor="middle">0.0%</text>
+<rect x="697" y="472" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="485" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="503" text-anchor="end">k15_1.asc</text>
+<rect x="145" y="490" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="503" text-anchor="middle">0.0%</text>
+<rect x="283" y="490" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="503" text-anchor="middle">0.0%</text>
+<rect x="421" y="490" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="503" text-anchor="middle">0.0%</text>
+<rect x="559" y="490" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="503" text-anchor="middle">0.0%</text>
+<rect x="697" y="490" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="503" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="521" text-anchor="end">k15_2.asc</text>
+<rect x="145" y="508" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="521" text-anchor="middle">0.0%</text>
+<rect x="283" y="508" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="521" text-anchor="middle">0.0%</text>
+<rect x="421" y="508" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="521" text-anchor="middle">0.0%</text>
+<rect x="559" y="508" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="521" text-anchor="middle">0.0%</text>
+<rect x="697" y="508" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="521" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="539" text-anchor="end">k16.asc</text>
+<rect x="145" y="526" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="539" text-anchor="middle">0.0%</text>
+<rect x="283" y="526" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="539" text-anchor="middle">0.0%</text>
+<rect x="421" y="526" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="539" text-anchor="middle">0.0%</text>
+<rect x="559" y="526" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="539" text-anchor="middle">0.0%</text>
+<rect x="697" y="526" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="539" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="557" text-anchor="end">k16_2.asc</text>
+<rect x="145" y="544" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="557" text-anchor="middle">0.0%</text>
+<rect x="283" y="544" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="557" text-anchor="middle">0.0%</text>
+<rect x="421" y="544" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="557" text-anchor="middle">0.0%</text>
+<rect x="559" y="544" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="557" text-anchor="middle">0.0%</text>
+<rect x="697" y="544" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="557" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="575" text-anchor="end">k17.asc</text>
+<rect x="145" y="562" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="575" text-anchor="middle">0.0%</text>
+<rect x="283" y="562" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="575" text-anchor="middle">0.0%</text>
+<rect x="421" y="562" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="575" text-anchor="middle">0.0%</text>
+<rect x="559" y="562" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="575" text-anchor="middle">0.0%</text>
+<rect x="697" y="562" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="575" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="593" text-anchor="end">k17_1.asc</text>
+<rect x="145" y="580" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="593" text-anchor="middle">0.0%</text>
+<rect x="283" y="580" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="593" text-anchor="middle">0.0%</text>
+<rect x="421" y="580" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="593" text-anchor="middle">0.0%</text>
+<rect x="559" y="580" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="593" text-anchor="middle">0.0%</text>
+<rect x="697" y="580" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="593" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="611" text-anchor="end">k18.asc</text>
+<rect x="145" y="598" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="611" text-anchor="middle">0.0%</text>
+<rect x="283" y="598" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="611" text-anchor="middle">0.0%</text>
+<rect x="421" y="598" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="611" text-anchor="middle">0.0%</text>
+<rect x="559" y="598" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="611" text-anchor="middle">0.0%</text>
+<rect x="697" y="598" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="611" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="629" text-anchor="end">k18_2.asc</text>
+<rect x="145" y="616" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="629" text-anchor="middle">0.0%</text>
+<rect x="283" y="616" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="629" text-anchor="middle">0.0%</text>
+<rect x="421" y="616" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="629" text-anchor="middle">0.0%</text>
+<rect x="559" y="616" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="629" text-anchor="middle">0.0%</text>
+<rect x="697" y="616" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="629" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="647" text-anchor="end">k19.asc</text>
+<rect x="145" y="634" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="214.0" y="647" text-anchor="middle"></text>
+<rect x="283" y="634" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="352.0" y="647" text-anchor="middle"></text>
+<rect x="421" y="634" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="490.0" y="647" text-anchor="middle"></text>
+<rect x="559" y="634" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="628.0" y="647" text-anchor="middle"></text>
+<rect x="697" y="634" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="766.0" y="647" text-anchor="middle"></text>
+<text class="small" x="137" y="665" text-anchor="end">k19_1.asc</text>
+<rect x="145" y="652" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="214.0" y="665" text-anchor="middle"></text>
+<rect x="283" y="652" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="352.0" y="665" text-anchor="middle"></text>
+<rect x="421" y="652" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="490.0" y="665" text-anchor="middle"></text>
+<rect x="559" y="652" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="628.0" y="665" text-anchor="middle"></text>
+<rect x="697" y="652" width="136" height="17" fill="#f5f5f5" stroke="#ddd"/>
+<text class="small" x="766.0" y="665" text-anchor="middle"></text>
+<text class="small" x="137" y="683" text-anchor="end">k20.asc</text>
+<rect x="145" y="670" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="683" text-anchor="middle">0.0%</text>
+<rect x="283" y="670" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="683" text-anchor="middle">0.0%</text>
+<rect x="421" y="670" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="683" text-anchor="middle">0.0%</text>
+<rect x="559" y="670" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="683" text-anchor="middle">0.0%</text>
+<rect x="697" y="670" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="683" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="701" text-anchor="end">k20_2.asc</text>
+<rect x="145" y="688" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="701" text-anchor="middle">0.0%</text>
+<rect x="283" y="688" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="701" text-anchor="middle">0.0%</text>
+<rect x="421" y="688" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="701" text-anchor="middle">0.0%</text>
+<rect x="559" y="688" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="701" text-anchor="middle">0.0%</text>
+<rect x="697" y="688" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="701" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="719" text-anchor="end">k22.asc</text>
+<rect x="145" y="706" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="719" text-anchor="middle">0.0%</text>
+<rect x="283" y="706" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="719" text-anchor="middle">0.0%</text>
+<rect x="421" y="706" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="719" text-anchor="middle">0.0%</text>
+<rect x="559" y="706" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="719" text-anchor="middle">0.0%</text>
+<rect x="697" y="706" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="719" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="737" text-anchor="end">k22_1.asc</text>
+<rect x="145" y="724" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="737" text-anchor="middle">0.0%</text>
+<rect x="283" y="724" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="737" text-anchor="middle">0.0%</text>
+<rect x="421" y="724" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="737" text-anchor="middle">0.0%</text>
+<rect x="559" y="724" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="737" text-anchor="middle">0.0%</text>
+<rect x="697" y="724" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="737" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="755" text-anchor="end">k24.asc</text>
+<rect x="145" y="742" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="755" text-anchor="middle">0.0%</text>
+<rect x="283" y="742" width="136" height="17" fill="#fdeee3" stroke="#ddd"/>
+<text class="small" x="352.0" y="755" text-anchor="middle">0.0%</text>
+<rect x="421" y="742" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="755" text-anchor="middle">0.0%</text>
+<rect x="559" y="742" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="755" text-anchor="middle">0.0%</text>
+<rect x="697" y="742" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="755" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="773" text-anchor="end">k24_1.asc</text>
+<rect x="145" y="760" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="773" text-anchor="middle">0.0%</text>
+<rect x="283" y="760" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="773" text-anchor="middle">0.0%</text>
+<rect x="421" y="760" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="773" text-anchor="middle">0.0%</text>
+<rect x="559" y="760" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="773" text-anchor="middle">0.0%</text>
+<rect x="697" y="760" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="773" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="791" text-anchor="end">k25.asc</text>
+<rect x="145" y="778" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="791" text-anchor="middle">0.0%</text>
+<rect x="283" y="778" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="791" text-anchor="middle">0.0%</text>
+<rect x="421" y="778" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="791" text-anchor="middle">0.0%</text>
+<rect x="559" y="778" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="791" text-anchor="middle">0.0%</text>
+<rect x="697" y="778" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="791" text-anchor="middle">0.0%</text>
+<text class="small" x="137" y="809" text-anchor="end">k25_2.asc</text>
+<rect x="145" y="796" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="214.0" y="809" text-anchor="middle">0.0%</text>
+<rect x="283" y="796" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="352.0" y="809" text-anchor="middle">0.0%</text>
+<rect x="421" y="796" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="490.0" y="809" text-anchor="middle">0.0%</text>
+<rect x="559" y="796" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="628.0" y="809" text-anchor="middle">0.0%</text>
+<rect x="697" y="796" width="136" height="17" fill="#fff5eb" stroke="#ddd"/>
+<text class="small" x="766.0" y="809" text-anchor="middle">0.0%</text>
+</svg>

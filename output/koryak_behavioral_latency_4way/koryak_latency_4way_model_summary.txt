@@ -1,0 +1,112 @@
+Koryak speech onset latency four-way model
+==========================================
+
+Model: lmer(log(rt) ~ condition4 + (1 + condition4 | item) + (1 + condition4 | participant))
+Reference level in fixed-effect table: direct_1_1
+Pairwise table estimates are level A minus level B on the log latency scale.
+
+N trials: 783 
+Participants: 16 
+Items: 119 
+
+Counts:
+# A tibble: 4 × 2
+  condition4      n
+  <fct>       <int>
+1 direct_1_1    208
+2 direct_1_2    208
+3 inverse_2_2   171
+4 inverse_2_1   196
+
+Descriptives:
+# A tibble: 4 × 8
+  condition4      n mean_rt_ms sd_rt_ms median_rt_ms min_rt_ms max_rt_ms
+  <fct>       <int>      <dbl>    <dbl>        <dbl>     <dbl>     <dbl>
+1 direct_1_1    208      2526.    1052.        2244.      1181      5866
+2 direct_1_2    208      2596.    1091.        2365       1051      5981
+3 inverse_2_2   171      2591.    1023.        2310       1143      5867
+4 inverse_2_1   196      2699.    1190.        2352.      1105      5903
+# ℹ 1 more variable: khanty_style_2se_ms <dbl>
+
+Overall condition test:
+# A tibble: 1 × 7
+  term       `Sum Sq` `Mean Sq` NumDF DenDF `F value` `Pr(>F)`
+  <chr>         <dbl>     <dbl> <int> <dbl>     <dbl>    <dbl>
+1 condition4    0.251    0.0837     3  38.4      1.01    0.401
+
+Full model singular fit: TRUE 
+
+Full model convergence messages:
+[1] "boundary (singular) fit: see help('isSingular')"
+
+Full model fixed effects:
+# A tibble: 4 × 12
+  term       estimate_log_ms std_error    df t_value  p_value ci_95_lower_log_ms
+  <chr>                <dbl>     <dbl> <dbl>   <dbl>    <dbl>              <dbl>
+1 (Intercep…          7.84      0.0719  20.3 109.    1.37e-29             7.70  
+2 condition…          0.0281    0.0534  22.6   0.526 6.04e- 1            -0.0765
+3 condition…          0.0382    0.0579  31.9   0.661 5.13e- 1            -0.0752
+4 condition…          0.0892    0.0544  43.8   1.64  1.08e- 1            -0.0174
+# ℹ 5 more variables: ci_95_upper_log_ms <dbl>, ratio <dbl>,
+#   percent_change <dbl>, ci_95_lower_ratio <dbl>, ci_95_upper_ratio <dbl>
+
+Pairwise comparisons:
+# A tibble: 6 × 16
+  comparison  estimate_log_ms std_error    df t_value p_value ci_95_lower_log_ms
+  <chr>                 <dbl>     <dbl> <dbl>   <dbl>   <dbl>              <dbl>
+1 direct_1_1…         -0.0246    0.0522  21.5  -0.471  0.642              -0.127
+2 direct_1_1…         -0.0269    0.0584  28.4  -0.461  0.648              -0.141
+3 direct_1_1…         -0.0880    0.0520  50.3  -1.69   0.0963             -0.190
+4 direct_1_2…         -0.0118    0.0488  51.7  -0.241  0.811              -0.107
+5 direct_1_2…         -0.0567    0.0461  47.2  -1.23   0.225              -0.147
+6 inverse_2_…         -0.0488    0.0553  51.0  -0.882  0.382              -0.157
+# ℹ 9 more variables: ci_95_upper_log_ms <dbl>, ratio_a_to_b <dbl>,
+#   percent_change_a_vs_b <dbl>, ci_95_lower_ratio <dbl>,
+#   ci_95_upper_ratio <dbl>, n_a <int>, n_b <int>, singular_fit <lgl>,
+#   convergence_messages <chr>
+
+Random-effects variance/correlation table:
+           grp                  var1                  var2         vcov
+1         item           (Intercept)                  <NA>  0.023779912
+2         item  condition4direct_1_2                  <NA>  0.036188721
+3         item condition4inverse_2_2                  <NA>  0.030682181
+4         item condition4inverse_2_1                  <NA>  0.028856590
+5         item           (Intercept)  condition4direct_1_2 -0.024803428
+6         item           (Intercept) condition4inverse_2_2 -0.011578650
+7         item           (Intercept) condition4inverse_2_1 -0.013506276
+8         item  condition4direct_1_2 condition4inverse_2_2  0.014330212
+9         item  condition4direct_1_2 condition4inverse_2_1  0.012688915
+10        item condition4inverse_2_2 condition4inverse_2_1  0.001639440
+11 participant           (Intercept)                  <NA>  0.060885347
+12 participant  condition4direct_1_2                  <NA>  0.010556448
+13 participant condition4inverse_2_2                  <NA>  0.006872498
+14 participant condition4inverse_2_1                  <NA>  0.005232199
+15 participant           (Intercept)  condition4direct_1_2 -0.005063962
+16 participant           (Intercept) condition4inverse_2_2 -0.008585821
+17 participant           (Intercept) condition4inverse_2_1  0.007746568
+18 participant  condition4direct_1_2 condition4inverse_2_2  0.008289286
+19 participant  condition4direct_1_2 condition4inverse_2_1  0.005916212
+20 participant condition4inverse_2_2 condition4inverse_2_1  0.003810990
+21    Residual                  <NA>                  <NA>  0.083210856
+         sdcor
+1   0.15420737
+2   0.19023333
+3   0.17516330
+4   0.16987228
+5  -0.84551238
+6  -0.42865678
+7  -0.51559415
+8   0.43005390
+9   0.39265884
+10  0.05509726
+11  0.24674956
+12  0.10274458
+13  0.08290053
+14  0.07233394
+15 -0.19974464
+16 -0.41972819
+17  0.43402108
+18  0.97319733
+19  0.79605433
+20  0.63553333
+21  0.28846292

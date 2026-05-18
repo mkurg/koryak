@@ -1,0 +1,2 @@
+chains,cores,iter,warmup,refresh,adapt_delta,max_treedepth,file_refit,window_key,window_label
+4,4,2000,1000,10,0.99,12,on_change,linguistic_encoding_1,le1

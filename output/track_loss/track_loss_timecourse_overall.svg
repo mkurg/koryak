@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="687" viewBox="0 0 860 687">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.title{font-size:18px;font-weight:700}.small{font-size:11px}.panel{font-size:13px;font-weight:700}.axis{stroke:#333}.grid{stroke:#e2e2e2}</style>
+<text class="title" x="20" y="28">Overall non-blink track loss over planning time course</text>
+<text class="small" x="20" y="45">Aggregated across matched clean trials in all ASC files.</text>
+<text class="panel" x="20" y="56">Speech planning</text>
+<line class="grid" x1="65" x2="825" y1="137.0" y2="137.0"/>
+<text class="small" x="57" y="141.0" text-anchor="end">0.0%</text>
+<line class="grid" x1="65" x2="825" y1="94.5" y2="94.5"/>
+<text class="small" x="57" y="98.5" text-anchor="end">0.5%</text>
+<line class="grid" x1="65" x2="825" y1="52.0" y2="52.0"/>
+<text class="small" x="57" y="56.0" text-anchor="end">1.0%</text>
+<line class="axis" x1="65" x2="825" y1="137" y2="137"/>
+<line class="axis" x1="65" x2="65" y1="52" y2="137"/>
+<path d="M65.0,137.0 L141.0,137.0 L217.0,137.0 L293.0,137.0 L369.0,137.0 L445.0,137.0 L521.0,137.0 L597.0,137.0 L673.0,137.0 L749.0,137.0 L825.0,137.0" fill="none" stroke="#8f2d1f" stroke-width="2.4"/>
+<text class="small" x="65.0" y="153" text-anchor="middle">0</text>
+<text class="small" x="445.0" y="153" text-anchor="middle">0.5</text>
+<text class="small" x="825.0" y="153" text-anchor="middle">1</text>
+<text class="panel" x="20" y="176">Linguistic encoding I</text>
+<line class="grid" x1="65" x2="825" y1="257.0" y2="257.0"/>
+<text class="small" x="57" y="261.0" text-anchor="end">0.0%</text>
+<line class="grid" x1="65" x2="825" y1="214.5" y2="214.5"/>
+<text class="small" x="57" y="218.5" text-anchor="end">0.5%</text>
+<line class="grid" x1="65" x2="825" y1="172.0" y2="172.0"/>
+<text class="small" x="57" y="176.0" text-anchor="end">1.0%</text>
+<line class="axis" x1="65" x2="825" y1="257" y2="257"/>
+<line class="axis" x1="65" x2="65" y1="172" y2="257"/>
+<path d="M65.0,257.0 L103.0,257.0 L141.0,257.0 L179.0,256.4 L217.0,257.0 L255.0,257.0 L293.0,257.0 L331.0,254.2 L369.0,247.0 L407.0,246.9 L445.0,256.8 L483.0,255.9 L521.0,257.0 L559.0,257.0 L597.0,257.0 L635.0,257.0 L673.0,257.0 L711.0,256.2 L749.0,257.0 L787.0,257.0 L825.0,257.0" fill="none" stroke="#8f2d1f" stroke-width="2.4"/>
+<text class="small" x="65.0" y="273" text-anchor="middle">0</text>
+<text class="small" x="445.0" y="273" text-anchor="middle">0.5</text>
+<text class="small" x="825.0" y="273" text-anchor="middle">1</text>
+<text class="panel" x="20" y="296">Linguistic encoding II</text>
+<line class="grid" x1="65" x2="825" y1="377.0" y2="377.0"/>
+<text class="small" x="57" y="381.0" text-anchor="end">0.0%</text>
+<line class="grid" x1="65" x2="825" y1="334.5" y2="334.5"/>
+<text class="small" x="57" y="338.5" text-anchor="end">0.5%</text>
+<line class="grid" x1="65" x2="825" y1="292.0" y2="292.0"/>
+<text class="small" x="57" y="296.0" text-anchor="end">1.0%</text>
+<line class="axis" x1="65" x2="825" y1="377" y2="377"/>
+<line class="axis" x1="65" x2="65" y1="292" y2="377"/>
+<path d="M65.0,377.0 L103.0,377.0 L141.0,377.0 L179.0,377.0 L217.0,377.0 L255.0,377.0 L293.0,377.0 L331.0,377.0 L369.0,377.0 L407.0,377.0 L445.0,377.0 L483.0,377.0 L521.0,377.0 L559.0,377.0 L597.0,377.0 L635.0,377.0 L673.0,377.0 L711.0,377.0 L749.0,377.0 L787.0,377.0 L825.0,377.0" fill="none" stroke="#8f2d1f" stroke-width="2.4"/>
+<text class="small" x="65.0" y="393" text-anchor="middle">0</text>
+<text class="small" x="445.0" y="393" text-anchor="middle">0.5</text>
+<text class="small" x="825.0" y="393" text-anchor="middle">1</text>
+<text class="panel" x="20" y="416">Linguistic encoding III</text>
+<line class="grid" x1="65" x2="825" y1="497.0" y2="497.0"/>
+<text class="small" x="57" y="501.0" text-anchor="end">0.0%</text>
+<line class="grid" x1="65" x2="825" y1="454.5" y2="454.5"/>
+<text class="small" x="57" y="458.5" text-anchor="end">0.5%</text>
+<line class="grid" x1="65" x2="825" y1="412.0" y2="412.0"/>
+<text class="small" x="57" y="416.0" text-anchor="end">1.0%</text>
+<line class="axis" x1="65" x2="825" y1="497" y2="497"/>
+<line class="axis" x1="65" x2="65" y1="412" y2="497"/>
+<path d="M65.0,497.0 L103.0,497.0 L141.0,497.0 L179.0,497.0 L217.0,497.0 L255.0,497.0 L293.0,497.0 L331.0,497.0 L369.0,497.0 L407.0,497.0 L445.0,497.0 L483.0,497.0 L521.0,497.0 L559.0,497.0 L597.0,497.0 L635.0,497.0 L673.0,497.0 L711.0,497.0 L749.0,497.0 L787.0,497.0 L825.0,497.0" fill="none" stroke="#8f2d1f" stroke-width="2.4"/>
+<text class="small" x="65.0" y="513" text-anchor="middle">0</text>
+<text class="small" x="445.0" y="513" text-anchor="middle">0.5</text>
+<text class="small" x="825.0" y="513" text-anchor="middle">1</text>
+<text class="panel" x="20" y="536">Post-onset 1000-2500</text>
+<line class="grid" x1="65" x2="825" y1="617.0" y2="617.0"/>
+<text class="small" x="57" y="621.0" text-anchor="end">0.0%</text>
+<line class="grid" x1="65" x2="825" y1="574.5" y2="574.5"/>
+<text class="small" x="57" y="578.5" text-anchor="end">0.5%</text>
+<line class="grid" x1="65" x2="825" y1="532.0" y2="532.0"/>
+<text class="small" x="57" y="536.0" text-anchor="end">1.0%</text>
+<line class="axis" x1="65" x2="825" y1="617" y2="617"/>
+<line class="axis" x1="65" x2="65" y1="532" y2="617"/>
+<path d="M65.0,617.0 L90.3,617.0 L115.7,617.0 L141.0,607.2 L166.3,606.0 L191.7,606.1 L217.0,613.9 L242.3,617.0 L267.7,617.0 L293.0,617.0 L318.3,607.6 L343.7,605.9 L369.0,606.0 L394.3,605.9 L419.7,615.2 L445.0,617.0 L470.3,617.0 L495.7,617.0 L521.0,617.0 L546.3,617.0 L571.7,617.0 L597.0,617.0 L622.3,617.0 L647.7,617.0 L673.0,617.0 L698.3,617.0 L723.7,617.0 L749.0,616.5 L774.3,617.0 L799.7,617.0 L825.0,617.0" fill="none" stroke="#8f2d1f" stroke-width="2.4"/>
+<text class="small" x="65.0" y="633" text-anchor="middle">0</text>
+<text class="small" x="445.0" y="633" text-anchor="middle">0.5</text>
+<text class="small" x="825.0" y="633" text-anchor="middle">1</text>
+</svg>
