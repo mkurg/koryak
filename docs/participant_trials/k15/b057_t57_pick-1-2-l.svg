@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1320" viewBox="0 0 1920 1320">
+<image href="../../../../stimuli/Koryak%20stimuli%20animate%20inanimate/pick-1-2-l.png" x="0" y="0" width="1920" height="1080" preserveAspectRatio="none"/>
+<rect x="0" y="0" width="1920" height="1080" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="0" y="1080" width="1920" height="240" fill="#f7f7f7"/>
+<rect x="40.0" y="100.0" width="850" height="850" fill="none" stroke="#00B8D9" stroke-width="6" stroke-dasharray="18 12"/>
+<rect x="52.0" y="62.0" width="102.0" height="38" rx="6" fill="white" fill-opacity="0.86" stroke="#00B8D9" stroke-width="3"/>
+<text x="62.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">AGENT</text>
+<rect x="970.0" y="100.0" width="850" height="850" fill="none" stroke="#FF3B8A" stroke-width="6" stroke-dasharray="18 12"/>
+<rect x="982.0" y="62.0" width="134.0" height="38" rx="6" fill="white" fill-opacity="0.86" stroke="#FF3B8A" stroke-width="3"/>
+<text x="992.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">PATIENT</text>
+<polyline points="695.0,541.2 996.2,740.6 645.1,602.0 670.1,548.2 859.0,693.2 1004.4,728.4 667.1,559.6 680.8,708.4 678.6,539.6 697.1,635.7 668.7,547.5 1005.4,643.4 843.2,535.4 580.3,414.2 625.4,391.7 815.3,448.4 656.0,462.8" fill="none" stroke="#111" stroke-width="4" stroke-opacity="0.36" stroke-linejoin="round"/>
+<circle cx="695.0" cy="541.2" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="695.0" cy="541.2" r="14.1" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="695.0" y="548.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">1</text>
+<circle cx="996.2" cy="740.6" r="17.5" fill="white" fill-opacity="0.84"/>
+<circle cx="996.2" cy="740.6" r="14.5" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="996.2" y="747.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">2</text>
+<circle cx="645.1" cy="602.0" r="18.8" fill="white" fill-opacity="0.84"/>
+<circle cx="645.1" cy="602.0" r="15.8" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="645.1" y="609.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">3</text>
+<circle cx="670.1" cy="548.2" r="16.9" fill="white" fill-opacity="0.84"/>
+<circle cx="670.1" cy="548.2" r="13.9" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="670.1" y="555.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">4</text>
+<circle cx="859.0" cy="693.2" r="19.9" fill="white" fill-opacity="0.84"/>
+<circle cx="859.0" cy="693.2" r="16.9" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="859.0" y="700.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">5</text>
+<circle cx="1004.4" cy="728.4" r="19.3" fill="white" fill-opacity="0.84"/>
+<circle cx="1004.4" cy="728.4" r="16.3" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1004.4" y="735.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">6</text>
+<circle cx="667.1" cy="559.6" r="18.8" fill="white" fill-opacity="0.84"/>
+<circle cx="667.1" cy="559.6" r="15.8" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="667.1" y="566.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">7</text>
+<circle cx="680.8" cy="708.4" r="18.1" fill="white" fill-opacity="0.84"/>
+<circle cx="680.8" cy="708.4" r="15.1" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="680.8" y="715.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">8</text>
+<circle cx="678.6" cy="539.6" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="678.6" cy="539.6" r="14.1" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="678.6" y="546.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">9</text>
+<circle cx="697.1" cy="635.7" r="20.0" fill="white" fill-opacity="0.84"/>
+<circle cx="697.1" cy="635.7" r="17.0" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="697.1" y="642.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">10</text>
+<circle cx="668.7" cy="547.5" r="18.0" fill="white" fill-opacity="0.84"/>
+<circle cx="668.7" cy="547.5" r="15.0" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="668.7" y="554.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">11</text>
+<circle cx="1005.4" cy="643.4" r="13.8" fill="white" fill-opacity="0.84"/>
+<circle cx="1005.4" cy="643.4" r="10.8" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1005.4" y="650.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">12</text>
+<circle cx="843.2" cy="535.4" r="17.6" fill="white" fill-opacity="0.84"/>
+<circle cx="843.2" cy="535.4" r="14.6" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="843.2" y="542.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">13</text>
+<circle cx="580.3" cy="414.2" r="19.8" fill="white" fill-opacity="0.84"/>
+<circle cx="580.3" cy="414.2" r="16.8" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="580.3" y="421.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">14</text>
+<circle cx="625.4" cy="391.7" r="17.4" fill="white" fill-opacity="0.84"/>
+<circle cx="625.4" cy="391.7" r="14.4" fill="#005DFF" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="625.4" y="398.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">15</text>
+<circle cx="815.3" cy="448.4" r="17.4" fill="white" fill-opacity="0.84"/>
+<circle cx="815.3" cy="448.4" r="14.4" fill="#FF8A00" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="815.3" y="455.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">16</text>
+<circle cx="656.0" cy="462.8" r="22.8" fill="white" fill-opacity="0.84"/>
+<circle cx="656.0" cy="462.8" r="19.8" fill="#FF8A00" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="656.0" y="469.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">17</text>
+<rect x="16" y="1094" width="1120" height="168" rx="8" fill="white" fill-opacity="0.92" stroke="#111" stroke-opacity="0.22"/>
+<text x="36.0" y="1128.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#111">K15 / k15.asc block 57 | pick-1-2-l.png | RT 5223 ms | 17 fixations</text>
+<text x="36.0" y="1159.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#111">numbers show fixation order; dot size shows fixation duration</text>
+<circle cx="42" cy="1198" r="11" fill="#005DFF" fill-opacity="0.64" stroke="#111" stroke-width="2"/>
+<text x="62.0" y="1206.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#111">blue: before speech onset</text>
+<circle cx="42" cy="1232" r="11" fill="#FF8A00" fill-opacity="0.64" stroke="#111" stroke-width="2"/>
+<text x="62.0" y="1240.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#111">orange: first 2000 ms after onset</text>
+</svg>

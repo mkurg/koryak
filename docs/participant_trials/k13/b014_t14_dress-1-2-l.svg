@@ -1,0 +1,397 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1320" viewBox="0 0 1920 1320">
+<image href="../../../../stimuli/Animate-animate%20centered%20and%20flipped/dress-1-2-l.png" x="0" y="0" width="1920" height="1080" preserveAspectRatio="none"/>
+<rect x="0" y="0" width="1920" height="1080" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="0" y="1080" width="1920" height="240" fill="#f7f7f7"/>
+<rect x="40.0" y="100.0" width="850" height="850" fill="none" stroke="#00B8D9" stroke-width="6" stroke-dasharray="18 12"/>
+<rect x="52.0" y="62.0" width="102.0" height="38" rx="6" fill="white" fill-opacity="0.86" stroke="#00B8D9" stroke-width="3"/>
+<text x="62.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">AGENT</text>
+<rect x="970.0" y="100.0" width="850" height="850" fill="none" stroke="#FF3B8A" stroke-width="6" stroke-dasharray="18 12"/>
+<rect x="982.0" y="62.0" width="134.0" height="38" rx="6" fill="white" fill-opacity="0.86" stroke="#FF3B8A" stroke-width="3"/>
+<text x="992.0" y="88.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">PATIENT</text>
+<polyline points="692.6,473.7 819.2,557.3 676.3,544.1 659.9,396.7 1256.3,454.5 1330.1,529.2 920.1,534.7 796.1,575.0 654.5,567.3 645.8,575.1 659.4,745.9 676.5,869.4 687.0,880.5 796.0,708.3 847.7,555.8 1131.1,482.6 793.6,569.3 792.0,563.1 669.0,562.5 874.2,548.0 846.6,506.0 633.4,572.7 632.8,556.6 820.6,526.2 773.6,475.5 814.5,494.1 642.1,537.2 817.7,497.0 811.4,479.2 866.8,509.5 661.4,607.7 903.9,556.2 745.3,532.3 1154.3,533.0 1269.6,562.8 741.9,569.6 737.2,579.9 764.1,544.2 838.7,513.4 811.0,495.6 1252.9,554.9 1303.4,565.2 1451.9,575.2 1545.5,589.7 1208.1,548.5 745.1,537.9 761.5,538.2 641.0,560.6 672.4,731.8 696.5,848.3 810.8,589.3 1107.2,501.8 768.0,576.3 768.6,570.4 648.5,579.0 684.1,561.9 768.3,564.5 638.4,613.7 706.1,552.6 649.3,595.1 824.4,587.2 756.6,555.3 654.9,565.0 932.3,540.5 1196.6,530.1 1058.5,545.0 748.8,550.6 749.8,547.2 851.2,498.7 811.0,506.7 843.8,556.9 718.7,545.6 632.0,542.0 858.9,528.5 1057.3,522.8 1287.5,513.9 949.6,549.9 794.9,515.4 890.5,512.1 822.1,531.5 648.1,551.2 830.7,531.8 844.9,503.3 823.4,471.7 644.2,574.7 748.1,589.4 912.5,543.2 851.1,556.0 861.8,544.7 809.5,674.0 1248.4,606.3 1348.3,520.4 800.6,529.2 762.5,513.5 634.0,519.2 734.2,568.0 731.3,581.3 750.9,513.7 876.1,551.9 832.1,537.2 1194.1,563.5 1224.5,508.0 1287.7,550.1 1264.2,566.6 760.0,518.0 1204.1,533.0 1182.8,487.8 1293.2,539.6 1436.7,491.4 869.1,514.3 780.8,546.6 668.2,456.6 699.6,613.0 655.5,626.5 795.3,574.5 846.9,514.7 777.1,538.5 624.0,585.4 650.2,540.5 842.7,543.9 742.6,549.2 918.1,554.7 767.9,559.1 1149.8,616.5 1143.3,579.9 732.0,598.3" fill="none" stroke="#111" stroke-width="4" stroke-opacity="0.36" stroke-linejoin="round"/>
+<circle cx="692.6" cy="473.7" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="692.6" cy="473.7" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="692.6" y="480.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">1</text>
+<circle cx="819.2" cy="557.3" r="16.8" fill="white" fill-opacity="0.84"/>
+<circle cx="819.2" cy="557.3" r="13.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="819.2" y="564.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">2</text>
+<circle cx="676.3" cy="544.1" r="14.5" fill="white" fill-opacity="0.84"/>
+<circle cx="676.3" cy="544.1" r="11.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="676.3" y="551.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">3</text>
+<circle cx="659.9" cy="396.7" r="18.1" fill="white" fill-opacity="0.84"/>
+<circle cx="659.9" cy="396.7" r="15.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="659.9" y="403.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">4</text>
+<circle cx="1256.3" cy="454.5" r="17.3" fill="white" fill-opacity="0.84"/>
+<circle cx="1256.3" cy="454.5" r="14.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1256.3" y="461.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">5</text>
+<circle cx="1330.1" cy="529.2" r="19.2" fill="white" fill-opacity="0.84"/>
+<circle cx="1330.1" cy="529.2" r="16.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1330.1" y="536.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">6</text>
+<circle cx="920.1" cy="534.7" r="15.9" fill="white" fill-opacity="0.84"/>
+<circle cx="920.1" cy="534.7" r="12.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="920.1" y="541.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">7</text>
+<circle cx="796.1" cy="575.0" r="16.4" fill="white" fill-opacity="0.84"/>
+<circle cx="796.1" cy="575.0" r="13.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="796.1" y="582.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">8</text>
+<circle cx="654.5" cy="567.3" r="12.2" fill="white" fill-opacity="0.84"/>
+<circle cx="654.5" cy="567.3" r="9.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="654.5" y="574.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">9</text>
+<circle cx="645.8" cy="575.1" r="18.9" fill="white" fill-opacity="0.84"/>
+<circle cx="645.8" cy="575.1" r="15.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="645.8" y="582.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">10</text>
+<circle cx="659.4" cy="745.9" r="15.3" fill="white" fill-opacity="0.84"/>
+<circle cx="659.4" cy="745.9" r="12.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="659.4" y="752.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">11</text>
+<circle cx="676.5" cy="869.4" r="13.0" fill="white" fill-opacity="0.84"/>
+<circle cx="676.5" cy="869.4" r="10.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="676.5" y="876.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">12</text>
+<circle cx="687.0" cy="880.5" r="15.8" fill="white" fill-opacity="0.84"/>
+<circle cx="687.0" cy="880.5" r="12.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="687.0" y="887.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">13</text>
+<circle cx="796.0" cy="708.3" r="16.9" fill="white" fill-opacity="0.84"/>
+<circle cx="796.0" cy="708.3" r="13.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="796.0" y="715.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">14</text>
+<circle cx="847.7" cy="555.8" r="15.5" fill="white" fill-opacity="0.84"/>
+<circle cx="847.7" cy="555.8" r="12.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="847.7" y="562.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">15</text>
+<circle cx="1131.1" cy="482.6" r="18.2" fill="white" fill-opacity="0.84"/>
+<circle cx="1131.1" cy="482.6" r="15.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1131.1" y="489.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">16</text>
+<circle cx="793.6" cy="569.3" r="12.2" fill="white" fill-opacity="0.84"/>
+<circle cx="793.6" cy="569.3" r="9.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="793.6" y="576.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">17</text>
+<circle cx="792.0" cy="563.1" r="16.2" fill="white" fill-opacity="0.84"/>
+<circle cx="792.0" cy="563.1" r="13.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="792.0" y="570.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">18</text>
+<circle cx="669.0" cy="562.5" r="20.2" fill="white" fill-opacity="0.84"/>
+<circle cx="669.0" cy="562.5" r="17.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="669.0" y="569.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">19</text>
+<circle cx="874.2" cy="548.0" r="15.6" fill="white" fill-opacity="0.84"/>
+<circle cx="874.2" cy="548.0" r="12.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="874.2" y="555.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">20</text>
+<circle cx="846.6" cy="506.0" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="846.6" cy="506.0" r="14.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="846.6" y="513.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">21</text>
+<circle cx="633.4" cy="572.7" r="12.1" fill="white" fill-opacity="0.84"/>
+<circle cx="633.4" cy="572.7" r="9.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="633.4" y="579.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">22</text>
+<circle cx="632.8" cy="556.6" r="17.8" fill="white" fill-opacity="0.84"/>
+<circle cx="632.8" cy="556.6" r="14.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="632.8" y="563.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">23</text>
+<circle cx="820.6" cy="526.2" r="16.4" fill="white" fill-opacity="0.84"/>
+<circle cx="820.6" cy="526.2" r="13.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="820.6" y="533.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">24</text>
+<circle cx="773.6" cy="475.5" r="16.0" fill="white" fill-opacity="0.84"/>
+<circle cx="773.6" cy="475.5" r="13.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="773.6" y="482.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">25</text>
+<circle cx="814.5" cy="494.1" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="814.5" cy="494.1" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="814.5" y="501.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">26</text>
+<circle cx="642.1" cy="537.2" r="17.3" fill="white" fill-opacity="0.84"/>
+<circle cx="642.1" cy="537.2" r="14.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="642.1" y="544.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">27</text>
+<circle cx="817.7" cy="497.0" r="15.7" fill="white" fill-opacity="0.84"/>
+<circle cx="817.7" cy="497.0" r="12.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="817.7" y="504.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">28</text>
+<circle cx="811.4" cy="479.2" r="16.0" fill="white" fill-opacity="0.84"/>
+<circle cx="811.4" cy="479.2" r="13.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="811.4" y="486.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">29</text>
+<circle cx="866.8" cy="509.5" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="866.8" cy="509.5" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="866.8" y="516.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">30</text>
+<circle cx="661.4" cy="607.7" r="17.8" fill="white" fill-opacity="0.84"/>
+<circle cx="661.4" cy="607.7" r="14.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="661.4" y="614.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">31</text>
+<circle cx="903.9" cy="556.2" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="903.9" cy="556.2" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="903.9" y="563.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">32</text>
+<circle cx="745.3" cy="532.3" r="15.7" fill="white" fill-opacity="0.84"/>
+<circle cx="745.3" cy="532.3" r="12.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="745.3" y="539.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">33</text>
+<circle cx="1154.3" cy="533.0" r="19.7" fill="white" fill-opacity="0.84"/>
+<circle cx="1154.3" cy="533.0" r="16.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1154.3" y="540.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">34</text>
+<circle cx="1269.6" cy="562.8" r="18.5" fill="white" fill-opacity="0.84"/>
+<circle cx="1269.6" cy="562.8" r="15.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1269.6" y="569.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">35</text>
+<circle cx="741.9" cy="569.6" r="12.0" fill="white" fill-opacity="0.84"/>
+<circle cx="741.9" cy="569.6" r="9.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="741.9" y="576.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">36</text>
+<circle cx="737.2" cy="579.9" r="17.6" fill="white" fill-opacity="0.84"/>
+<circle cx="737.2" cy="579.9" r="14.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="737.2" y="586.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">37</text>
+<circle cx="764.1" cy="544.2" r="15.6" fill="white" fill-opacity="0.84"/>
+<circle cx="764.1" cy="544.2" r="12.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="764.1" y="551.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">38</text>
+<circle cx="838.7" cy="513.4" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="838.7" cy="513.4" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="838.7" y="520.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">39</text>
+<circle cx="811.0" cy="495.6" r="18.7" fill="white" fill-opacity="0.84"/>
+<circle cx="811.0" cy="495.6" r="15.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="811.0" y="502.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">40</text>
+<circle cx="1252.9" cy="554.9" r="19.1" fill="white" fill-opacity="0.84"/>
+<circle cx="1252.9" cy="554.9" r="16.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1252.9" y="561.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">41</text>
+<circle cx="1303.4" cy="565.2" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="1303.4" cy="565.2" r="14.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1303.4" y="572.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">42</text>
+<circle cx="1451.9" cy="575.2" r="17.6" fill="white" fill-opacity="0.84"/>
+<circle cx="1451.9" cy="575.2" r="14.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1451.9" y="582.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">43</text>
+<circle cx="1545.5" cy="589.7" r="17.2" fill="white" fill-opacity="0.84"/>
+<circle cx="1545.5" cy="589.7" r="14.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1545.5" y="596.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">44</text>
+<circle cx="1208.1" cy="548.5" r="18.2" fill="white" fill-opacity="0.84"/>
+<circle cx="1208.1" cy="548.5" r="15.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1208.1" y="555.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">45</text>
+<circle cx="745.1" cy="537.9" r="11.9" fill="white" fill-opacity="0.84"/>
+<circle cx="745.1" cy="537.9" r="8.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="745.1" y="544.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">46</text>
+<circle cx="761.5" cy="538.2" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="761.5" cy="538.2" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="761.5" y="545.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">47</text>
+<circle cx="641.0" cy="560.6" r="19.1" fill="white" fill-opacity="0.84"/>
+<circle cx="641.0" cy="560.6" r="16.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="641.0" y="567.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">48</text>
+<circle cx="672.4" cy="731.8" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="672.4" cy="731.8" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="672.4" y="738.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">49</text>
+<circle cx="696.5" cy="848.3" r="15.9" fill="white" fill-opacity="0.84"/>
+<circle cx="696.5" cy="848.3" r="12.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="696.5" y="855.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">50</text>
+<circle cx="810.8" cy="589.3" r="16.4" fill="white" fill-opacity="0.84"/>
+<circle cx="810.8" cy="589.3" r="13.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="810.8" y="596.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">51</text>
+<circle cx="1107.2" cy="501.8" r="17.6" fill="white" fill-opacity="0.84"/>
+<circle cx="1107.2" cy="501.8" r="14.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1107.2" y="508.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">52</text>
+<circle cx="768.0" cy="576.3" r="12.3" fill="white" fill-opacity="0.84"/>
+<circle cx="768.0" cy="576.3" r="9.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="768.0" y="583.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">53</text>
+<circle cx="768.6" cy="570.4" r="17.9" fill="white" fill-opacity="0.84"/>
+<circle cx="768.6" cy="570.4" r="14.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="768.6" y="577.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">54</text>
+<circle cx="648.5" cy="579.0" r="17.8" fill="white" fill-opacity="0.84"/>
+<circle cx="648.5" cy="579.0" r="14.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="648.5" y="586.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">55</text>
+<circle cx="684.1" cy="561.9" r="19.0" fill="white" fill-opacity="0.84"/>
+<circle cx="684.1" cy="561.9" r="16.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="684.1" y="568.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">56</text>
+<circle cx="768.3" cy="564.5" r="20.0" fill="white" fill-opacity="0.84"/>
+<circle cx="768.3" cy="564.5" r="17.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="768.3" y="571.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">57</text>
+<circle cx="638.4" cy="613.7" r="16.4" fill="white" fill-opacity="0.84"/>
+<circle cx="638.4" cy="613.7" r="13.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="638.4" y="620.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">58</text>
+<circle cx="706.1" cy="552.6" r="17.9" fill="white" fill-opacity="0.84"/>
+<circle cx="706.1" cy="552.6" r="14.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="706.1" y="559.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">59</text>
+<circle cx="649.3" cy="595.1" r="16.6" fill="white" fill-opacity="0.84"/>
+<circle cx="649.3" cy="595.1" r="13.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="649.3" y="602.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">60</text>
+<circle cx="824.4" cy="587.2" r="16.9" fill="white" fill-opacity="0.84"/>
+<circle cx="824.4" cy="587.2" r="13.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="824.4" y="594.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">61</text>
+<circle cx="756.6" cy="555.3" r="16.9" fill="white" fill-opacity="0.84"/>
+<circle cx="756.6" cy="555.3" r="13.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="756.6" y="562.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">62</text>
+<circle cx="654.9" cy="565.0" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="654.9" cy="565.0" r="14.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="654.9" y="572.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">63</text>
+<circle cx="932.3" cy="540.5" r="17.9" fill="white" fill-opacity="0.84"/>
+<circle cx="932.3" cy="540.5" r="14.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="932.3" y="547.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">64</text>
+<circle cx="1196.6" cy="530.1" r="17.5" fill="white" fill-opacity="0.84"/>
+<circle cx="1196.6" cy="530.1" r="14.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1196.6" y="537.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">65</text>
+<circle cx="1058.5" cy="545.0" r="15.3" fill="white" fill-opacity="0.84"/>
+<circle cx="1058.5" cy="545.0" r="12.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1058.5" y="552.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">66</text>
+<circle cx="748.8" cy="550.6" r="12.4" fill="white" fill-opacity="0.84"/>
+<circle cx="748.8" cy="550.6" r="9.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="748.8" y="557.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">67</text>
+<circle cx="749.8" cy="547.2" r="16.3" fill="white" fill-opacity="0.84"/>
+<circle cx="749.8" cy="547.2" r="13.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="749.8" y="554.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">68</text>
+<circle cx="851.2" cy="498.7" r="14.8" fill="white" fill-opacity="0.84"/>
+<circle cx="851.2" cy="498.7" r="11.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="851.2" y="505.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">69</text>
+<circle cx="811.0" cy="506.7" r="18.9" fill="white" fill-opacity="0.84"/>
+<circle cx="811.0" cy="506.7" r="15.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="811.0" y="513.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">70</text>
+<circle cx="843.8" cy="556.9" r="16.7" fill="white" fill-opacity="0.84"/>
+<circle cx="843.8" cy="556.9" r="13.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="843.8" y="563.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">71</text>
+<circle cx="718.7" cy="545.6" r="16.1" fill="white" fill-opacity="0.84"/>
+<circle cx="718.7" cy="545.6" r="13.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="718.7" y="552.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">72</text>
+<circle cx="632.0" cy="542.0" r="16.2" fill="white" fill-opacity="0.84"/>
+<circle cx="632.0" cy="542.0" r="13.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="632.0" y="549.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">73</text>
+<circle cx="858.9" cy="528.5" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="858.9" cy="528.5" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="858.9" y="535.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">74</text>
+<circle cx="1057.3" cy="522.8" r="16.0" fill="white" fill-opacity="0.84"/>
+<circle cx="1057.3" cy="522.8" r="13.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1057.3" y="529.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">75</text>
+<circle cx="1287.5" cy="513.9" r="19.6" fill="white" fill-opacity="0.84"/>
+<circle cx="1287.5" cy="513.9" r="16.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1287.5" y="520.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">76</text>
+<circle cx="949.6" cy="549.9" r="16.8" fill="white" fill-opacity="0.84"/>
+<circle cx="949.6" cy="549.9" r="13.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="949.6" y="556.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">77</text>
+<circle cx="794.9" cy="515.4" r="17.4" fill="white" fill-opacity="0.84"/>
+<circle cx="794.9" cy="515.4" r="14.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="794.9" y="522.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">78</text>
+<circle cx="890.5" cy="512.1" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="890.5" cy="512.1" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="890.5" y="519.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">79</text>
+<circle cx="822.1" cy="531.5" r="15.8" fill="white" fill-opacity="0.84"/>
+<circle cx="822.1" cy="531.5" r="12.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="822.1" y="538.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">80</text>
+<circle cx="648.1" cy="551.2" r="20.0" fill="white" fill-opacity="0.84"/>
+<circle cx="648.1" cy="551.2" r="17.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="648.1" y="558.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">81</text>
+<circle cx="830.7" cy="531.8" r="17.7" fill="white" fill-opacity="0.84"/>
+<circle cx="830.7" cy="531.8" r="14.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="830.7" y="538.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">82</text>
+<circle cx="844.9" cy="503.3" r="16.3" fill="white" fill-opacity="0.84"/>
+<circle cx="844.9" cy="503.3" r="13.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="844.9" y="510.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">83</text>
+<circle cx="823.4" cy="471.7" r="18.3" fill="white" fill-opacity="0.84"/>
+<circle cx="823.4" cy="471.7" r="15.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="823.4" y="478.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">84</text>
+<circle cx="644.2" cy="574.7" r="16.8" fill="white" fill-opacity="0.84"/>
+<circle cx="644.2" cy="574.7" r="13.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="644.2" y="581.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">85</text>
+<circle cx="748.1" cy="589.4" r="16.4" fill="white" fill-opacity="0.84"/>
+<circle cx="748.1" cy="589.4" r="13.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="748.1" y="596.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">86</text>
+<circle cx="912.5" cy="543.2" r="17.2" fill="white" fill-opacity="0.84"/>
+<circle cx="912.5" cy="543.2" r="14.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="912.5" y="550.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">87</text>
+<circle cx="851.1" cy="556.0" r="14.6" fill="white" fill-opacity="0.84"/>
+<circle cx="851.1" cy="556.0" r="11.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="851.1" y="563.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">88</text>
+<circle cx="861.8" cy="544.7" r="17.6" fill="white" fill-opacity="0.84"/>
+<circle cx="861.8" cy="544.7" r="14.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="861.8" y="551.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">89</text>
+<circle cx="809.5" cy="674.0" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="809.5" cy="674.0" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="809.5" y="681.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">90</text>
+<circle cx="1248.4" cy="606.3" r="17.9" fill="white" fill-opacity="0.84"/>
+<circle cx="1248.4" cy="606.3" r="14.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1248.4" y="613.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">91</text>
+<circle cx="1348.3" cy="520.4" r="18.5" fill="white" fill-opacity="0.84"/>
+<circle cx="1348.3" cy="520.4" r="15.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1348.3" y="527.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">92</text>
+<circle cx="800.6" cy="529.2" r="18.0" fill="white" fill-opacity="0.84"/>
+<circle cx="800.6" cy="529.2" r="15.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="800.6" y="536.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">93</text>
+<circle cx="762.5" cy="513.5" r="15.4" fill="white" fill-opacity="0.84"/>
+<circle cx="762.5" cy="513.5" r="12.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="762.5" y="520.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">94</text>
+<circle cx="634.0" cy="519.2" r="20.5" fill="white" fill-opacity="0.84"/>
+<circle cx="634.0" cy="519.2" r="17.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="634.0" y="526.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">95</text>
+<circle cx="734.2" cy="568.0" r="11.9" fill="white" fill-opacity="0.84"/>
+<circle cx="734.2" cy="568.0" r="8.9" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="734.2" y="575.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">96</text>
+<circle cx="731.3" cy="581.3" r="15.0" fill="white" fill-opacity="0.84"/>
+<circle cx="731.3" cy="581.3" r="12.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="731.3" y="588.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">97</text>
+<circle cx="750.9" cy="513.7" r="16.6" fill="white" fill-opacity="0.84"/>
+<circle cx="750.9" cy="513.7" r="13.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="750.9" y="520.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">98</text>
+<circle cx="876.1" cy="551.9" r="16.1" fill="white" fill-opacity="0.84"/>
+<circle cx="876.1" cy="551.9" r="13.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="876.1" y="558.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">99</text>
+<circle cx="832.1" cy="537.2" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="832.1" cy="537.2" r="14.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="832.1" y="544.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">100</text>
+<circle cx="1194.1" cy="563.5" r="17.7" fill="white" fill-opacity="0.84"/>
+<circle cx="1194.1" cy="563.5" r="14.7" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1194.1" y="570.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">101</text>
+<circle cx="1224.5" cy="508.0" r="16.4" fill="white" fill-opacity="0.84"/>
+<circle cx="1224.5" cy="508.0" r="13.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1224.5" y="515.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">102</text>
+<circle cx="1287.7" cy="550.1" r="16.8" fill="white" fill-opacity="0.84"/>
+<circle cx="1287.7" cy="550.1" r="13.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1287.7" y="557.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">103</text>
+<circle cx="1264.2" cy="566.6" r="18.2" fill="white" fill-opacity="0.84"/>
+<circle cx="1264.2" cy="566.6" r="15.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1264.2" y="573.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">104</text>
+<circle cx="760.0" cy="518.0" r="18.0" fill="white" fill-opacity="0.84"/>
+<circle cx="760.0" cy="518.0" r="15.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="760.0" y="525.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">105</text>
+<circle cx="1204.1" cy="533.0" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="1204.1" cy="533.0" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1204.1" y="540.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">106</text>
+<circle cx="1182.8" cy="487.8" r="17.0" fill="white" fill-opacity="0.84"/>
+<circle cx="1182.8" cy="487.8" r="14.0" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1182.8" y="494.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">107</text>
+<circle cx="1293.2" cy="539.6" r="18.8" fill="white" fill-opacity="0.84"/>
+<circle cx="1293.2" cy="539.6" r="15.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1293.2" y="546.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">108</text>
+<circle cx="1436.7" cy="491.4" r="17.5" fill="white" fill-opacity="0.84"/>
+<circle cx="1436.7" cy="491.4" r="14.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1436.7" y="498.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">109</text>
+<circle cx="869.1" cy="514.3" r="16.6" fill="white" fill-opacity="0.84"/>
+<circle cx="869.1" cy="514.3" r="13.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="869.1" y="521.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">110</text>
+<circle cx="780.8" cy="546.6" r="16.1" fill="white" fill-opacity="0.84"/>
+<circle cx="780.8" cy="546.6" r="13.2" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="780.8" y="553.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">111</text>
+<circle cx="668.2" cy="456.6" r="16.3" fill="white" fill-opacity="0.84"/>
+<circle cx="668.2" cy="456.6" r="13.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="668.2" y="463.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">112</text>
+<circle cx="699.6" cy="613.0" r="19.1" fill="white" fill-opacity="0.84"/>
+<circle cx="699.6" cy="613.0" r="16.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="699.6" y="620.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">113</text>
+<circle cx="655.5" cy="626.5" r="17.4" fill="white" fill-opacity="0.84"/>
+<circle cx="655.5" cy="626.5" r="14.4" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="655.5" y="633.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">114</text>
+<circle cx="795.3" cy="574.5" r="18.8" fill="white" fill-opacity="0.84"/>
+<circle cx="795.3" cy="574.5" r="15.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="795.3" y="581.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">115</text>
+<circle cx="846.9" cy="514.7" r="18.1" fill="white" fill-opacity="0.84"/>
+<circle cx="846.9" cy="514.7" r="15.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="846.9" y="521.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">116</text>
+<circle cx="777.1" cy="538.5" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="777.1" cy="538.5" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="777.1" y="545.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">117</text>
+<circle cx="624.0" cy="585.4" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="624.0" cy="585.4" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="624.0" y="592.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">118</text>
+<circle cx="650.2" cy="540.5" r="16.5" fill="white" fill-opacity="0.84"/>
+<circle cx="650.2" cy="540.5" r="13.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="650.2" y="547.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">119</text>
+<circle cx="842.7" cy="543.9" r="17.1" fill="white" fill-opacity="0.84"/>
+<circle cx="842.7" cy="543.9" r="14.1" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="842.7" y="550.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">120</text>
+<circle cx="742.6" cy="549.2" r="16.6" fill="white" fill-opacity="0.84"/>
+<circle cx="742.6" cy="549.2" r="13.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="742.6" y="556.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">121</text>
+<circle cx="918.1" cy="554.7" r="14.8" fill="white" fill-opacity="0.84"/>
+<circle cx="918.1" cy="554.7" r="11.8" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="918.1" y="561.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">122</text>
+<circle cx="767.9" cy="559.1" r="15.3" fill="white" fill-opacity="0.84"/>
+<circle cx="767.9" cy="559.1" r="12.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="767.9" y="566.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">123</text>
+<circle cx="1149.8" cy="616.5" r="17.5" fill="white" fill-opacity="0.84"/>
+<circle cx="1149.8" cy="616.5" r="14.5" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1149.8" y="623.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">124</text>
+<circle cx="1143.3" cy="579.9" r="15.6" fill="white" fill-opacity="0.84"/>
+<circle cx="1143.3" cy="579.9" r="12.6" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="1143.3" y="586.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">125</text>
+<circle cx="732.0" cy="598.3" r="12.3" fill="white" fill-opacity="0.84"/>
+<circle cx="732.0" cy="598.3" r="9.3" fill="#7A3CE8" fill-opacity="0.66" stroke="#111" stroke-width="2.5"/>
+<text x="732.0" y="605.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="white" stroke="#111" stroke-width="3" paint-order="stroke">126</text>
+<rect x="16" y="1094" width="1120" height="168" rx="8" fill="white" fill-opacity="0.92" stroke="#111" stroke-opacity="0.22"/>
+<text x="36.0" y="1128.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#111">K13 / k13.asc block 14 | dress-1-2-l.png | RT NA ms | 126 fixations</text>
+<text x="36.0" y="1159.0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#111">numbers show fixation order; dot size shows fixation duration</text>
+<circle cx="42" cy="1198" r="11" fill="#005DFF" fill-opacity="0.64" stroke="#111" stroke-width="2"/>
+<text x="62.0" y="1206.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#111">blue: before speech onset</text>
+<circle cx="42" cy="1232" r="11" fill="#FF8A00" fill-opacity="0.64" stroke="#111" stroke-width="2"/>
+<text x="62.0" y="1240.0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#111">orange: first 2000 ms after onset</text>
+</svg>
