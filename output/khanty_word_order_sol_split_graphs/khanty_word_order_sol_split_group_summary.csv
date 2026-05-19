@@ -1,0 +1,9 @@
+type,word_order,split,label,n_trials,cell_mean_speech_onset_ms,group_mean_speech_onset_ms,graph_end_ms,min_speech_onset_ms,max_speech_onset_ms
+act,APV,less_than_mean,SOL less than cell mean,194,2577.855457,1934.108247,3434.108247,892.000000,2569.000000
+act,APV,more_than_mean,SOL greater than cell mean,145,2577.855457,3439.144828,4939.144828,2588.000000,6296.000000
+act,PV,less_than_mean,SOL less than cell mean,39,2535.833333,1749.948718,3249.948718,944.000000,2486.000000
+act,PV,more_than_mean,SOL greater than cell mean,27,2535.833333,3671.000000,5171.000000,2542.000000,6444.000000
+pass,PAV,less_than_mean,SOL less than cell mean,31,2538.724138,1823.806452,3323.806452,1056.000000,2430.000000
+pass,PAV,more_than_mean,SOL greater than cell mean,27,2538.724138,3359.555556,4859.555556,2589.000000,5926.000000
+pass,AV,less_than_mean,SOL less than cell mean,47,2278.653846,1666.127660,3166.127660,1081.000000,2250.000000
+pass,AV,more_than_mean,SOL greater than cell mean,31,2278.653846,3207.322581,4707.322581,2283.000000,5551.000000

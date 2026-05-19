@@ -3,3 +3,13 @@
 __pycache__/
 *.pyc
 .tools/
+
+# Khanty raw / bulky derived data kept outside git.
+osfstorage-archive/.DS_Store
+osfstorage-archive/ascs/
+osfstorage-archive/Individual .csv files/
+osfstorage-archive/data_all.csv
+osfstorage-archive/data_all_po.csv
+output/khanty_*/*trial_bins*.csv
+output/khanty_participant_speech_planning_0_3500ms/khanty_speech_planning_0_3500ms_all_participants.csv
+output/khanty_participant_speech_planning_0_3500ms/participants/

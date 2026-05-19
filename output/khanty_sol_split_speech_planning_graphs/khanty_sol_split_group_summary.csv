@@ -1,0 +1,5 @@
+type,split,label,n_trials,type_mean_speech_onset_ms,group_mean_speech_onset_ms,graph_end_ms,min_speech_onset_ms,max_speech_onset_ms
+act,less_than_mean,SOL < type mean,239,2575.869565,1912.393305,3412.393305,892.000000,2570.000000
+act,more_than_mean,SOL > type mean,175,2575.869565,3481.988571,4981.988571,2576.000000,6444.000000
+pass,less_than_mean,SOL < type mean,98,2387.761905,1728.387755,3228.387755,1018.000000,2353.000000
+pass,more_than_mean,SOL > type mean,70,2387.761905,3310.885714,4810.885714,2407.000000,5926.000000
