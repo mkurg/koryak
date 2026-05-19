@@ -24,6 +24,8 @@ The codebase is intentionally flat: current scripts live at the repository root,
 
 Generated Python bytecode, `.DS_Store`, and the local R/brms environment in `.tools/` are ignored.
 
+PDF conversion for SVG graphs uses `rsvg-convert` from `librsvg`; this keeps PDFs vector-based and avoids Chrome. The helper script is `svg_to_pdf.py`; it writes font/cache files under `.tools/cache`.
+
 ## Setup
 
 Python scripts use the dependencies in `requirements.txt`.
@@ -100,6 +102,18 @@ Number plus patient-animacy panels for all five planning windows:
 python make_koryak_number_animacy_panel_pages.py
 ```
 
+All-direct and all-inverse panels across all five windows:
+
+```bash
+python make_koryak_direct_inverse_all_windows_graphs.py
+```
+
+Convert any standalone SVG to PDF without Chrome:
+
+```bash
+python svg_to_pdf.py path/to/graph.svg
+```
+
 Key graph/report outputs:
 
 ```text
@@ -108,6 +122,8 @@ output/koryak_number_sentence_graphs/
 output/koryak_number_animacy_sentence_graphs/
 output/koryak_number_animacy_sentence_graphs/direct_AVP_number_animacy_all_windows_panel.pdf
 output/koryak_number_animacy_sentence_graphs/inverse_AVP_number_animacy_all_windows_panel.pdf
+output/koryak_direct_inverse_all_windows_graphs/direct_AVP_all_windows.pdf
+output/koryak_direct_inverse_all_windows_graphs/inverse_AVP_all_windows.pdf
 ```
 
 ## Reaction-Time Models

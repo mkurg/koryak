@@ -10,6 +10,8 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
+from svg_to_pdf import convert_svg_to_pdf
+
 
 AGENT_COLOR = "#CC3311"
 PATIENT_COLOR = "#0077BB"
@@ -885,6 +887,11 @@ def main() -> None:
         action="store_true",
         help="Use every participant instead of the 16-participant clean set in the Koryak codebase.",
     )
+    parser.add_argument(
+        "--no-pdf",
+        action="store_true",
+        help="Only write SVG graphs. By default, PDF copies are also written via ImageMagick.",
+    )
     args = parser.parse_args()
 
     behavior_csv = Path(args.behavior_csv)
@@ -920,6 +927,9 @@ def main() -> None:
         trial_bin_rows,
     )
     graph_paths = write_graphs(output_dir, summary_rows, trial_bin_rows)
+    if not args.no_pdf:
+        for graph_path in graph_paths:
+            convert_svg_to_pdf(graph_path)
 
     print(f"Clean behavior trials: {len(behavior_trials)}")
     for row in condition_count_rows:
@@ -929,7 +939,8 @@ def main() -> None:
         )
     print(f"Duplicate usable ASC trials resolved: {len(duplicate_rows)}")
     print(f"Clean behavior trials without usable ASC planning samples: {len(missing_rows)}")
-    print(f"Wrote {len(graph_paths)} graphs to {output_dir}")
+    output_kinds = "SVG graphs" if args.no_pdf else "SVG graphs and PDF copies"
+    print(f"Wrote {len(graph_paths)} {output_kinds} to {output_dir}")
 
 
 if __name__ == "__main__":

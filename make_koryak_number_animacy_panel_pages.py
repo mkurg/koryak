@@ -7,6 +7,8 @@ import html
 from collections import defaultdict
 from pathlib import Path
 
+from svg_to_pdf import convert_svg_to_pdf
+
 
 AGENT_COLOR = "#CC3311"
 PATIENT_COLOR = "#0077BB"
@@ -234,44 +236,6 @@ def render_page(
     output_path.write_text("\n".join(parts), encoding="utf-8")
 
 
-def write_print_wrapper(output_path: Path, svg_filename: str, title: str) -> None:
-    output_path.write_text(
-        "\n".join(
-            [
-                "<!doctype html>",
-                "<html>",
-                "<head>",
-                '  <meta charset="utf-8">',
-                "  <style>",
-                "    @page {",
-                f"      size: {PAGE_WIDTH}px {PAGE_HEIGHT}px;",
-                "      margin: 0;",
-                "    }",
-                "    html,",
-                "    body {",
-                "      margin: 0;",
-                f"      width: {PAGE_WIDTH}px;",
-                f"      height: {PAGE_HEIGHT}px;",
-                "      overflow: hidden;",
-                "      background: white;",
-                "    }",
-                "    img {",
-                "      display: block;",
-                f"      width: {PAGE_WIDTH}px;",
-                f"      height: {PAGE_HEIGHT}px;",
-                "    }",
-                "  </style>",
-                "</head>",
-                "<body>",
-                f'  <img src="{html.escape(svg_filename)}" alt="{html.escape(title)}">',
-                "</body>",
-                "</html>",
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Create direct/inverse Koryak number-by-animacy panel pages.")
     parser.add_argument("--input-dir", default="output/koryak_number_animacy_sentence_graphs")
@@ -287,10 +251,9 @@ def main() -> None:
 
     for sentence_type in ["inverse", "direct"]:
         svg_filename = f"{sentence_type}_AVP_number_animacy_all_windows_panel.svg"
-        html_filename = f"{sentence_type}_AVP_number_animacy_all_windows_panel_print.html"
-        title = f"{sentence_type.capitalize()} AVP panel"
-        render_page(output_dir / svg_filename, sentence_type, grouped, counts)
-        write_print_wrapper(output_dir / html_filename, svg_filename, title)
+        svg_path = output_dir / svg_filename
+        render_page(svg_path, sentence_type, grouped, counts)
+        convert_svg_to_pdf(svg_path)
 
 
 if __name__ == "__main__":
