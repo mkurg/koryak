@@ -1,0 +1,581 @@
+ Family: gaussian
+  Links: mu = identity
+Formula: log.agent | weights(1/wts.agent) ~ poly(time, degree = 3) * contrast_code + (1 + poly(time, degree = 3) * contrast_code | participant) + (1 + poly(time, degree = 3) | participant_condition) + (1 + poly(time, degree = 3) * contrast_code | item)
+   Data: model_df (Number of observations: 3217)
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Multilevel Hyperparameters:
+~item (Number of levels: 16)
+                                                                       Estimate
+sd(Intercept)                                                              0.72
+sd(polytimedegreeEQ31)                                                    35.20
+sd(polytimedegreeEQ32)                                                    15.69
+sd(polytimedegreeEQ33)                                                    11.65
+sd(contrast_code)                                                          0.38
+sd(polytimedegreeEQ31:contrast_code)                                      21.18
+sd(polytimedegreeEQ32:contrast_code)                                      12.77
+sd(polytimedegreeEQ33:contrast_code)                                      12.39
+cor(Intercept,polytimedegreeEQ31)                                          0.26
+cor(Intercept,polytimedegreeEQ32)                                          0.12
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 0.12
+cor(Intercept,polytimedegreeEQ33)                                         -0.19
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                -0.37
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 0.24
+cor(Intercept,contrast_code)                                               0.22
+cor(polytimedegreeEQ31,contrast_code)                                      0.11
+cor(polytimedegreeEQ32,contrast_code)                                      0.08
+cor(polytimedegreeEQ33,contrast_code)                                     -0.03
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            0.08
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                  -0.24
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   0.13
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                  -0.04
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        0.43
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            0.23
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                  -0.03
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                  -0.18
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                  -0.23
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                       -0.05
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     0.10
+cor(Intercept,polytimedegreeEQ33:contrast_code)                           -0.10
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   0.16
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                  -0.19
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                  -0.06
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                       -0.35
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)    -0.45
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)    -0.25
+                                                                       Est.Error
+sd(Intercept)                                                               0.17
+sd(polytimedegreeEQ31)                                                      7.40
+sd(polytimedegreeEQ32)                                                      5.18
+sd(polytimedegreeEQ33)                                                      4.71
+sd(contrast_code)                                                           0.11
+sd(polytimedegreeEQ31:contrast_code)                                        5.14
+sd(polytimedegreeEQ32:contrast_code)                                        5.35
+sd(polytimedegreeEQ33:contrast_code)                                        3.73
+cor(Intercept,polytimedegreeEQ31)                                           0.21
+cor(Intercept,polytimedegreeEQ32)                                           0.22
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                  0.22
+cor(Intercept,polytimedegreeEQ33)                                           0.24
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                  0.23
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                  0.24
+cor(Intercept,contrast_code)                                                0.24
+cor(polytimedegreeEQ31,contrast_code)                                       0.22
+cor(polytimedegreeEQ32,contrast_code)                                       0.25
+cor(polytimedegreeEQ33,contrast_code)                                       0.26
+cor(Intercept,polytimedegreeEQ31:contrast_code)                             0.22
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                    0.21
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                    0.23
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                    0.24
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                         0.22
+cor(Intercept,polytimedegreeEQ32:contrast_code)                             0.24
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                    0.24
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                    0.27
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                    0.26
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                         0.25
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)      0.25
+cor(Intercept,polytimedegreeEQ33:contrast_code)                             0.24
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                    0.22
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                    0.24
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                    0.26
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                         0.24
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)      0.22
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)      0.25
+                                                                       l-95% CI
+sd(Intercept)                                                              0.46
+sd(polytimedegreeEQ31)                                                    23.32
+sd(polytimedegreeEQ32)                                                     6.02
+sd(polytimedegreeEQ33)                                                     2.28
+sd(contrast_code)                                                          0.22
+sd(polytimedegreeEQ31:contrast_code)                                      12.83
+sd(polytimedegreeEQ32:contrast_code)                                       2.07
+sd(polytimedegreeEQ33:contrast_code)                                       5.88
+cor(Intercept,polytimedegreeEQ31)                                         -0.17
+cor(Intercept,polytimedegreeEQ32)                                         -0.32
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                -0.34
+cor(Intercept,polytimedegreeEQ33)                                         -0.64
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                -0.76
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                -0.27
+cor(Intercept,contrast_code)                                              -0.28
+cor(polytimedegreeEQ31,contrast_code)                                     -0.33
+cor(polytimedegreeEQ32,contrast_code)                                     -0.40
+cor(polytimedegreeEQ33,contrast_code)                                     -0.52
+cor(Intercept,polytimedegreeEQ31:contrast_code)                           -0.35
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                  -0.62
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                  -0.32
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                  -0.50
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                       -0.05
+cor(Intercept,polytimedegreeEQ32:contrast_code)                           -0.26
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                  -0.49
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                  -0.66
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                  -0.69
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                       -0.53
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)    -0.38
+cor(Intercept,polytimedegreeEQ33:contrast_code)                           -0.56
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                  -0.28
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                  -0.65
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                  -0.55
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                       -0.77
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)    -0.83
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)    -0.70
+                                                                       u-95% CI
+sd(Intercept)                                                              1.11
+sd(polytimedegreeEQ31)                                                    52.38
+sd(polytimedegreeEQ32)                                                    26.68
+sd(polytimedegreeEQ33)                                                    21.45
+sd(contrast_code)                                                          0.64
+sd(polytimedegreeEQ31:contrast_code)                                      32.68
+sd(polytimedegreeEQ32:contrast_code)                                      23.43
+sd(polytimedegreeEQ33:contrast_code)                                      20.68
+cor(Intercept,polytimedegreeEQ31)                                          0.63
+cor(Intercept,polytimedegreeEQ32)                                          0.54
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 0.53
+cor(Intercept,polytimedegreeEQ33)                                          0.29
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 0.12
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 0.67
+cor(Intercept,contrast_code)                                               0.65
+cor(polytimedegreeEQ31,contrast_code)                                      0.53
+cor(polytimedegreeEQ32,contrast_code)                                      0.56
+cor(polytimedegreeEQ33,contrast_code)                                      0.47
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            0.51
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                   0.18
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   0.56
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   0.44
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        0.80
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            0.66
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                   0.45
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                   0.40
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   0.30
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                        0.46
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     0.58
+cor(Intercept,polytimedegreeEQ33:contrast_code)                            0.37
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   0.56
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   0.32
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                   0.45
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        0.14
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)     0.01
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     0.26
+                                                                       Rhat
+sd(Intercept)                                                          1.01
+sd(polytimedegreeEQ31)                                                 1.00
+sd(polytimedegreeEQ32)                                                 1.00
+sd(polytimedegreeEQ33)                                                 1.00
+sd(contrast_code)                                                      1.00
+sd(polytimedegreeEQ31:contrast_code)                                   1.00
+sd(polytimedegreeEQ32:contrast_code)                                   1.01
+sd(polytimedegreeEQ33:contrast_code)                                   1.00
+cor(Intercept,polytimedegreeEQ31)                                      1.00
+cor(Intercept,polytimedegreeEQ32)                                      1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                             1.00
+cor(Intercept,polytimedegreeEQ33)                                      1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                             1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                             1.00
+cor(Intercept,contrast_code)                                           1.00
+cor(polytimedegreeEQ31,contrast_code)                                  1.00
+cor(polytimedegreeEQ32,contrast_code)                                  1.00
+cor(polytimedegreeEQ33,contrast_code)                                  1.00
+cor(Intercept,polytimedegreeEQ31:contrast_code)                        1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)               1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)               1.00
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)               1.00
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                    1.00
+cor(Intercept,polytimedegreeEQ32:contrast_code)                        1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)               1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)               1.00
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)               1.00
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                    1.00
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code) 1.00
+cor(Intercept,polytimedegreeEQ33:contrast_code)                        1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)               1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)               1.00
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)               1.00
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                    1.00
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code) 1.00
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code) 1.00
+                                                                       Bulk_ESS
+sd(Intercept)                                                              1183
+sd(polytimedegreeEQ31)                                                     1718
+sd(polytimedegreeEQ32)                                                     1095
+sd(polytimedegreeEQ33)                                                     1355
+sd(contrast_code)                                                          2158
+sd(polytimedegreeEQ31:contrast_code)                                       2313
+sd(polytimedegreeEQ32:contrast_code)                                       1184
+sd(polytimedegreeEQ33:contrast_code)                                       2232
+cor(Intercept,polytimedegreeEQ31)                                          2203
+cor(Intercept,polytimedegreeEQ32)                                          3571
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 3323
+cor(Intercept,polytimedegreeEQ33)                                          3515
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 3087
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 3003
+cor(Intercept,contrast_code)                                               2846
+cor(polytimedegreeEQ31,contrast_code)                                      3196
+cor(polytimedegreeEQ32,contrast_code)                                      2001
+cor(polytimedegreeEQ33,contrast_code)                                      1783
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            2954
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                   3531
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   2498
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   2146
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        2940
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            4411
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                   3792
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                   1899
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   1695
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                        2973
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     3453
+cor(Intercept,polytimedegreeEQ33:contrast_code)                            5025
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   4642
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   2745
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                   2306
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        3387
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)     3205
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     3293
+                                                                       Tail_ESS
+sd(Intercept)                                                              1668
+sd(polytimedegreeEQ31)                                                     2589
+sd(polytimedegreeEQ32)                                                      716
+sd(polytimedegreeEQ33)                                                     1121
+sd(contrast_code)                                                          2683
+sd(polytimedegreeEQ31:contrast_code)                                       3213
+sd(polytimedegreeEQ32:contrast_code)                                        996
+sd(polytimedegreeEQ33:contrast_code)                                       2158
+cor(Intercept,polytimedegreeEQ31)                                          2547
+cor(Intercept,polytimedegreeEQ32)                                          3519
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 3207
+cor(Intercept,polytimedegreeEQ33)                                          2840
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 2570
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 2989
+cor(Intercept,contrast_code)                                               3039
+cor(polytimedegreeEQ31,contrast_code)                                      2826
+cor(polytimedegreeEQ32,contrast_code)                                      2669
+cor(polytimedegreeEQ33,contrast_code)                                      2594
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            2861
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                   2857
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   2748
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   2736
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        3277
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            2891
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                   2892
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                   1909
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   2508
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                        2984
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     3502
+cor(Intercept,polytimedegreeEQ33:contrast_code)                            3570
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   3448
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   2714
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                   2684
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        3214
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)     3775
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     3058
+
+~participant (Number of levels: 16)
+                                                                       Estimate
+sd(Intercept)                                                              0.67
+sd(polytimedegreeEQ31)                                                     5.39
+sd(polytimedegreeEQ32)                                                     3.16
+sd(polytimedegreeEQ33)                                                     5.94
+sd(contrast_code)                                                          0.70
+sd(polytimedegreeEQ31:contrast_code)                                       3.26
+sd(polytimedegreeEQ32:contrast_code)                                       2.88
+sd(polytimedegreeEQ33:contrast_code)                                       2.69
+cor(Intercept,polytimedegreeEQ31)                                          0.00
+cor(Intercept,polytimedegreeEQ32)                                          0.03
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                -0.01
+cor(Intercept,polytimedegreeEQ33)                                         -0.10
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 0.01
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 0.00
+cor(Intercept,contrast_code)                                               0.13
+cor(polytimedegreeEQ31,contrast_code)                                      0.00
+cor(polytimedegreeEQ32,contrast_code)                                     -0.00
+cor(polytimedegreeEQ33,contrast_code)                                      0.03
+cor(Intercept,polytimedegreeEQ31:contrast_code)                           -0.01
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                  -0.03
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   0.00
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   0.01
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        0.00
+cor(Intercept,polytimedegreeEQ32:contrast_code)                           -0.04
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                  -0.00
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                  -0.01
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   0.01
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                       -0.04
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)    -0.01
+cor(Intercept,polytimedegreeEQ33:contrast_code)                           -0.01
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   0.03
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   0.02
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                  -0.02
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        0.00
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)    -0.01
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     0.01
+                                                                       Est.Error
+sd(Intercept)                                                               0.29
+sd(polytimedegreeEQ31)                                                      8.65
+sd(polytimedegreeEQ32)                                                      4.03
+sd(polytimedegreeEQ33)                                                      4.48
+sd(contrast_code)                                                           0.32
+sd(polytimedegreeEQ31:contrast_code)                                        4.07
+sd(polytimedegreeEQ32:contrast_code)                                        3.23
+sd(polytimedegreeEQ33:contrast_code)                                        2.54
+cor(Intercept,polytimedegreeEQ31)                                           0.33
+cor(Intercept,polytimedegreeEQ32)                                           0.33
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                  0.33
+cor(Intercept,polytimedegreeEQ33)                                           0.31
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                  0.33
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                  0.33
+cor(Intercept,contrast_code)                                                0.28
+cor(polytimedegreeEQ31,contrast_code)                                       0.32
+cor(polytimedegreeEQ32,contrast_code)                                       0.33
+cor(polytimedegreeEQ33,contrast_code)                                       0.31
+cor(Intercept,polytimedegreeEQ31:contrast_code)                             0.33
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                    0.33
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                    0.33
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                    0.33
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                         0.33
+cor(Intercept,polytimedegreeEQ32:contrast_code)                             0.34
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                    0.34
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                    0.34
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                    0.34
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                         0.33
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)      0.33
+cor(Intercept,polytimedegreeEQ33:contrast_code)                             0.32
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                    0.33
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                    0.34
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                    0.33
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                         0.33
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)      0.34
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)      0.33
+                                                                       l-95% CI
+sd(Intercept)                                                              0.08
+sd(polytimedegreeEQ31)                                                     0.11
+sd(polytimedegreeEQ32)                                                     0.09
+sd(polytimedegreeEQ33)                                                     0.21
+sd(contrast_code)                                                          0.06
+sd(polytimedegreeEQ31:contrast_code)                                       0.09
+sd(polytimedegreeEQ32:contrast_code)                                       0.08
+sd(polytimedegreeEQ33:contrast_code)                                       0.07
+cor(Intercept,polytimedegreeEQ31)                                         -0.61
+cor(Intercept,polytimedegreeEQ32)                                         -0.61
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                -0.64
+cor(Intercept,polytimedegreeEQ33)                                         -0.65
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                -0.63
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                -0.62
+cor(Intercept,contrast_code)                                              -0.46
+cor(polytimedegreeEQ31,contrast_code)                                     -0.60
+cor(polytimedegreeEQ32,contrast_code)                                     -0.65
+cor(polytimedegreeEQ33,contrast_code)                                     -0.57
+cor(Intercept,polytimedegreeEQ31:contrast_code)                           -0.63
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                  -0.64
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                  -0.61
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                  -0.62
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                       -0.62
+cor(Intercept,polytimedegreeEQ32:contrast_code)                           -0.65
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                  -0.64
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                  -0.66
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                  -0.64
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                       -0.65
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)    -0.63
+cor(Intercept,polytimedegreeEQ33:contrast_code)                           -0.62
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                  -0.62
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                  -0.63
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                  -0.65
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                       -0.62
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)    -0.65
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)    -0.64
+                                                                       u-95% CI
+sd(Intercept)                                                              1.24
+sd(polytimedegreeEQ31)                                                    35.00
+sd(polytimedegreeEQ32)                                                    13.65
+sd(polytimedegreeEQ33)                                                    16.11
+sd(contrast_code)                                                          1.33
+sd(polytimedegreeEQ31:contrast_code)                                      17.03
+sd(polytimedegreeEQ32:contrast_code)                                      11.21
+sd(polytimedegreeEQ33:contrast_code)                                       9.51
+cor(Intercept,polytimedegreeEQ31)                                          0.63
+cor(Intercept,polytimedegreeEQ32)                                          0.64
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 0.61
+cor(Intercept,polytimedegreeEQ33)                                          0.51
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 0.63
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 0.63
+cor(Intercept,contrast_code)                                               0.62
+cor(polytimedegreeEQ31,contrast_code)                                      0.62
+cor(polytimedegreeEQ32,contrast_code)                                      0.64
+cor(polytimedegreeEQ33,contrast_code)                                      0.62
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            0.61
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                   0.61
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   0.63
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   0.63
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        0.65
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            0.61
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                   0.65
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                   0.63
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   0.64
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                        0.60
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     0.61
+cor(Intercept,polytimedegreeEQ33:contrast_code)                            0.62
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   0.63
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   0.65
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                   0.62
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        0.63
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)     0.62
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     0.63
+                                                                       Rhat
+sd(Intercept)                                                          1.01
+sd(polytimedegreeEQ31)                                                 1.02
+sd(polytimedegreeEQ32)                                                 1.00
+sd(polytimedegreeEQ33)                                                 1.00
+sd(contrast_code)                                                      1.01
+sd(polytimedegreeEQ31:contrast_code)                                   1.02
+sd(polytimedegreeEQ32:contrast_code)                                   1.00
+sd(polytimedegreeEQ33:contrast_code)                                   1.00
+cor(Intercept,polytimedegreeEQ31)                                      1.00
+cor(Intercept,polytimedegreeEQ32)                                      1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                             1.00
+cor(Intercept,polytimedegreeEQ33)                                      1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                             1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                             1.00
+cor(Intercept,contrast_code)                                           1.00
+cor(polytimedegreeEQ31,contrast_code)                                  1.00
+cor(polytimedegreeEQ32,contrast_code)                                  1.00
+cor(polytimedegreeEQ33,contrast_code)                                  1.00
+cor(Intercept,polytimedegreeEQ31:contrast_code)                        1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)               1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)               1.00
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)               1.00
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                    1.00
+cor(Intercept,polytimedegreeEQ32:contrast_code)                        1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)               1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)               1.00
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)               1.00
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                    1.00
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code) 1.00
+cor(Intercept,polytimedegreeEQ33:contrast_code)                        1.00
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)               1.00
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)               1.00
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)               1.00
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                    1.00
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code) 1.00
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code) 1.00
+                                                                       Bulk_ESS
+sd(Intercept)                                                               347
+sd(polytimedegreeEQ31)                                                      182
+sd(polytimedegreeEQ32)                                                     2227
+sd(polytimedegreeEQ33)                                                     1130
+sd(contrast_code)                                                           311
+sd(polytimedegreeEQ31:contrast_code)                                        220
+sd(polytimedegreeEQ32:contrast_code)                                       2598
+sd(polytimedegreeEQ33:contrast_code)                                       2204
+cor(Intercept,polytimedegreeEQ31)                                          5738
+cor(Intercept,polytimedegreeEQ32)                                          7204
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 4498
+cor(Intercept,polytimedegreeEQ33)                                          3068
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 3334
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 3326
+cor(Intercept,contrast_code)                                               2113
+cor(polytimedegreeEQ31,contrast_code)                                      1723
+cor(polytimedegreeEQ32,contrast_code)                                      1536
+cor(polytimedegreeEQ33,contrast_code)                                      2294
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            6668
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                   2324
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   3641
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   4241
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        4948
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            6376
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                   3989
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                   3943
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   4283
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                        4222
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     2741
+cor(Intercept,polytimedegreeEQ33:contrast_code)                            7141
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   4364
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   3819
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                   3720
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        4750
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)     2478
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     2509
+                                                                       Tail_ESS
+sd(Intercept)                                                               594
+sd(polytimedegreeEQ31)                                                       62
+sd(polytimedegreeEQ32)                                                     1189
+sd(polytimedegreeEQ33)                                                     2014
+sd(contrast_code)                                                           864
+sd(polytimedegreeEQ31:contrast_code)                                         42
+sd(polytimedegreeEQ32:contrast_code)                                       1729
+sd(polytimedegreeEQ33:contrast_code)                                       1729
+cor(Intercept,polytimedegreeEQ31)                                          3147
+cor(Intercept,polytimedegreeEQ32)                                          2576
+cor(polytimedegreeEQ31,polytimedegreeEQ32)                                 2639
+cor(Intercept,polytimedegreeEQ33)                                          3202
+cor(polytimedegreeEQ31,polytimedegreeEQ33)                                 3183
+cor(polytimedegreeEQ32,polytimedegreeEQ33)                                 2899
+cor(Intercept,contrast_code)                                               2114
+cor(polytimedegreeEQ31,contrast_code)                                      2518
+cor(polytimedegreeEQ32,contrast_code)                                      2588
+cor(polytimedegreeEQ33,contrast_code)                                      2811
+cor(Intercept,polytimedegreeEQ31:contrast_code)                            3303
+cor(polytimedegreeEQ31,polytimedegreeEQ31:contrast_code)                   2785
+cor(polytimedegreeEQ32,polytimedegreeEQ31:contrast_code)                   3096
+cor(polytimedegreeEQ33,polytimedegreeEQ31:contrast_code)                   3321
+cor(contrast_code,polytimedegreeEQ31:contrast_code)                        3447
+cor(Intercept,polytimedegreeEQ32:contrast_code)                            2434
+cor(polytimedegreeEQ31,polytimedegreeEQ32:contrast_code)                   2864
+cor(polytimedegreeEQ32,polytimedegreeEQ32:contrast_code)                   2942
+cor(polytimedegreeEQ33,polytimedegreeEQ32:contrast_code)                   3406
+cor(contrast_code,polytimedegreeEQ32:contrast_code)                        3078
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ32:contrast_code)     3279
+cor(Intercept,polytimedegreeEQ33:contrast_code)                            2667
+cor(polytimedegreeEQ31,polytimedegreeEQ33:contrast_code)                   3110
+cor(polytimedegreeEQ32,polytimedegreeEQ33:contrast_code)                   3440
+cor(polytimedegreeEQ33,polytimedegreeEQ33:contrast_code)                   3102
+cor(contrast_code,polytimedegreeEQ33:contrast_code)                        3445
+cor(polytimedegreeEQ31:contrast_code,polytimedegreeEQ33:contrast_code)     3186
+cor(polytimedegreeEQ32:contrast_code,polytimedegreeEQ33:contrast_code)     3415
+
+~participant_condition (Number of levels: 30)
+                                           Estimate Est.Error l-95% CI u-95% CI
+sd(Intercept)                                  0.60      0.39     0.02     1.33
+sd(polytimedegreeEQ31)                        37.91     10.23     2.99    54.01
+sd(polytimedegreeEQ32)                        43.76      7.26    31.41    59.52
+sd(polytimedegreeEQ33)                         4.29      4.28     0.12    15.69
+cor(Intercept,polytimedegreeEQ31)              0.08      0.35    -0.64     0.76
+cor(Intercept,polytimedegreeEQ32)             -0.12      0.35    -0.78     0.61
+cor(polytimedegreeEQ31,polytimedegreeEQ32)    -0.30      0.21    -0.63     0.15
+cor(Intercept,polytimedegreeEQ33)             -0.06      0.44    -0.82     0.77
+cor(polytimedegreeEQ31,polytimedegreeEQ33)    -0.13      0.42    -0.83     0.72
+cor(polytimedegreeEQ32,polytimedegreeEQ33)    -0.06      0.40    -0.81     0.74
+                                           Rhat Bulk_ESS Tail_ESS
+sd(Intercept)                              1.02      219     1147
+sd(polytimedegreeEQ31)                     1.02      222       34
+sd(polytimedegreeEQ32)                     1.00     1847     2124
+sd(polytimedegreeEQ33)                     1.01      906     1370
+cor(Intercept,polytimedegreeEQ31)          1.01      312      380
+cor(Intercept,polytimedegreeEQ32)          1.01      205      397
+cor(polytimedegreeEQ31,polytimedegreeEQ32) 1.01      485       88
+cor(Intercept,polytimedegreeEQ33)          1.00     2917     2408
+cor(polytimedegreeEQ31,polytimedegreeEQ33) 1.00     3527     2583
+cor(polytimedegreeEQ32,polytimedegreeEQ33) 1.00     5206     3112
+
+Regression Coefficients:
+                                 Estimate Est.Error l-95% CI u-95% CI Rhat
+Intercept                            1.25      0.31     0.69     1.91 1.00
+polytimedegreeEQ31                  43.59     12.53    19.53    68.17 1.00
+polytimedegreeEQ32                  -2.92     10.29   -23.30    17.16 1.00
+polytimedegreeEQ33                  -9.33      5.00   -19.43     0.42 1.00
+contrast_code                        0.06      0.26    -0.46     0.59 1.00
+polytimedegreeEQ31:contrast_code   -19.55     10.07   -39.60    -0.35 1.00
+polytimedegreeEQ32:contrast_code    -1.68      9.73   -20.42    17.66 1.00
+polytimedegreeEQ33:contrast_code    -5.56      4.75   -14.97     3.69 1.00
+                                 Bulk_ESS Tail_ESS
+Intercept                            1423     2129
+polytimedegreeEQ31                   1484     2216
+polytimedegreeEQ32                   2044     2513
+polytimedegreeEQ33                   2298     2840
+contrast_code                        2231     2156
+polytimedegreeEQ31:contrast_code     1931     2494
+polytimedegreeEQ32:contrast_code     2259     2458
+polytimedegreeEQ33:contrast_code     2963     2952
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sigma     2.52      0.03     2.46     2.58 1.00     4101     3111
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

@@ -1,0 +1,2 @@
+chains,cores,iter,warmup,refresh,adapt_delta,max_treedepth,file_refit,window_key,window_label,contrast_id,positive_condition,negative_condition,positive_label,negative_label,item_definition
+4,4,2000,1000,100,0.99,12,on_change,linguistic_encoding_1,le1,direct_1_1_animate_vs_direct_1_2_animate,direct_1_agent_1_patient_animate_patient,direct_1_agent_2_patients_animate_patient,direct 1-1 animate patient,direct 1-2 animate patient,lexical stimulus extracted from image filename

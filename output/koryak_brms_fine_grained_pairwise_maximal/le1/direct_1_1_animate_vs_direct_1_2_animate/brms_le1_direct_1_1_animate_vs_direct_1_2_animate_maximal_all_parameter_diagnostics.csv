@@ -1,0 +1,3 @@
+contrast_id,comparison,model,max_rhat,min_bulk_ess,min_tail_ess,worst_bulk_variable,worst_tail_variable
+direct_1_1_animate_vs_direct_1_2_animate,direct 1-1 animate patient vs direct 1-2 animate patient,agent_looks,1.2462060487697018,11.86173718527695,44.52865265406389,sd_participant_condition__polytimedegreeEQ31,sd_participant__polytimedegreeEQ31
+direct_1_1_animate_vs_direct_1_2_animate,direct 1-1 animate patient vs direct 1-2 animate patient,patient_looks,1.0197414349779088,389.1683484100019,272.98619766321883,sd_participant__contrast_code,sd_participant_condition__polytimedegreeEQ33

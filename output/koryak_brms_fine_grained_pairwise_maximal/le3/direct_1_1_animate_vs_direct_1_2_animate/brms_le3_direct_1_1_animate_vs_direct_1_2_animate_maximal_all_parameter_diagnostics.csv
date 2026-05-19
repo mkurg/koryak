@@ -1,0 +1,3 @@
+contrast_id,comparison,model,max_rhat,min_bulk_ess,min_tail_ess,worst_bulk_variable,worst_tail_variable
+direct_1_1_animate_vs_direct_1_2_animate,direct 1-1 animate patient vs direct 1-2 animate patient,agent_looks,1.0481512895495242,56.99983942910488,21.765269802255247,sd_participant__polytimedegreeEQ31,"r_participant[К16,polytimedegreeEQ31]"
+direct_1_1_animate_vs_direct_1_2_animate,direct 1-1 animate patient vs direct 1-2 animate patient,patient_looks,1.0120943365279786,290.7674608086068,282.97348551564886,sd_participant_condition__polytimedegreeEQ32,sd_participant__Intercept

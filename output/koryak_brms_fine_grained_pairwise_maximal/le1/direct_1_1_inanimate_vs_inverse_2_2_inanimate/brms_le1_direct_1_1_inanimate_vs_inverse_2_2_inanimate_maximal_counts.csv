@@ -1,0 +1,3 @@
+condition_key,contrast_id,comparison,participants,lexical_items,total_bins,trials
+direct_1_agent_1_patient_inanimate_patient,direct_1_1_inanimate_vs_inverse_2_2_inanimate,direct 1-1 inanimate patient vs inverse 2-2 inanimate patient,16,13,1860,95
+inverse_2_agents_2_patients_inanimate_patient,direct_1_1_inanimate_vs_inverse_2_2_inanimate,direct 1-1 inanimate patient vs inverse 2-2 inanimate patient,14,15,1357,74

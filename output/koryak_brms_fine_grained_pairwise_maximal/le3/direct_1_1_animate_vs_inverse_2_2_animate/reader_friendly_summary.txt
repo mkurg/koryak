@@ -1,0 +1,76 @@
+Koryak Bayesian maximal pairwise gaze model
+===========================================
+
+Window: le3 ( linguistic_encoding_3 )
+Comparison: direct 1-1 animate patient vs inverse 2-2 animate patient
+Coding: +1 = direct 1-1 animate patient ; -1 = inverse 2-2 animate patient
+Item definition: lexical stimulus extracted from image filename.
+Random effects: correlated intercepts/slopes for cubic time, contrast, and time-by-contrast by participant and item; correlated intercept/time slopes by participant-condition.
+
+Counts:
+# A tibble: 2 × 7
+  condition_key     contrast_id comparison participants lexical_items total_bins
+  <chr>             <chr>       <chr>             <int>         <int>      <int>
+1 direct_1_agent_1… direct_1_1… direct 1-…           16            14       2079
+2 inverse_2_agents… direct_1_1… direct 1-…           16            16       1869
+# ℹ 1 more variable: trials <int>
+
+Fixed effects:
+# A tibble: 16 × 11
+   contrast_id           comparison model term  estimate ci_95_lower ci_95_upper
+   <chr>                 <chr>      <chr> <chr>    <dbl>       <dbl>       <dbl>
+ 1 direct_1_1_animate_v… direct 1-… agen… Inte…    0.150      -0.706       0.973
+ 2 direct_1_1_animate_v… direct 1-… agen… poly…  -30.9       -54.7        -8.09
+ 3 direct_1_1_animate_v… direct 1-… agen… poly…   -1.09      -13.9        11.5
+ 4 direct_1_1_animate_v… direct 1-… agen… poly…   -2.13      -12.1         8.05
+ 5 direct_1_1_animate_v… direct 1-… agen… cont…   -0.405      -1.11        0.282
+ 6 direct_1_1_animate_v… direct 1-… agen… poly…   -0.459     -19.2        19.0
+ 7 direct_1_1_animate_v… direct 1-… agen… poly…    0.359     -12.4        13.1
+ 8 direct_1_1_animate_v… direct 1-… agen… poly…   -1.68       -9.96        6.38
+ 9 direct_1_1_animate_v… direct 1-… pati… Inte…   -1.43       -2.41       -0.464
+10 direct_1_1_animate_v… direct 1-… pati… poly…   27.1        10.0        44.8
+11 direct_1_1_animate_v… direct 1-… pati… poly…   -7.55      -14.4        -1.15
+12 direct_1_1_animate_v… direct 1-… pati… poly…    5.28       -3.17       13.7
+13 direct_1_1_animate_v… direct 1-… pati… cont…    0.299      -0.353       0.915
+14 direct_1_1_animate_v… direct 1-… pati… poly…   -4.44      -19.2         9.50
+15 direct_1_1_animate_v… direct 1-… pati… poly…   -5.96      -18.0         6.01
+16 direct_1_1_animate_v… direct 1-… pati… poly…    1.45       -5.85        8.90
+# ℹ 4 more variables: p_beta_gt_0 <dbl>, full_difference_estimate <dbl>,
+#   full_difference_ci_95_lower <dbl>, full_difference_ci_95_upper <dbl>
+
+Fixed-effect diagnostics:
+# A tibble: 16 × 11
+   contrast_id     comparison model term  estimate estimate_error    q2.5  q97.5
+   <chr>           <chr>      <chr> <chr>    <dbl>          <dbl>   <dbl>  <dbl>
+ 1 direct_1_1_ani… direct 1-… agen… Inte…    0.150          0.420  -0.706  0.973
+ 2 direct_1_1_ani… direct 1-… agen… poly…  -30.9           11.9   -54.7   -8.09
+ 3 direct_1_1_ani… direct 1-… agen… poly…   -1.09           6.52  -13.9   11.5
+ 4 direct_1_1_ani… direct 1-… agen… poly…   -2.13           4.96  -12.1    8.05
+ 5 direct_1_1_ani… direct 1-… agen… cont…   -0.405          0.355  -1.11   0.282
+ 6 direct_1_1_ani… direct 1-… agen… poly…   -0.459          9.63  -19.2   19.0
+ 7 direct_1_1_ani… direct 1-… agen… poly…    0.359          6.48  -12.4   13.1
+ 8 direct_1_1_ani… direct 1-… agen… poly…   -1.68           4.13   -9.96   6.38
+ 9 direct_1_1_ani… direct 1-… pati… Inte…   -1.43           0.493  -2.41  -0.464
+10 direct_1_1_ani… direct 1-… pati… poly…   27.1            8.70   10.0   44.8
+11 direct_1_1_ani… direct 1-… pati… poly…   -7.55           3.39  -14.4   -1.15
+12 direct_1_1_ani… direct 1-… pati… poly…    5.28           4.29   -3.17  13.7
+13 direct_1_1_ani… direct 1-… pati… cont…    0.299          0.323  -0.353  0.915
+14 direct_1_1_ani… direct 1-… pati… poly…   -4.44           7.34  -19.2    9.50
+15 direct_1_1_ani… direct 1-… pati… poly…   -5.96           6.08  -18.0    6.01
+16 direct_1_1_ani… direct 1-… pati… poly…    1.45           3.71   -5.85   8.90
+# ℹ 3 more variables: rhat <dbl>, bulk_ess <dbl>, tail_ess <dbl>
+
+All-parameter diagnostics:
+# A tibble: 2 × 8
+  contrast_id                comparison model max_rhat min_bulk_ess min_tail_ess
+  <chr>                      <chr>      <chr>    <dbl>        <dbl>        <dbl>
+1 direct_1_1_animate_vs_inv… direct 1-… agen…     1.01         429.         240.
+2 direct_1_1_animate_vs_inv… direct 1-… pati…     1.03         163.         116.
+# ℹ 2 more variables: worst_bulk_variable <chr>, worst_tail_variable <chr>
+
+Sampler diagnostics:
+# A tibble: 2 × 5
+  contrast_id          comparison model divergent_transitions max_treedepth_hits
+  <chr>                <chr>      <chr>                 <dbl>              <dbl>
+1 direct_1_1_animate_… direct 1-… agen…                     0                  0
+2 direct_1_1_animate_… direct 1-… pati…                     0                  0
