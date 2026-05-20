@@ -52,6 +52,10 @@ def safe_filename(value: object) -> str:
     return "".join(chars) or "participant"
 
 
+def informant_code(participant: object) -> str:
+    return str(participant).split("_", 1)[0]
+
+
 def svg_path(points: list[tuple[float, float]]) -> str:
     if not points:
         return ""
@@ -71,6 +75,7 @@ def load_trial_bins(path: Path) -> list[dict[str, object]]:
             rows.append(
                 {
                     "participant": row["participant"],
+                    "informant_code": informant_code(row["participant"]),
                     "item": row["item"],
                     "speech_onset_ms": float(row["speech_onset_ms"]),
                     "time_bin_start_ms": int(float(row["time_bin_start_ms"])),
@@ -82,30 +87,42 @@ def load_trial_bins(path: Path) -> list[dict[str, object]]:
     return rows
 
 
-def passive_count_rows(trial_bin_rows: list[dict[str, object]], threshold: int) -> list[dict[str, object]]:
+def passive_count_rows(
+    trial_bin_rows: list[dict[str, object]],
+    threshold: int,
+    group_by_informant_code: bool,
+) -> list[dict[str, object]]:
+    def group_name(row: dict[str, object]) -> str:
+        if group_by_informant_code:
+            return str(row["informant_code"])
+        return str(row["participant"])
+
     trial_keys = {
-        (str(row["participant"]), str(row["item"]))
+        (group_name(row), str(row["participant"]), str(row["item"]))
         for row in trial_bin_rows
     }
-    counts = Counter(participant for participant, _item in trial_keys)
+    counts = Counter(group for group, _participant, _item in trial_keys)
+    sessions: dict[str, set[str]] = defaultdict(set)
     onsets: dict[str, list[float]] = defaultdict(list)
-    for participant, item in trial_keys:
+    for group, participant, item in trial_keys:
+        sessions[group].add(participant)
         onset_values = [
             float(row["speech_onset_ms"])
             for row in trial_bin_rows
-            if row["participant"] == participant and row["item"] == item
+            if group_name(row) == group and row["participant"] == participant and row["item"] == item
         ]
         if onset_values:
-            onsets[participant].append(onset_values[0])
+            onsets[group].append(onset_values[0])
 
     rows: list[dict[str, object]] = []
-    for participant, count in sorted(counts.items(), key=lambda item: (-item[1], item[0])):
+    for group, count in sorted(counts.items(), key=lambda item: (-item[1], item[0])):
         rows.append(
             {
-                "participant": participant,
+                "participant": group,
+                "sessions": ";".join(sorted(sessions[group])),
                 "n_passive_trials": count,
                 "eligible_gt_threshold": "yes" if count > threshold else "no",
-                "mean_speech_onset_ms": mean(onsets[participant]),
+                "mean_speech_onset_ms": mean(onsets[group]),
             }
         )
     return rows
@@ -254,6 +271,11 @@ def main() -> None:
     parser.add_argument("--output-dir", default="output/khanty_individual_passive_plots_gt20")
     parser.add_argument("--min-passive-trials", type=int, default=20)
     parser.add_argument("--max-ms", type=int, default=3500)
+    parser.add_argument(
+        "--group-by-informant-code",
+        action="store_true",
+        help="Combine sessions by the participant filename prefix before the first underscore.",
+    )
     parser.add_argument("--no-pdf", action="store_true")
     args = parser.parse_args()
 
@@ -261,8 +283,17 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     trial_bin_rows = load_trial_bins(Path(args.trial_bins_csv))
-    count_rows = passive_count_rows(trial_bin_rows, threshold=args.min_passive_trials)
-    write_pretty_csv(output_dir / "khanty_passive_counts_by_participant.csv", count_rows)
+    count_rows = passive_count_rows(
+        trial_bin_rows,
+        threshold=args.min_passive_trials,
+        group_by_informant_code=args.group_by_informant_code,
+    )
+    count_filename = (
+        "khanty_passive_counts_by_informant_code.csv"
+        if args.group_by_informant_code
+        else "khanty_passive_counts_by_participant.csv"
+    )
+    write_pretty_csv(output_dir / count_filename, count_rows)
 
     eligible = {
         str(row["participant"]): row
@@ -273,7 +304,10 @@ def main() -> None:
     plot_data_rows: list[dict[str, object]] = []
     graph_paths: list[Path] = []
     for participant, count_row in eligible.items():
-        participant_rows = [row for row in trial_bin_rows if row["participant"] == participant]
+        if args.group_by_informant_code:
+            participant_rows = [row for row in trial_bin_rows if row["informant_code"] == participant]
+        else:
+            participant_rows = [row for row in trial_bin_rows if row["participant"] == participant]
         summary_rows = summarize_participant(participant_rows)
         for row in summary_rows:
             plot_data_rows.append({"participant": participant, **row})
@@ -295,10 +329,11 @@ def main() -> None:
         for graph_path in graph_paths:
             convert_svg_to_pdf(graph_path)
 
-    print(f"Participants with passive trials: {len(count_rows)}")
-    print(f"Eligible participants with > {args.min_passive_trials} passive trials: {len(eligible)}")
+    unit = "informant codes" if args.group_by_informant_code else "participants"
+    print(f"{unit.capitalize()} with passive trials: {len(count_rows)}")
+    print(f"Eligible {unit} with > {args.min_passive_trials} passive trials: {len(eligible)}")
     if count_rows:
-        print(f"Maximum passive trials for one participant: {max(int(row['n_passive_trials']) for row in count_rows)}")
+        print(f"Maximum passive trials for one {unit[:-1]}: {max(int(row['n_passive_trials']) for row in count_rows)}")
     output_kinds = "SVG graphs" if args.no_pdf else "SVG graphs and PDF copies"
     print(f"Wrote {len(graph_paths)} {output_kinds} to {output_dir}")
 

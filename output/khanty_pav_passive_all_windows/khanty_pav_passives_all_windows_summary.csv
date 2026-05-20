@@ -1,0 +1,5 @@
+window_key,window,n_trials,n_trial_bins
+window1,"EEA, 100-600 ms",58,638
+window2,Linguistic encoding I,58,963
+window3,Linguistic encoding II,58,963
+window4,"Post-onset, 0-1000 ms",58,1218
