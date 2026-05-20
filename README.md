@@ -130,7 +130,7 @@ output/koryak_direct_inverse_all_windows_graphs/inverse_AVP_all_windows.pdf
 
 ## Khanty Archive Graphs
 
-The Khanty archive lives under `osfstorage-archive/`. Tracked files include the behavioral metadata and legacy R scripts. The raw ASC recordings in `osfstorage-archive/ascs/`, legacy per-participant CSVs, and huge merged `data_all*.csv` files are intentionally ignored.
+The Khanty archive lives under `osfstorage-archive/`. Tracked files include the behavioral metadata, legacy R scripts, archive CSV outputs, and generated plotting CSV outputs. The raw ASC recordings in `osfstorage-archive/ascs/` stay outside git, and individual CSV files larger than 100 MB are ignored unless Git LFS is enabled.
 
 ASC-derived active/passive speech-planning graphs from 0-3500 ms:
 
