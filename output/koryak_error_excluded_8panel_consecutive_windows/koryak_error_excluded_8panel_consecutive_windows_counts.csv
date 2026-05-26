@@ -1,0 +1,41 @@
+panel_group,panel,sentence_type,condition_key,window_key,window,sentence_count,usable_gaze_count
+number,Direct 1-1,direct,direct_1_agent_1_patient,speech_planning,Planning,195,184
+number,Direct 1-1,direct,direct_1_agent_1_patient,linguistic_encoding_1,LE I,195,184
+number,Direct 1-1,direct,direct_1_agent_1_patient,linguistic_encoding_2,LE II,195,184
+number,Direct 1-1,direct,direct_1_agent_1_patient,linguistic_encoding_3,LE III,195,184
+number,Direct 1-1,direct,direct_1_agent_1_patient,post_onset_1000_2500,Post 1-2.5s,195,184
+number,Direct 1-2,direct,direct_1_agent_2_patients,speech_planning,Planning,129,128
+number,Direct 1-2,direct,direct_1_agent_2_patients,linguistic_encoding_1,LE I,129,128
+number,Direct 1-2,direct,direct_1_agent_2_patients,linguistic_encoding_2,LE II,129,128
+number,Direct 1-2,direct,direct_1_agent_2_patients,linguistic_encoding_3,LE III,129,128
+number,Direct 1-2,direct,direct_1_agent_2_patients,post_onset_1000_2500,Post 1-2.5s,129,128
+number,Inverse 2-1,inverse,inverse_2_agents_1_patient,speech_planning,Planning,181,169
+number,Inverse 2-1,inverse,inverse_2_agents_1_patient,linguistic_encoding_1,LE I,181,169
+number,Inverse 2-1,inverse,inverse_2_agents_1_patient,linguistic_encoding_2,LE II,181,169
+number,Inverse 2-1,inverse,inverse_2_agents_1_patient,linguistic_encoding_3,LE III,181,169
+number,Inverse 2-1,inverse,inverse_2_agents_1_patient,post_onset_1000_2500,Post 1-2.5s,181,169
+number,Inverse 2-2,inverse,inverse_2_agents_2_patients,speech_planning,Planning,75,75
+number,Inverse 2-2,inverse,inverse_2_agents_2_patients,linguistic_encoding_1,LE I,75,75
+number,Inverse 2-2,inverse,inverse_2_agents_2_patients,linguistic_encoding_2,LE II,75,75
+number,Inverse 2-2,inverse,inverse_2_agents_2_patients,linguistic_encoding_3,LE III,75,75
+number,Inverse 2-2,inverse,inverse_2_agents_2_patients,post_onset_1000_2500,Post 1-2.5s,75,75
+animacy,"Direct, animate patient",direct,animate,speech_planning,Planning,204,197
+animacy,"Direct, animate patient",direct,animate,linguistic_encoding_1,LE I,204,197
+animacy,"Direct, animate patient",direct,animate,linguistic_encoding_2,LE II,204,197
+animacy,"Direct, animate patient",direct,animate,linguistic_encoding_3,LE III,204,197
+animacy,"Direct, animate patient",direct,animate,post_onset_1000_2500,Post 1-2.5s,204,197
+animacy,"Direct, inanimate patient",direct,inanimate,speech_planning,Planning,172,166
+animacy,"Direct, inanimate patient",direct,inanimate,linguistic_encoding_1,LE I,172,166
+animacy,"Direct, inanimate patient",direct,inanimate,linguistic_encoding_2,LE II,172,166
+animacy,"Direct, inanimate patient",direct,inanimate,linguistic_encoding_3,LE III,172,166
+animacy,"Direct, inanimate patient",direct,inanimate,post_onset_1000_2500,Post 1-2.5s,172,166
+animacy,"Inverse, animate patient",inverse,animate,speech_planning,Planning,145,139
+animacy,"Inverse, animate patient",inverse,animate,linguistic_encoding_1,LE I,145,139
+animacy,"Inverse, animate patient",inverse,animate,linguistic_encoding_2,LE II,145,139
+animacy,"Inverse, animate patient",inverse,animate,linguistic_encoding_3,LE III,145,139
+animacy,"Inverse, animate patient",inverse,animate,post_onset_1000_2500,Post 1-2.5s,145,139
+animacy,"Inverse, inanimate patient",inverse,inanimate,speech_planning,Planning,119,113
+animacy,"Inverse, inanimate patient",inverse,inanimate,linguistic_encoding_1,LE I,119,113
+animacy,"Inverse, inanimate patient",inverse,inanimate,linguistic_encoding_2,LE II,119,113
+animacy,"Inverse, inanimate patient",inverse,inanimate,linguistic_encoding_3,LE III,119,113
+animacy,"Inverse, inanimate patient",inverse,inanimate,post_onset_1000_2500,Post 1-2.5s,119,113

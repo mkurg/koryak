@@ -1,0 +1,9 @@
+sentence_type,condition_key,condition,clean_behavior_trials,missing_accuracy_annotation_trials,no_error_or_unannotated,pn_acc,vn_acc,vn_acc+pn_acc
+direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",106,8,102,2,2,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",102,11,93,8,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",109,13,77,25,7,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",99,15,52,42,3,2
+inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",97,10,94,3,0,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",99,13,87,8,3,1
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",94,7,46,1,20,27
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",77,8,29,5,9,34

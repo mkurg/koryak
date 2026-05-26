@@ -1,0 +1,421 @@
+sentence_type,window_key,window,referent,time_rel,mean_prop,sd_prop,n_bins,lower,upper
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.000000,0.589700,0.473138,363,0.540034,0.639367
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.050000,0.512515,0.470069,171,0.440620,0.584409
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.100000,0.587411,0.476102,367,0.537707,0.637116
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.150000,0.645054,0.455761,372,0.597794,0.692314
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.200000,0.633750,0.464745,352,0.584208,0.683292
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.250000,0.652308,0.457911,377,0.605140,0.699475
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.300000,0.621437,0.463164,348,0.571780,0.671093
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.350000,0.644096,0.462763,376,0.596365,0.691826
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.400000,0.645824,0.459458,364,0.597660,0.693989
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.450000,0.680500,0.450862,360,0.632975,0.728025
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.500000,0.665914,0.454554,372,0.618779,0.713049
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.550000,0.693033,0.446018,333,0.644150,0.741916
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.600000,0.726432,0.424147,370,0.682332,0.770533
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.650000,0.706486,0.444445,370,0.660275,0.752698
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.700000,0.700160,0.442751,375,0.654433,0.745887
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.750000,0.700000,0.439239,344,0.652636,0.747364
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.800000,0.735567,0.426074,388,0.692306,0.778828
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.850000,0.733959,0.430990,341,0.687280,0.780638
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.900000,0.716063,0.434522,368,0.670761,0.761365
+direct,linguistic_encoding_1,Linguistic encoding I,agent,0.950000,0.726715,0.431690,357,0.681020,0.772410
+direct,linguistic_encoding_1,Linguistic encoding I,agent,1.000000,0.701371,0.450282,374,0.654804,0.747938
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.000000,0.274583,0.435168,363,0.228902,0.320263
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.050000,0.357895,0.451143,171,0.288895,0.426894
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.100000,0.293243,0.441394,367,0.247161,0.339324
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.150000,0.222419,0.400917,372,0.180846,0.263993
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.200000,0.211989,0.396130,352,0.169761,0.254216
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.250000,0.208753,0.397386,377,0.167820,0.249686
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.300000,0.222931,0.404689,348,0.179544,0.266318
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.350000,0.201543,0.392289,376,0.161081,0.242004
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.400000,0.215165,0.396103,364,0.173642,0.256688
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.450000,0.172389,0.367833,360,0.133616,0.211162
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.500000,0.169301,0.363387,372,0.131620,0.206983
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.550000,0.165526,0.360449,333,0.126021,0.205031
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.600000,0.156649,0.348382,370,0.120426,0.192872
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.650000,0.183676,0.379630,370,0.144204,0.223148
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.700000,0.177547,0.375134,375,0.138803,0.216290
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.750000,0.171919,0.362420,344,0.132838,0.210999
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.800000,0.144588,0.340962,388,0.109968,0.179207
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.850000,0.162581,0.363532,341,0.123208,0.201953
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.900000,0.169064,0.366836,368,0.130818,0.207309
+direct,linguistic_encoding_1,Linguistic encoding I,patient,0.950000,0.159664,0.359616,357,0.121598,0.197730
+direct,linguistic_encoding_1,Linguistic encoding I,patient,1.000000,0.172571,0.373313,374,0.133964,0.211178
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.000000,0.729752,0.422127,363,0.685440,0.774064
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.050000,0.645029,0.463339,171,0.574164,0.715894
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.100000,0.721035,0.435117,367,0.675610,0.766461
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.150000,0.664247,0.459589,372,0.616590,0.711904
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.200000,0.699659,0.446594,352,0.652052,0.747266
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.250000,0.711936,0.433809,377,0.667252,0.756621
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.300000,0.718333,0.434010,348,0.671803,0.764864
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.350000,0.696489,0.441740,376,0.650927,0.742051
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.400000,0.684231,0.447909,364,0.637277,0.731184
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.450000,0.668167,0.458180,360,0.619870,0.716463
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.500000,0.668226,0.457270,372,0.620809,0.715642
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.550000,0.611111,0.470465,333,0.559548,0.662674
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.600000,0.636973,0.466125,370,0.588508,0.685438
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.650000,0.618432,0.471155,370,0.569444,0.667421
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.700000,0.639787,0.464647,375,0.591798,0.687775
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.750000,0.663140,0.449733,344,0.614644,0.711635
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.800000,0.665876,0.457982,388,0.619375,0.712377
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.850000,0.660762,0.454267,341,0.611563,0.709962
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.900000,0.682093,0.455231,368,0.634632,0.729554
+direct,linguistic_encoding_2,Linguistic encoding II,agent,0.950000,0.638349,0.460390,357,0.589616,0.687082
+direct,linguistic_encoding_2,Linguistic encoding II,agent,1.000000,0.585013,0.481202,372,0.535115,0.634912
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.000000,0.130964,0.324819,363,0.096867,0.165061
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.050000,0.189240,0.379760,171,0.131158,0.247322
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.100000,0.165232,0.364569,367,0.127171,0.203292
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.150000,0.190914,0.385207,372,0.150970,0.230858
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.200000,0.179318,0.376043,352,0.139232,0.219404
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.250000,0.180424,0.377277,377,0.141563,0.219286
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.300000,0.161897,0.357184,348,0.123602,0.200191
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.350000,0.160319,0.355002,376,0.123703,0.196935
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.400000,0.159780,0.356988,364,0.122358,0.197203
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.450000,0.198944,0.389194,360,0.157920,0.239969
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.500000,0.205591,0.396949,372,0.164430,0.246753
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.550000,0.224505,0.404960,333,0.180121,0.268888
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.600000,0.205459,0.396466,370,0.164237,0.246682
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.650000,0.223784,0.407867,370,0.181376,0.266192
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.700000,0.214880,0.400878,375,0.173478,0.256282
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.750000,0.188372,0.377723,344,0.147641,0.229103
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.800000,0.191495,0.385846,388,0.152318,0.230672
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.850000,0.189795,0.382381,341,0.148380,0.231209
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.900000,0.184294,0.376433,368,0.145049,0.223540
+direct,linguistic_encoding_2,Linguistic encoding II,patient,0.950000,0.184131,0.377741,357,0.144146,0.224115
+direct,linguistic_encoding_2,Linguistic encoding II,patient,1.000000,0.236197,0.419717,372,0.192674,0.279720
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.000000,0.540451,0.482856,363,0.489764,0.591138
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.050000,0.519669,0.486296,363,0.468622,0.570717
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.100000,0.504022,0.483098,363,0.453310,0.554734
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.150000,0.478347,0.488719,363,0.427045,0.529649
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.200000,0.452617,0.478710,363,0.402366,0.502869
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.250000,0.433939,0.486263,363,0.382895,0.484984
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.300000,0.439780,0.488642,363,0.388485,0.491074
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.350000,0.433168,0.486269,363,0.382123,0.484213
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.400000,0.431515,0.482119,363,0.380906,0.482124
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.450000,0.420882,0.482424,363,0.370240,0.471523
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.500000,0.414931,0.475853,363,0.364980,0.464883
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.550000,0.413444,0.482711,363,0.362772,0.464115
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.600000,0.409311,0.479203,363,0.359008,0.459615
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.650000,0.397521,0.477527,363,0.347393,0.447648
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.700000,0.391791,0.474908,363,0.341938,0.441643
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.750000,0.363526,0.471442,363,0.314038,0.413015
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.800000,0.369146,0.472583,363,0.319538,0.418754
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.850000,0.359614,0.468156,363,0.310471,0.408758
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.900000,0.353554,0.471735,363,0.304034,0.403073
+direct,linguistic_encoding_3,Linguistic encoding III,agent,0.950000,0.339890,0.461815,363,0.291412,0.388368
+direct,linguistic_encoding_3,Linguistic encoding III,agent,1.000000,0.322149,0.457324,363,0.274142,0.370155
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.000000,0.284028,0.434039,363,0.238465,0.329590
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.050000,0.303416,0.447842,363,0.256405,0.350427
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.100000,0.335262,0.458366,363,0.287146,0.383378
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.150000,0.369311,0.470888,363,0.319881,0.418742
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.200000,0.392121,0.477119,363,0.342037,0.442206
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.250000,0.425399,0.482319,363,0.374769,0.476030
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.300000,0.422700,0.478356,363,0.372485,0.472914
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.350000,0.434325,0.484518,363,0.383464,0.485186
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.400000,0.440165,0.483597,363,0.389401,0.490930
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.450000,0.443361,0.487991,363,0.392135,0.494587
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.500000,0.420165,0.475470,363,0.370254,0.470077
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.550000,0.402645,0.478688,363,0.352395,0.452894
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.600000,0.390909,0.475560,363,0.340988,0.440830
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.650000,0.398237,0.474989,363,0.348376,0.448098
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.700000,0.431074,0.478912,363,0.380802,0.481347
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.750000,0.464628,0.489136,363,0.413282,0.515974
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.800000,0.468430,0.486935,363,0.417315,0.519545
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.850000,0.487879,0.479955,363,0.437497,0.538261
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.900000,0.480220,0.489792,363,0.428806,0.531635
+direct,linguistic_encoding_3,Linguistic encoding III,patient,0.950000,0.499890,0.486616,363,0.448808,0.550971
+direct,linguistic_encoding_3,Linguistic encoding III,patient,1.000000,0.521488,0.485098,363,0.470565,0.572410
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.000000,0.322149,0.457324,363,0.274142,0.370155
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.033333,0.300882,0.446174,363,0.254045,0.347718
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.066667,0.285510,0.443368,363,0.238968,0.332051
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.100000,0.275923,0.437273,363,0.230021,0.321825
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.133333,0.281433,0.438493,363,0.235403,0.327462
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.166667,0.292231,0.438866,363,0.246162,0.338300
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.200000,0.277961,0.440348,363,0.231737,0.324186
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.233333,0.270468,0.433218,363,0.224992,0.315944
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.266667,0.256749,0.425901,363,0.212041,0.301457
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.300000,0.243306,0.418033,363,0.199424,0.287188
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.333333,0.225950,0.407900,363,0.183132,0.268769
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.366667,0.202975,0.387957,363,0.162250,0.243700
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.400000,0.216529,0.404871,363,0.174028,0.259029
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.433333,0.206336,0.392305,363,0.165155,0.247517
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.466667,0.202810,0.395901,363,0.161251,0.244369
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.500000,0.207603,0.393485,363,0.166298,0.248909
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.533333,0.216694,0.404939,363,0.174187,0.259202
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.566667,0.216915,0.399432,363,0.174985,0.258844
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.600000,0.223251,0.408132,363,0.180408,0.266093
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.633333,0.212066,0.393231,363,0.170788,0.253345
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.666667,0.196198,0.386198,363,0.155658,0.236739
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.700000,0.212452,0.403259,363,0.170121,0.254783
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.733333,0.220386,0.407250,363,0.177635,0.263136
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.766667,0.226336,0.411171,363,0.183174,0.269498
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.800000,0.231019,0.411696,363,0.187802,0.274236
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.833333,0.242865,0.422919,363,0.198470,0.287260
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.866667,0.229421,0.413371,363,0.186029,0.272814
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.900000,0.219229,0.406140,363,0.176595,0.261862
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.933333,0.212893,0.403881,363,0.170496,0.255289
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.966667,0.216033,0.401843,363,0.173850,0.258216
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,agent,1.000000,0.219339,0.407926,363,0.176518,0.262160
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.000000,0.521488,0.485098,363,0.470565,0.572410
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.033333,0.536419,0.483808,363,0.485632,0.587205
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.066667,0.531350,0.486006,363,0.480332,0.582367
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.100000,0.535813,0.486246,363,0.484770,0.586855
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.133333,0.529807,0.478673,363,0.479560,0.580055
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.166667,0.522149,0.482453,363,0.471504,0.572793
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.200000,0.533829,0.484166,363,0.483005,0.584653
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.233333,0.548154,0.481728,363,0.497586,0.598723
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.266667,0.574876,0.481828,363,0.524297,0.625455
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.300000,0.584738,0.476026,363,0.534769,0.634708
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.333333,0.603857,0.475016,363,0.553993,0.653721
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.366667,0.609311,0.473966,363,0.559558,0.659065
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.400000,0.595317,0.477305,363,0.545213,0.645421
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.433333,0.610799,0.469870,363,0.561475,0.660122
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.466667,0.621873,0.471601,363,0.572368,0.671379
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.500000,0.615592,0.471268,363,0.566122,0.665063
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.533333,0.583802,0.482814,363,0.533119,0.634484
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.566667,0.573113,0.481953,363,0.522521,0.623705
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.600000,0.583526,0.475182,363,0.533645,0.633407
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.633333,0.600055,0.470306,363,0.550686,0.649424
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.666667,0.613388,0.473588,363,0.563675,0.663102
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.700000,0.618017,0.470921,363,0.568583,0.667450
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.733333,0.614876,0.474179,363,0.565100,0.664652
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.766667,0.588044,0.475898,363,0.538088,0.638000
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.800000,0.593499,0.473536,363,0.543790,0.643207
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.833333,0.586997,0.480447,363,0.536563,0.637431
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.866667,0.597961,0.472571,363,0.548354,0.647568
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.900000,0.607769,0.469204,363,0.558515,0.657022
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.933333,0.613774,0.477503,363,0.563649,0.663899
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.966667,0.633223,0.468756,363,0.584017,0.682430
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,patient,1.000000,0.628650,0.465726,363,0.579762,0.677539
+direct,speech_planning,Early event apprehension,agent,0.000000,0.192011,0.377718,363,0.152361,0.231661
+direct,speech_planning,Early event apprehension,agent,0.100000,0.256529,0.386490,363,0.215958,0.297100
+direct,speech_planning,Early event apprehension,agent,0.200000,0.409807,0.462738,363,0.361232,0.458382
+direct,speech_planning,Early event apprehension,agent,0.300000,0.486667,0.485346,363,0.435719,0.537615
+direct,speech_planning,Early event apprehension,agent,0.400000,0.526061,0.491122,363,0.474506,0.577615
+direct,speech_planning,Early event apprehension,agent,0.500000,0.554215,0.481040,363,0.503719,0.604711
+direct,speech_planning,Early event apprehension,agent,0.600000,0.570303,0.476823,363,0.520250,0.620356
+direct,speech_planning,Early event apprehension,agent,0.700000,0.593499,0.471679,363,0.543985,0.643012
+direct,speech_planning,Early event apprehension,agent,0.800000,0.595758,0.471535,363,0.546259,0.645256
+direct,speech_planning,Early event apprehension,agent,0.900000,0.599449,0.470058,363,0.550106,0.648792
+direct,speech_planning,Early event apprehension,agent,1.000000,0.589587,0.472841,363,0.539951,0.639222
+direct,speech_planning,Early event apprehension,patient,0.000000,0.136804,0.326824,363,0.102497,0.171112
+direct,speech_planning,Early event apprehension,patient,0.100000,0.158237,0.309830,363,0.125713,0.190761
+direct,speech_planning,Early event apprehension,patient,0.200000,0.291019,0.416629,363,0.247285,0.334754
+direct,speech_planning,Early event apprehension,patient,0.300000,0.387052,0.470607,363,0.337651,0.436453
+direct,speech_planning,Early event apprehension,patient,0.400000,0.417961,0.481569,363,0.367410,0.468513
+direct,speech_planning,Early event apprehension,patient,0.500000,0.407163,0.477757,363,0.357011,0.457314
+direct,speech_planning,Early event apprehension,patient,0.600000,0.393223,0.468029,363,0.344093,0.442353
+direct,speech_planning,Early event apprehension,patient,0.700000,0.365455,0.464235,363,0.316723,0.414187
+direct,speech_planning,Early event apprehension,patient,0.800000,0.338898,0.454620,363,0.291175,0.386621
+direct,speech_planning,Early event apprehension,patient,0.900000,0.297355,0.445081,363,0.250634,0.344077
+direct,speech_planning,Early event apprehension,patient,1.000000,0.274821,0.435121,363,0.229145,0.320497
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.000000,0.679138,0.449195,252,0.622545,0.735732
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.050000,0.592283,0.477992,127,0.507454,0.677113
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.100000,0.610593,0.468555,270,0.553562,0.667623
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.150000,0.670000,0.453196,274,0.615243,0.724757
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.200000,0.711221,0.436500,262,0.657287,0.765156
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.250000,0.714109,0.435448,258,0.659889,0.768328
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.300000,0.673106,0.448191,264,0.617938,0.728275
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.350000,0.693840,0.448458,263,0.638534,0.749147
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.400000,0.740602,0.421930,266,0.688861,0.792342
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.450000,0.743849,0.416735,265,0.692649,0.795049
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.500000,0.723798,0.430487,258,0.670197,0.777400
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.550000,0.768258,0.402762,264,0.718681,0.817834
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.600000,0.769213,0.406523,267,0.719456,0.818971
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.650000,0.724302,0.429123,265,0.671580,0.777024
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.700000,0.748127,0.421461,251,0.694923,0.801332
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.750000,0.743571,0.416782,280,0.693756,0.793386
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.800000,0.712273,0.441002,264,0.657989,0.766556
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.850000,0.709961,0.438017,259,0.655527,0.764395
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.900000,0.723014,0.429274,263,0.670074,0.775954
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,0.950000,0.687860,0.444564,264,0.633138,0.742582
+inverse,linguistic_encoding_1,Linguistic encoding I,agent,1.000000,0.696945,0.442344,270,0.643105,0.750785
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.000000,0.208455,0.399980,252,0.158062,0.258848
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.050000,0.325827,0.457870,127,0.244568,0.407086
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.100000,0.269704,0.431216,270,0.217218,0.322190
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.150000,0.221241,0.404440,274,0.172375,0.270107
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.200000,0.191374,0.380728,262,0.144331,0.238417
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.250000,0.198450,0.388212,258,0.150112,0.246788
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.300000,0.190379,0.380746,264,0.143512,0.237245
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.350000,0.189734,0.384600,263,0.142303,0.237165
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.400000,0.146391,0.343522,266,0.104266,0.188516
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.450000,0.136981,0.336574,265,0.095630,0.178332
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.500000,0.181860,0.374718,258,0.135203,0.228518
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.550000,0.135455,0.327898,264,0.095093,0.175816
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.600000,0.120899,0.321794,267,0.081512,0.160286
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.650000,0.131774,0.327942,265,0.091483,0.172064
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.700000,0.164462,0.366967,251,0.118137,0.210788
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.750000,0.176143,0.373344,280,0.131520,0.220766
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.800000,0.195227,0.392899,264,0.146865,0.243590
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.850000,0.183938,0.383685,259,0.136256,0.231620
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.900000,0.174297,0.374006,263,0.128172,0.220421
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,0.950000,0.158872,0.357172,264,0.114907,0.202837
+inverse,linguistic_encoding_1,Linguistic encoding I,patient,1.000000,0.139765,0.339963,270,0.098386,0.181144
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.000000,0.727619,0.422411,252,0.674400,0.780838
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.050000,0.704252,0.442659,127,0.625693,0.782811
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.100000,0.735704,0.429672,270,0.683406,0.788002
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.150000,0.722336,0.428231,274,0.670595,0.774077
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.200000,0.719542,0.433971,262,0.665920,0.773164
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.250000,0.738915,0.415421,258,0.687189,0.790641
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.300000,0.720985,0.428069,264,0.668293,0.773677
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.350000,0.718859,0.430203,263,0.665804,0.771914
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.400000,0.709624,0.434640,266,0.656325,0.762923
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.450000,0.718566,0.428326,265,0.665942,0.771190
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.500000,0.703953,0.445395,258,0.648495,0.759412
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.550000,0.729773,0.425242,264,0.677429,0.782116
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.600000,0.746891,0.419789,267,0.695510,0.798273
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.650000,0.724830,0.431608,265,0.671803,0.777857
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.700000,0.721275,0.426729,251,0.667405,0.775145
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.750000,0.775714,0.402532,280,0.727603,0.823826
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.800000,0.743409,0.423355,264,0.691298,0.795520
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.850000,0.756371,0.412466,259,0.705112,0.807629
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.900000,0.726692,0.434322,263,0.673129,0.780255
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,0.950000,0.718544,0.429349,264,0.665695,0.771393
+inverse,linguistic_encoding_2,Linguistic encoding II,agent,1.000000,0.714387,0.439936,267,0.660540,0.768235
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.000000,0.111984,0.303201,252,0.073784,0.150184
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.050000,0.187087,0.382428,127,0.119217,0.254957
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.100000,0.146815,0.350254,270,0.104183,0.189446
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.150000,0.149708,0.342365,274,0.108342,0.191074
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.200000,0.140458,0.340916,262,0.098334,0.182582
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.250000,0.129070,0.327932,258,0.088237,0.169902
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.300000,0.137727,0.334447,264,0.096560,0.178895
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.350000,0.141901,0.340741,263,0.099879,0.183923
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.400000,0.135865,0.333896,266,0.094920,0.176810
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.450000,0.137585,0.336493,265,0.096244,0.178926
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.500000,0.138450,0.339201,258,0.096214,0.180685
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.550000,0.128258,0.329562,264,0.087691,0.168824
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.600000,0.124719,0.327791,267,0.084598,0.164840
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.650000,0.164075,0.363891,265,0.119368,0.208783
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.700000,0.145259,0.344322,251,0.101792,0.188726
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.750000,0.131429,0.329754,280,0.092015,0.170842
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.800000,0.133182,0.335203,264,0.091921,0.174442
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.850000,0.135290,0.335794,259,0.093559,0.177020
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.900000,0.171787,0.370037,263,0.126152,0.217422
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,0.950000,0.149948,0.347489,264,0.107176,0.192721
+inverse,linguistic_encoding_2,Linguistic encoding II,patient,1.000000,0.145727,0.346793,267,0.103280,0.188174
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.000000,0.672012,0.453939,252,0.614821,0.729203
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.050000,0.653730,0.458739,252,0.595934,0.711526
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.100000,0.655317,0.465911,252,0.596618,0.714017
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.150000,0.665794,0.456496,252,0.608281,0.723307
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.200000,0.690952,0.450976,252,0.634135,0.747770
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.250000,0.699762,0.446841,252,0.643465,0.756059
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.300000,0.704127,0.443218,252,0.648287,0.759967
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.350000,0.705714,0.442588,252,0.649953,0.761475
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.400000,0.677778,0.460357,252,0.619778,0.735777
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.450000,0.673095,0.455757,252,0.615675,0.730515
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.500000,0.650079,0.466201,252,0.591344,0.708815
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.550000,0.639444,0.466214,252,0.580707,0.698182
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.600000,0.632619,0.469111,252,0.573517,0.691721
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.650000,0.612381,0.474264,252,0.552629,0.672133
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.700000,0.583333,0.482066,252,0.522599,0.644068
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.750000,0.587302,0.476793,252,0.527231,0.647372
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.800000,0.564683,0.478439,252,0.504405,0.624960
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.850000,0.530714,0.485780,252,0.469512,0.591917
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.900000,0.505238,0.483020,252,0.444383,0.566093
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,0.950000,0.489127,0.484807,252,0.428047,0.550207
+inverse,linguistic_encoding_3,Linguistic encoding III,agent,1.000000,0.452698,0.482917,252,0.391857,0.513540
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.000000,0.158649,0.356323,252,0.113757,0.203542
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.050000,0.163889,0.358735,252,0.118693,0.209085
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.100000,0.179127,0.377833,252,0.131524,0.226729
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.150000,0.170556,0.366234,252,0.124414,0.216697
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.200000,0.187302,0.386135,252,0.138653,0.235950
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.250000,0.205317,0.392412,252,0.155878,0.254757
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.300000,0.211270,0.397225,252,0.161224,0.261316
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.350000,0.205873,0.397057,252,0.155848,0.255898
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.400000,0.220635,0.401479,252,0.170053,0.271216
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.450000,0.225238,0.407207,252,0.173935,0.276541
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.500000,0.233413,0.411813,252,0.181529,0.285296
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.550000,0.224206,0.403008,252,0.173432,0.274981
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.600000,0.209524,0.399296,252,0.159217,0.259830
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.650000,0.207698,0.398950,252,0.157435,0.257961
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.700000,0.228889,0.407492,252,0.177550,0.280228
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.750000,0.233651,0.411253,252,0.181838,0.285464
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.800000,0.252222,0.421123,252,0.199166,0.305279
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.850000,0.262778,0.424061,252,0.209351,0.316204
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.900000,0.293254,0.443662,252,0.237358,0.349150
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,0.950000,0.322143,0.452788,252,0.265097,0.379189
+inverse,linguistic_encoding_3,Linguistic encoding III,patient,1.000000,0.373492,0.474724,252,0.313682,0.433302
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.000000,0.452698,0.482917,252,0.391857,0.513540
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.033333,0.431270,0.480703,252,0.370707,0.491833
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.066667,0.418175,0.484502,252,0.357133,0.479216
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.100000,0.416111,0.475305,252,0.356228,0.475994
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.133333,0.424762,0.484800,252,0.363683,0.485841
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.166667,0.427063,0.485496,252,0.365897,0.488230
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.200000,0.419683,0.478597,252,0.359385,0.479980
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.233333,0.416825,0.482968,252,0.355977,0.477674
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.266667,0.414048,0.479224,252,0.353671,0.474424
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.300000,0.392857,0.482668,252,0.332047,0.453668
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.333333,0.364127,0.462585,252,0.305847,0.422407
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.366667,0.342619,0.461300,252,0.284501,0.400737
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.400000,0.328095,0.459091,252,0.270255,0.385935
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.433333,0.314444,0.453148,252,0.257353,0.371536
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.466667,0.322937,0.454680,252,0.265652,0.380221
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.500000,0.306825,0.443748,252,0.250918,0.362732
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.533333,0.312381,0.457656,252,0.254722,0.370040
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.566667,0.311667,0.453665,252,0.254510,0.368823
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.600000,0.293889,0.446035,252,0.237694,0.350084
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.633333,0.300159,0.451194,252,0.243314,0.357004
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.666667,0.318810,0.458374,252,0.261060,0.376559
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.700000,0.329365,0.462432,252,0.271104,0.387626
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.733333,0.333968,0.463799,252,0.275535,0.392401
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.766667,0.301190,0.447235,252,0.244844,0.357537
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.800000,0.273254,0.433337,252,0.218659,0.327849
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.833333,0.249921,0.417793,252,0.197284,0.302558
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.866667,0.257540,0.428687,252,0.203530,0.311549
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.900000,0.259127,0.431697,252,0.204738,0.313516
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.933333,0.256429,0.427361,252,0.202586,0.310271
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,0.966667,0.271984,0.429209,252,0.217909,0.326059
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,agent,1.000000,0.280000,0.441703,252,0.224351,0.335649
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.000000,0.373492,0.474724,252,0.313682,0.433302
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.033333,0.376270,0.472650,252,0.316722,0.435818
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.066667,0.380873,0.476546,252,0.320834,0.440912
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.100000,0.388016,0.470552,252,0.328732,0.447300
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.133333,0.415159,0.482976,252,0.354309,0.476008
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.166667,0.422698,0.483825,252,0.361742,0.483655
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.200000,0.426429,0.483241,252,0.365546,0.487311
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.233333,0.417857,0.486706,252,0.356538,0.479176
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.266667,0.425476,0.483958,252,0.364503,0.486449
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.300000,0.458810,0.484974,252,0.397708,0.519911
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.333333,0.483889,0.486695,252,0.422571,0.545207
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.366667,0.481349,0.486182,252,0.420096,0.542602
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.400000,0.490397,0.489216,252,0.428761,0.552032
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.433333,0.506111,0.482562,252,0.445314,0.566908
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.466667,0.510556,0.485031,252,0.449447,0.571664
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.500000,0.518016,0.478141,252,0.457776,0.578256
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.533333,0.518651,0.488047,252,0.457163,0.580139
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.566667,0.521587,0.488752,252,0.460010,0.583164
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.600000,0.525714,0.482846,252,0.464881,0.586547
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.633333,0.518968,0.488840,252,0.457380,0.580556
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.666667,0.503571,0.484134,252,0.442576,0.564567
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.700000,0.495873,0.487327,252,0.434476,0.557270
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.733333,0.509921,0.477619,252,0.449746,0.570095
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.766667,0.538333,0.489272,252,0.476691,0.599976
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.800000,0.546032,0.482248,252,0.485274,0.606789
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.833333,0.549286,0.475535,252,0.489374,0.609197
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.866667,0.560952,0.480006,252,0.500477,0.621427
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.900000,0.563175,0.481246,252,0.502543,0.623806
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.933333,0.576905,0.485042,252,0.515795,0.638014
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,0.966667,0.568254,0.478825,252,0.507928,0.628580
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,patient,1.000000,0.558333,0.486210,252,0.497077,0.619590
+inverse,speech_planning,Early event apprehension,agent,0.000000,0.078889,0.254180,252,0.046865,0.110913
+inverse,speech_planning,Early event apprehension,agent,0.100000,0.238333,0.359631,252,0.193024,0.283643
+inverse,speech_planning,Early event apprehension,agent,0.200000,0.536667,0.451369,252,0.479800,0.593534
+inverse,speech_planning,Early event apprehension,agent,0.300000,0.683254,0.453376,252,0.626134,0.740374
+inverse,speech_planning,Early event apprehension,agent,0.400000,0.728651,0.429832,252,0.674497,0.782804
+inverse,speech_planning,Early event apprehension,agent,0.500000,0.749841,0.424457,252,0.696365,0.803318
+inverse,speech_planning,Early event apprehension,agent,0.600000,0.742619,0.420238,252,0.689674,0.795564
+inverse,speech_planning,Early event apprehension,agent,0.700000,0.707063,0.437671,252,0.651922,0.762205
+inverse,speech_planning,Early event apprehension,agent,0.800000,0.702302,0.439604,252,0.646917,0.757687
+inverse,speech_planning,Early event apprehension,agent,0.900000,0.702778,0.440666,252,0.647259,0.758296
+inverse,speech_planning,Early event apprehension,agent,1.000000,0.679206,0.448497,252,0.622701,0.735712
+inverse,speech_planning,Early event apprehension,patient,0.000000,0.207937,0.383019,252,0.159681,0.256192
+inverse,speech_planning,Early event apprehension,patient,0.100000,0.160556,0.324065,252,0.119727,0.201384
+inverse,speech_planning,Early event apprehension,patient,0.200000,0.171508,0.342928,252,0.128303,0.214713
+inverse,speech_planning,Early event apprehension,patient,0.300000,0.221587,0.404336,252,0.170646,0.272529
+inverse,speech_planning,Early event apprehension,patient,0.400000,0.219603,0.404195,252,0.168679,0.270527
+inverse,speech_planning,Early event apprehension,patient,0.500000,0.219841,0.399450,252,0.169515,0.270167
+inverse,speech_planning,Early event apprehension,patient,0.600000,0.222778,0.405316,252,0.171713,0.273843
+inverse,speech_planning,Early event apprehension,patient,0.700000,0.244048,0.412468,252,0.192081,0.296014
+inverse,speech_planning,Early event apprehension,patient,0.800000,0.232619,0.400224,252,0.182196,0.283043
+inverse,speech_planning,Early event apprehension,patient,0.900000,0.210397,0.399328,252,0.160086,0.260707
+inverse,speech_planning,Early event apprehension,patient,1.000000,0.208413,0.399652,252,0.158061,0.258764

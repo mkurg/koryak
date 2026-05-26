@@ -62,6 +62,15 @@ class BehaviorTrial:
     rt: float
 
 
+@dataclass(frozen=True)
+class AccuracyAnnotation:
+    matched_by: str
+    vf_acc: str
+    vn_acc: str
+    pn_acc: str
+    error_fields: tuple[str, ...]
+
+
 @dataclass
 class AscTrial:
     block: int
@@ -126,6 +135,97 @@ def parse_int(value: object) -> int | None:
     return int(number)
 
 
+def normalize_accuracy_value(value: object) -> str:
+    text = str(value).strip()
+    if not text or text == "-":
+        return "NA"
+    upper = text.upper()
+    if upper in {"NA", "N/A", "NAN"}:
+        return "NA"
+    number = parse_float(text)
+    if number is not None and number in {0.0, 1.0}:
+        return str(int(number))
+    return text
+
+
+def make_accuracy_annotation(row: dict[str, str], matched_by: str) -> AccuracyAnnotation:
+    values = {
+        "vf_acc": normalize_accuracy_value(row.get("vf_acc", "")),
+        "vn_acc": normalize_accuracy_value(row.get("vn_acc", "")),
+        "pn_acc": normalize_accuracy_value(row.get("pn_acc", "")),
+    }
+    return AccuracyAnnotation(
+        matched_by=matched_by,
+        vf_acc=values["vf_acc"],
+        vn_acc=values["vn_acc"],
+        pn_acc=values["pn_acc"],
+        error_fields=tuple(field for field, value in values.items() if value == "0"),
+    )
+
+
+def add_accuracy_index_row(
+    index: dict[tuple[str, ...], list[AccuracyAnnotation]],
+    key: tuple[str, ...],
+    annotation: AccuracyAnnotation,
+) -> None:
+    if not all(part for part in key):
+        return
+    index[key].append(annotation)
+
+
+def load_accuracy_annotations(path: Path) -> dict[tuple[str, ...], list[AccuracyAnnotation]]:
+    index: dict[tuple[str, ...], list[AccuracyAnnotation]] = defaultdict(list)
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        required = {"id", "vf_acc", "vn_acc", "pn_acc"}
+        missing = required - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(f"{path} is missing required accuracy columns: {', '.join(sorted(missing))}")
+
+        for row in reader:
+            participant = normalize_participant_id(row.get("id", ""))
+            image = str(row.get("image", "")).strip()
+            list_id = str(row.get("list", "")).strip()
+            number = str(row.get("number", "")).strip()
+
+            image_annotation = make_accuracy_annotation(row, "participant_image")
+            add_accuracy_index_row(index, ("participant_image", participant, image), image_annotation)
+
+            list_number_annotation = make_accuracy_annotation(row, "participant_list_number")
+            add_accuracy_index_row(
+                index,
+                ("participant_list_number", participant, list_id, number),
+                list_number_annotation,
+            )
+    return index
+
+
+def resolve_accuracy_annotation(
+    index: dict[tuple[str, ...], list[AccuracyAnnotation]],
+    row: dict[str, str],
+    participant: str,
+    image: str,
+) -> AccuracyAnnotation | None:
+    candidate_keys = [
+        ("participant_image", participant, image),
+        (
+            "participant_list_number",
+            participant,
+            str(row.get("list", "")).strip(),
+            str(row.get("number", "")).strip(),
+        ),
+    ]
+    for key in candidate_keys:
+        annotations = index.get(key, [])
+        if len(annotations) == 1:
+            return annotations[0]
+        if len(annotations) > 1:
+            unique = {(ann.vf_acc, ann.vn_acc, ann.pn_acc, ann.error_fields) for ann in annotations}
+            if len(unique) == 1:
+                return annotations[0]
+    return None
+
+
 def behavior_condition(
     sentence_type: str,
     patient_animacy: str,
@@ -165,8 +265,13 @@ def load_clean_behavior(
     behavior_csv: Path,
     include_all_participants: bool,
     grouping: str,
-) -> dict[tuple[str, str], BehaviorTrial]:
+    accuracy_csv: Path | None = None,
+    exclude_error_forms: bool = False,
+    exclude_unannotated_accuracy: bool = False,
+) -> tuple[dict[tuple[str, str], BehaviorTrial], list[dict[str, object]]]:
     trials: dict[tuple[str, str], BehaviorTrial] = {}
+    error_rows: list[dict[str, object]] = []
+    accuracy_index = load_accuracy_annotations(accuracy_csv) if accuracy_csv is not None else None
 
     with behavior_csv.open("r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
@@ -201,6 +306,42 @@ def load_clean_behavior(
             if condition is None:
                 continue
             condition_key, condition_label, filename_suffix = condition
+            annotation = (
+                resolve_accuracy_annotation(accuracy_index, row, participant, image)
+                if accuracy_index is not None
+                else None
+            )
+            is_error_form = annotation is not None and bool(annotation.error_fields)
+            is_missing_accuracy = accuracy_index is not None and annotation is None
+            excluded = is_error_form and exclude_error_forms
+            if exclude_unannotated_accuracy and is_missing_accuracy:
+                excluded = True
+
+            if accuracy_index is not None:
+                error_rows.append(
+                    {
+                        "participant": participant,
+                        "image": image,
+                        "sentence_type": sentence_type,
+                        "condition_key": condition_key,
+                        "condition": condition_label,
+                        "agent_num": agent_num,
+                        "patient_num": patient_num,
+                        "patient_animacy": patient_animacy,
+                        "rt": rt,
+                        "matched_accuracy": "yes" if annotation is not None else "no",
+                        "matched_by": annotation.matched_by if annotation is not None else "",
+                        "vf_acc": annotation.vf_acc if annotation is not None else "",
+                        "vn_acc": annotation.vn_acc if annotation is not None else "",
+                        "pn_acc": annotation.pn_acc if annotation is not None else "",
+                        "is_error_form": "yes" if is_error_form else "no",
+                        "error_fields": "+".join(annotation.error_fields) if annotation is not None else "",
+                        "excluded_from_graphs": "yes" if excluded else "no",
+                    }
+                )
+
+            if excluded:
+                continue
 
             trials[(participant, image)] = BehaviorTrial(
                 participant=participant,
@@ -215,7 +356,7 @@ def load_clean_behavior(
                 rt=rt,
             )
 
-    return trials
+    return trials, error_rows
 
 
 def parse_asc_planning_samples(asc_path: Path, max_samples_after_display: int = 9000) -> list[AscTrial]:
@@ -506,18 +647,32 @@ def summarize_plot_rows(trial_bin_rows: list[dict[str, object]]) -> list[dict[st
     grouped: dict[tuple[str, str, str, str, str, str, str, str, str, str, float], list[float]] = defaultdict(list)
 
     for row in trial_bin_rows:
+        condition_key = str(row["condition_key"])
+        if condition_key in {"animate", "inanimate"}:
+            agent_num = "mixed"
+            patient_num = "mixed"
+            patient_animacy = str(row["patient_animacy"])
+        elif condition_key.endswith("_animate_patient") or condition_key.endswith("_inanimate_patient"):
+            agent_num = str(row["agent_num"])
+            patient_num = str(row["patient_num"])
+            patient_animacy = str(row["patient_animacy"])
+        else:
+            agent_num = str(row["agent_num"])
+            patient_num = str(row["patient_num"])
+            patient_animacy = "mixed"
+
         for referent, prop_col in [("agent", "agent_prop"), ("patient", "patient_prop")]:
             grouped[
                 (
                     str(row["window_key"]),
                     str(row["window"]),
                     str(row["sentence_type"]),
-                    str(row["condition_key"]),
+                    condition_key,
                     str(row["condition"]),
                     str(row["filename_suffix"]),
-                    str(row["agent_num"]),
-                    str(row["patient_num"]),
-                    str(row["patient_animacy"]),
+                    agent_num,
+                    patient_num,
+                    patient_animacy,
                     referent,
                     float(row["time_rel"]),
                 )
@@ -867,6 +1022,98 @@ def write_missing_trials(
     return missing_rows
 
 
+def write_error_form_outputs(output_dir: Path, rows: list[dict[str, object]]) -> None:
+    if not rows:
+        return
+
+    write_pretty_csv(output_dir / "speech_planning_error_form_trials.csv", rows)
+    excluded_rows = [row for row in rows if row["excluded_from_graphs"] == "yes"]
+    write_pretty_csv(output_dir / "speech_planning_error_form_excluded_trials.csv", excluded_rows)
+
+    total = len(rows)
+    matched = sum(1 for row in rows if row["matched_accuracy"] == "yes")
+    missing = total - matched
+    error = sum(1 for row in rows if row["is_error_form"] == "yes")
+    excluded = len(excluded_rows)
+    retained = total - excluded
+    summary_rows = [
+        {
+            "clean_behavior_trials": total,
+            "accuracy_annotated_trials": matched,
+            "missing_accuracy_annotation_trials": missing,
+            "error_form_trials": error,
+            "non_error_or_unannotated_trials": total - error,
+            "excluded_from_graphs": excluded,
+            "retained_for_graphs": retained,
+        }
+    ]
+    write_csv(output_dir / "speech_planning_error_form_summary.csv", summary_rows)
+
+    by_condition: dict[tuple[str, str, str], Counter[str]] = defaultdict(Counter)
+    for row in rows:
+        key = (str(row["sentence_type"]), str(row["condition_key"]), str(row["condition"]))
+        counter = by_condition[key]
+        counter["clean_behavior_trials"] += 1
+        if row["matched_accuracy"] == "yes":
+            counter["accuracy_annotated_trials"] += 1
+        else:
+            counter["missing_accuracy_annotation_trials"] += 1
+        if row["is_error_form"] == "yes":
+            counter["error_form_trials"] += 1
+        if row["excluded_from_graphs"] == "yes":
+            counter["excluded_from_graphs"] += 1
+        else:
+            counter["retained_for_graphs"] += 1
+
+    condition_rows = []
+    for (sentence_type, condition_key, condition), counts in sorted(by_condition.items()):
+        condition_rows.append(
+            {
+                "sentence_type": sentence_type,
+                "condition_key": condition_key,
+                "condition": condition,
+                "clean_behavior_trials": counts["clean_behavior_trials"],
+                "accuracy_annotated_trials": counts["accuracy_annotated_trials"],
+                "missing_accuracy_annotation_trials": counts["missing_accuracy_annotation_trials"],
+                "error_form_trials": counts["error_form_trials"],
+                "excluded_from_graphs": counts["excluded_from_graphs"],
+                "retained_for_graphs": counts["retained_for_graphs"],
+            }
+        )
+    write_csv(output_dir / "speech_planning_error_form_by_condition.csv", condition_rows)
+
+    by_error_fields = Counter(str(row["error_fields"]) for row in rows if row["is_error_form"] == "yes")
+    field_rows = [
+        {
+            "error_fields": fields,
+            "n_trials": n,
+        }
+        for fields, n in sorted(by_error_fields.items())
+    ]
+    write_csv(output_dir / "speech_planning_error_form_by_error_fields.csv", field_rows)
+
+    accuracy_column_rows = []
+    for column in ["vf_acc", "vn_acc", "pn_acc"]:
+        values = Counter(str(row[column]) if row[column] else "missing_annotation" for row in rows)
+        accuracy_column_rows.append(
+            {
+                "accuracy_column": column,
+                "correct_1": values["1"],
+                "incorrect_0": values["0"],
+                "na": values["NA"],
+                "missing_annotation": values["missing_annotation"],
+            }
+        )
+    write_csv(output_dir / "speech_planning_error_form_by_accuracy_column.csv", accuracy_column_rows)
+
+    sentence_counts = Counter(str(row["sentence_type"]) for row in rows if row["excluded_from_graphs"] == "no")
+    sentence_rows = [
+        {"sentence_type": sentence_type, "n": sentence_counts[sentence_type]}
+        for sentence_type in sorted(sentence_counts)
+    ]
+    write_csv(output_dir / "speech_planning_behavior_counts_by_sentence_type.csv", sentence_rows)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Create Khanty-style Koryak speech-planning eye-movement graphs."
@@ -888,6 +1135,21 @@ def main() -> None:
         help="Use every participant instead of the 16-participant clean set in the Koryak codebase.",
     )
     parser.add_argument(
+        "--error-annotations-csv",
+        default="",
+        help="Optional CSV with vf_acc, vn_acc, and pn_acc columns for excluding erroneous forms.",
+    )
+    parser.add_argument(
+        "--exclude-error-forms",
+        action="store_true",
+        help="Exclude clean behavior rows whose accuracy annotation has any 0 in vf_acc, vn_acc, or pn_acc.",
+    )
+    parser.add_argument(
+        "--exclude-unannotated-accuracy",
+        action="store_true",
+        help="Also exclude clean behavior rows missing from the accuracy-annotation CSV.",
+    )
+    parser.add_argument(
         "--no-pdf",
         action="store_true",
         help="Only write SVG graphs. By default, PDF copies are also written via ImageMagick.",
@@ -897,13 +1159,23 @@ def main() -> None:
     behavior_csv = Path(args.behavior_csv)
     asc_dir = Path(args.asc_dir)
     output_dir = Path(args.output_dir)
+    accuracy_csv = Path(args.error_annotations_csv) if args.error_annotations_csv else None
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    behavior_trials = load_clean_behavior(
+    if args.exclude_error_forms and accuracy_csv is None:
+        raise ValueError("--exclude-error-forms requires --error-annotations-csv")
+    if args.exclude_unannotated_accuracy and accuracy_csv is None:
+        raise ValueError("--exclude-unannotated-accuracy requires --error-annotations-csv")
+
+    behavior_trials, error_rows = load_clean_behavior(
         behavior_csv=behavior_csv,
         include_all_participants=args.include_all_participants,
         grouping=args.grouping,
+        accuracy_csv=accuracy_csv,
+        exclude_error_forms=args.exclude_error_forms,
+        exclude_unannotated_accuracy=args.exclude_unannotated_accuracy,
     )
+    write_error_form_outputs(output_dir, error_rows)
     trial_bin_rows, merge_rows, duplicate_rows = accumulate_trial_bins(
         asc_dir=asc_dir,
         behavior_trials=behavior_trials,
@@ -932,6 +1204,16 @@ def main() -> None:
             convert_svg_to_pdf(graph_path)
 
     print(f"Clean behavior trials: {len(behavior_trials)}")
+    if error_rows:
+        total = len(error_rows)
+        annotated = sum(1 for row in error_rows if row["matched_accuracy"] == "yes")
+        errors = sum(1 for row in error_rows if row["is_error_form"] == "yes")
+        excluded = sum(1 for row in error_rows if row["excluded_from_graphs"] == "yes")
+        print(
+            "Accuracy annotations: "
+            f"{annotated}/{total} clean behavior rows matched; "
+            f"{errors} error-form rows; {excluded} excluded from graphs."
+        )
     for row in condition_count_rows:
         print(
             f"  {row['window_key']:22s} {row['sentence_type']:7s} {row['condition']:20s}: "

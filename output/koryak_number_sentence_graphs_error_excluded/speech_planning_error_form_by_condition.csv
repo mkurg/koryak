@@ -1,0 +1,5 @@
+sentence_type,condition_key,condition,clean_behavior_trials,accuracy_annotated_trials,missing_accuracy_annotation_trials,error_form_trials,excluded_from_graphs,retained_for_graphs
+direct,direct_1_agent_1_patient,"1 agent, 1 patient",208,189,19,13,13,195
+direct,direct_1_agent_2_patients,"1 agent, 2 patients",208,180,28,79,79,129
+inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",196,173,23,15,15,181
+inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",171,156,15,96,96,75

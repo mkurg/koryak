@@ -110,6 +110,38 @@ All-direct and all-inverse panels across all five windows:
 python make_koryak_direct_inverse_all_windows_graphs.py
 ```
 
+Error-form excluded Koryak graphs use `Koryak_thesis.xlsx - v_2.csv`. The `_acc`
+columns are interpreted as correctness flags for inverse marking, verbal number,
+and patient number; rows with any `0` are excluded:
+
+```bash
+python make_koryak_speech_planning_graphs.py \
+  --error-annotations-csv "Koryak_thesis.xlsx - v_2.csv" \
+  --exclude-error-forms \
+  --output-dir output/koryak_speech_planning_graphs_error_excluded
+
+python make_koryak_speech_planning_graphs.py \
+  --grouping number \
+  --error-annotations-csv "Koryak_thesis.xlsx - v_2.csv" \
+  --exclude-error-forms \
+  --output-dir output/koryak_number_sentence_graphs_error_excluded
+
+python make_koryak_speech_planning_graphs.py \
+  --grouping number_animacy \
+  --error-annotations-csv "Koryak_thesis.xlsx - v_2.csv" \
+  --exclude-error-forms \
+  --output-dir output/koryak_number_animacy_sentence_graphs_error_excluded
+
+python make_koryak_number_animacy_panel_pages.py \
+  --input-dir output/koryak_number_animacy_sentence_graphs_error_excluded \
+  --output-dir output/koryak_number_animacy_sentence_graphs_error_excluded
+
+python make_koryak_direct_inverse_all_windows_graphs.py \
+  --trial-bins output/koryak_speech_planning_graphs_error_excluded/speech_planning_trial_bins.csv \
+  --behavior-counts output/koryak_speech_planning_graphs_error_excluded/speech_planning_behavior_counts_by_sentence_type.csv \
+  --output-dir output/koryak_direct_inverse_all_windows_graphs_error_excluded
+```
+
 Convert any standalone SVG to PDF without Chrome:
 
 ```bash
@@ -126,6 +158,10 @@ output/koryak_number_animacy_sentence_graphs/direct_AVP_number_animacy_all_windo
 output/koryak_number_animacy_sentence_graphs/inverse_AVP_number_animacy_all_windows_panel.pdf
 output/koryak_direct_inverse_all_windows_graphs/direct_AVP_all_windows.pdf
 output/koryak_direct_inverse_all_windows_graphs/inverse_AVP_all_windows.pdf
+output/koryak_speech_planning_graphs_error_excluded/
+output/koryak_number_sentence_graphs_error_excluded/
+output/koryak_number_animacy_sentence_graphs_error_excluded/
+output/koryak_direct_inverse_all_windows_graphs_error_excluded/
 ```
 
 ## Khanty Archive Graphs

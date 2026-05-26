@@ -1,0 +1,8 @@
+error_fields,n_trials
+pn_acc,96
+vf_acc,11
+vf_acc+pn_acc,5
+vf_acc+vn_acc,1
+vf_acc+vn_acc+pn_acc,9
+vn_acc,51
+vn_acc+pn_acc,66

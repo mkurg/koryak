@@ -1,0 +1,21 @@
+window_key,window,sentence_type,condition_key,condition,agent_num,patient_num,patient_animacy,clean_behavior_trials,plotted_trials,plotted_50ms_bins
+speech_planning,Early event apprehension,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,mixed,195,184,2024
+speech_planning,Early event apprehension,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,mixed,129,128,1408
+speech_planning,Early event apprehension,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,mixed,181,169,1859
+speech_planning,Early event apprehension,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,mixed,75,75,825
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,mixed,195,184,3625
+linguistic_encoding_1,Linguistic encoding I,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,mixed,129,128,2790
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,mixed,181,169,3705
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,mixed,75,75,1553
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,mixed,195,184,3625
+linguistic_encoding_2,Linguistic encoding II,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,mixed,129,128,2788
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,mixed,181,169,3702
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,mixed,75,75,1553
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,mixed,195,184,3864
+linguistic_encoding_3,Linguistic encoding III,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,mixed,129,128,2688
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,mixed,181,169,3549
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,mixed,75,75,1575
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_1_patient,"1 agent, 1 patient",1,1,mixed,195,184,5704
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_1_agent_2_patients,"1 agent, 2 patients",1,2,mixed,129,128,3968
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_1_patient,"2 agents, 1 patient",2,1,mixed,181,169,5239
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_2_agents_2_patients,"2 agents, 2 patients",2,2,mixed,75,75,2325

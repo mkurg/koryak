@@ -1,0 +1,21 @@
+window_key,window,sentence_type,condition_key,condition,agent_num,patient_num,patient_animacy,clean_behavior_trials,plotted_trials,plotted_50ms_bins
+speech_planning,Early event apprehension,direct,animate,animate patient,mixed,mixed,animate,204,197,2167
+speech_planning,Early event apprehension,direct,inanimate,inanimate patient,mixed,mixed,inanimate,172,166,1826
+speech_planning,Early event apprehension,inverse,animate,animate patient,mixed,mixed,animate,145,139,1529
+speech_planning,Early event apprehension,inverse,inanimate,inanimate patient,mixed,mixed,inanimate,119,113,1243
+linguistic_encoding_1,Linguistic encoding I,direct,animate,animate patient,mixed,mixed,animate,204,197,3999
+linguistic_encoding_1,Linguistic encoding I,direct,inanimate,inanimate patient,mixed,mixed,inanimate,172,166,3443
+linguistic_encoding_1,Linguistic encoding I,inverse,animate,animate patient,mixed,mixed,animate,145,139,3051
+linguistic_encoding_1,Linguistic encoding I,inverse,inanimate,inanimate patient,mixed,mixed,inanimate,119,113,2355
+linguistic_encoding_2,Linguistic encoding II,direct,animate,animate patient,mixed,mixed,animate,204,197,3997
+linguistic_encoding_2,Linguistic encoding II,direct,inanimate,inanimate patient,mixed,mixed,inanimate,172,166,3443
+linguistic_encoding_2,Linguistic encoding II,inverse,animate,animate patient,mixed,mixed,animate,145,139,3048
+linguistic_encoding_2,Linguistic encoding II,inverse,inanimate,inanimate patient,mixed,mixed,inanimate,119,113,2355
+linguistic_encoding_3,Linguistic encoding III,direct,animate,animate patient,mixed,mixed,animate,204,197,4137
+linguistic_encoding_3,Linguistic encoding III,direct,inanimate,inanimate patient,mixed,mixed,inanimate,172,166,3486
+linguistic_encoding_3,Linguistic encoding III,inverse,animate,animate patient,mixed,mixed,animate,145,139,2919
+linguistic_encoding_3,Linguistic encoding III,inverse,inanimate,inanimate patient,mixed,mixed,inanimate,119,113,2373
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,animate,animate patient,mixed,mixed,animate,204,197,6107
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,inanimate,inanimate patient,mixed,mixed,inanimate,172,166,5146
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,animate,animate patient,mixed,mixed,animate,145,139,4309
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inanimate,inanimate patient,mixed,mixed,inanimate,119,113,3503

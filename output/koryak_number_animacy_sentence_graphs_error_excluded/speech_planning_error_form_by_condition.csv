@@ -1,0 +1,9 @@
+sentence_type,condition_key,condition,clean_behavior_trials,accuracy_annotated_trials,missing_accuracy_annotation_trials,error_form_trials,excluded_from_graphs,retained_for_graphs
+direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",106,98,8,4,4,102
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",102,91,11,9,9,93
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",109,96,13,32,32,77
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",99,84,15,47,47,52
+inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",97,87,10,3,3,94
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",99,86,13,12,12,87
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",94,87,7,48,48,46
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",77,69,8,48,48,29

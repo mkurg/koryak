@@ -1,0 +1,5 @@
+sentence_type,condition_key,condition,clean_behavior_trials,accuracy_annotated_trials,missing_accuracy_annotation_trials,error_form_trials,excluded_from_graphs,retained_for_graphs
+direct,animate,animate patient,250,224,26,46,46,204
+direct,inanimate,inanimate patient,246,212,34,74,74,172
+inverse,animate,animate patient,200,183,17,55,55,145
+inverse,inanimate,inanimate patient,183,161,22,64,64,119

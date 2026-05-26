@@ -1,0 +1,11 @@
+sentence_type,window_key,window,behavior_clean_trials_879_dataset,usable_gaze_trials
+direct,speech_planning,Early event apprehension,376,363
+direct,linguistic_encoding_1,Linguistic encoding I,376,363
+direct,linguistic_encoding_2,Linguistic encoding II,376,363
+direct,linguistic_encoding_3,Linguistic encoding III,376,363
+direct,post_onset_1000_2500,1000-2500 ms after speech onset,376,363
+inverse,speech_planning,Early event apprehension,264,252
+inverse,linguistic_encoding_1,Linguistic encoding I,264,252
+inverse,linguistic_encoding_2,Linguistic encoding II,264,252
+inverse,linguistic_encoding_3,Linguistic encoding III,264,252
+inverse,post_onset_1000_2500,1000-2500 ms after speech onset,264,252

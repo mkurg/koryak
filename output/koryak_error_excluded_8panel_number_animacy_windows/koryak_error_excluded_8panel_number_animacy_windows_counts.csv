@@ -1,0 +1,41 @@
+panel_group,panel,sentence_type,condition_key,window_key,window,sentence_count,usable_gaze_count
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, animate patient",direct,direct_1_agent_1_patient_animate_patient,speech_planning,Planning,102,95
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, animate patient",direct,direct_1_agent_1_patient_animate_patient,linguistic_encoding_1,LE I,102,95
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, animate patient",direct,direct_1_agent_1_patient_animate_patient,linguistic_encoding_2,LE II,102,95
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, animate patient",direct,direct_1_agent_1_patient_animate_patient,linguistic_encoding_3,LE III,102,95
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, animate patient",direct,direct_1_agent_1_patient_animate_patient,post_onset_1000_2500,Post 1-2.5s,102,95
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, inanimate patient",direct,direct_1_agent_1_patient_inanimate_patient,speech_planning,Planning,93,89
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, inanimate patient",direct,direct_1_agent_1_patient_inanimate_patient,linguistic_encoding_1,LE I,93,89
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, inanimate patient",direct,direct_1_agent_1_patient_inanimate_patient,linguistic_encoding_2,LE II,93,89
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, inanimate patient",direct,direct_1_agent_1_patient_inanimate_patient,linguistic_encoding_3,LE III,93,89
+sentence_type_patient_animacy_argument_numbers,"Direct 1-1, inanimate patient",direct,direct_1_agent_1_patient_inanimate_patient,post_onset_1000_2500,Post 1-2.5s,93,89
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, animate patient",direct,direct_1_agent_2_patients_animate_patient,speech_planning,Planning,77,77
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, animate patient",direct,direct_1_agent_2_patients_animate_patient,linguistic_encoding_1,LE I,77,77
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, animate patient",direct,direct_1_agent_2_patients_animate_patient,linguistic_encoding_2,LE II,77,77
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, animate patient",direct,direct_1_agent_2_patients_animate_patient,linguistic_encoding_3,LE III,77,77
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, animate patient",direct,direct_1_agent_2_patients_animate_patient,post_onset_1000_2500,Post 1-2.5s,77,77
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, inanimate patient",direct,direct_1_agent_2_patients_inanimate_patient,speech_planning,Planning,52,51
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, inanimate patient",direct,direct_1_agent_2_patients_inanimate_patient,linguistic_encoding_1,LE I,52,51
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, inanimate patient",direct,direct_1_agent_2_patients_inanimate_patient,linguistic_encoding_2,LE II,52,51
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, inanimate patient",direct,direct_1_agent_2_patients_inanimate_patient,linguistic_encoding_3,LE III,52,51
+sentence_type_patient_animacy_argument_numbers,"Direct 1-2, inanimate patient",direct,direct_1_agent_2_patients_inanimate_patient,post_onset_1000_2500,Post 1-2.5s,52,51
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, animate patient",inverse,inverse_2_agents_1_patient_animate_patient,speech_planning,Planning,94,88
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, animate patient",inverse,inverse_2_agents_1_patient_animate_patient,linguistic_encoding_1,LE I,94,88
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, animate patient",inverse,inverse_2_agents_1_patient_animate_patient,linguistic_encoding_2,LE II,94,88
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, animate patient",inverse,inverse_2_agents_1_patient_animate_patient,linguistic_encoding_3,LE III,94,88
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, animate patient",inverse,inverse_2_agents_1_patient_animate_patient,post_onset_1000_2500,Post 1-2.5s,94,88
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, inanimate patient",inverse,inverse_2_agents_1_patient_inanimate_patient,speech_planning,Planning,87,81
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, inanimate patient",inverse,inverse_2_agents_1_patient_inanimate_patient,linguistic_encoding_1,LE I,87,81
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, inanimate patient",inverse,inverse_2_agents_1_patient_inanimate_patient,linguistic_encoding_2,LE II,87,81
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, inanimate patient",inverse,inverse_2_agents_1_patient_inanimate_patient,linguistic_encoding_3,LE III,87,81
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-1, inanimate patient",inverse,inverse_2_agents_1_patient_inanimate_patient,post_onset_1000_2500,Post 1-2.5s,87,81
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, animate patient",inverse,inverse_2_agents_2_patients_animate_patient,speech_planning,Planning,46,46
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, animate patient",inverse,inverse_2_agents_2_patients_animate_patient,linguistic_encoding_1,LE I,46,46
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, animate patient",inverse,inverse_2_agents_2_patients_animate_patient,linguistic_encoding_2,LE II,46,46
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, animate patient",inverse,inverse_2_agents_2_patients_animate_patient,linguistic_encoding_3,LE III,46,46
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, animate patient",inverse,inverse_2_agents_2_patients_animate_patient,post_onset_1000_2500,Post 1-2.5s,46,46
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, inanimate patient",inverse,inverse_2_agents_2_patients_inanimate_patient,speech_planning,Planning,29,29
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, inanimate patient",inverse,inverse_2_agents_2_patients_inanimate_patient,linguistic_encoding_1,LE I,29,29
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, inanimate patient",inverse,inverse_2_agents_2_patients_inanimate_patient,linguistic_encoding_2,LE II,29,29
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, inanimate patient",inverse,inverse_2_agents_2_patients_inanimate_patient,linguistic_encoding_3,LE III,29,29
+sentence_type_patient_animacy_argument_numbers,"Inverse 2-2, inanimate patient",inverse,inverse_2_agents_2_patients_inanimate_patient,post_onset_1000_2500,Post 1-2.5s,29,29

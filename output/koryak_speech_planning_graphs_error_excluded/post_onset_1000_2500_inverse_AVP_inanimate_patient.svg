@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="560" viewBox="0 0 820 560">
+<rect width="100%" height="100%" fill="white"/>
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #222; }
+.title { font-size: 20px; font-weight: 700; }
+.subtitle { font-size: 13px; fill: #555; }
+.axis { stroke: #222; stroke-width: 1; }
+.grid { stroke: #dddddd; stroke-width: 1; }
+.tick { font-size: 12px; fill: #333; }
+.label { font-size: 14px; fill: #222; }
+.legend { font-size: 13px; fill: #222; }
+</style>
+<text class="title" x="421.0" y="28" text-anchor="middle">Inverse AVP, inanimate patient</text>
+<text class="subtitle" x="421.0" y="47" text-anchor="middle">1000-2500 ms after speech onset, RT &lt; 6000 ms, fluent trials; n = 113 trials</text>
+<line class="grid" x1="82" x2="760" y1="470.00" y2="470.00"/>
+<text class="tick" x="72" y="474.00" text-anchor="end">0.0</text>
+<line class="grid" x1="82" x2="760" y1="428.80" y2="428.80"/>
+<text class="tick" x="72" y="432.80" text-anchor="end">0.1</text>
+<line class="grid" x1="82" x2="760" y1="387.60" y2="387.60"/>
+<text class="tick" x="72" y="391.60" text-anchor="end">0.2</text>
+<line class="grid" x1="82" x2="760" y1="346.40" y2="346.40"/>
+<text class="tick" x="72" y="350.40" text-anchor="end">0.3</text>
+<line class="grid" x1="82" x2="760" y1="305.20" y2="305.20"/>
+<text class="tick" x="72" y="309.20" text-anchor="end">0.4</text>
+<line class="grid" x1="82" x2="760" y1="264.00" y2="264.00"/>
+<text class="tick" x="72" y="268.00" text-anchor="end">0.5</text>
+<line class="grid" x1="82" x2="760" y1="222.80" y2="222.80"/>
+<text class="tick" x="72" y="226.80" text-anchor="end">0.6</text>
+<line class="grid" x1="82" x2="760" y1="181.60" y2="181.60"/>
+<text class="tick" x="72" y="185.60" text-anchor="end">0.7</text>
+<line class="grid" x1="82" x2="760" y1="140.40" y2="140.40"/>
+<text class="tick" x="72" y="144.40" text-anchor="end">0.8</text>
+<line class="grid" x1="82" x2="760" y1="99.20" y2="99.20"/>
+<text class="tick" x="72" y="103.20" text-anchor="end">0.9</text>
+<line class="grid" x1="82" x2="760" y1="58.00" y2="58.00"/>
+<text class="tick" x="72" y="62.00" text-anchor="end">1.0</text>
+<line class="grid" x1="82.00" x2="82.00" y1="58" y2="470"/>
+<text class="tick" x="82.00" y="492" text-anchor="middle">0.0</text>
+<line class="grid" x1="149.80" x2="149.80" y1="58" y2="470"/>
+<text class="tick" x="149.80" y="492" text-anchor="middle">0.1</text>
+<line class="grid" x1="217.60" x2="217.60" y1="58" y2="470"/>
+<text class="tick" x="217.60" y="492" text-anchor="middle">0.2</text>
+<line class="grid" x1="285.40" x2="285.40" y1="58" y2="470"/>
+<text class="tick" x="285.40" y="492" text-anchor="middle">0.3</text>
+<line class="grid" x1="353.20" x2="353.20" y1="58" y2="470"/>
+<text class="tick" x="353.20" y="492" text-anchor="middle">0.4</text>
+<line class="grid" x1="421.00" x2="421.00" y1="58" y2="470"/>
+<text class="tick" x="421.00" y="492" text-anchor="middle">0.5</text>
+<line class="grid" x1="488.80" x2="488.80" y1="58" y2="470"/>
+<text class="tick" x="488.80" y="492" text-anchor="middle">0.6</text>
+<line class="grid" x1="556.60" x2="556.60" y1="58" y2="470"/>
+<text class="tick" x="556.60" y="492" text-anchor="middle">0.7</text>
+<line class="grid" x1="624.40" x2="624.40" y1="58" y2="470"/>
+<text class="tick" x="624.40" y="492" text-anchor="middle">0.8</text>
+<line class="grid" x1="692.20" x2="692.20" y1="58" y2="470"/>
+<text class="tick" x="692.20" y="492" text-anchor="middle">0.9</text>
+<line class="grid" x1="760.00" x2="760.00" y1="58" y2="470"/>
+<text class="tick" x="760.00" y="492" text-anchor="middle">1.0</text>
+<line class="axis" x1="82" x2="760" y1="470" y2="470"/>
+<line class="axis" x1="82" x2="82" y1="58" y2="470"/>
+<text class="label" x="421.0" y="532" text-anchor="middle">Relative Time</text>
+<text class="label" x="20" y="264.0" text-anchor="middle" transform="rotate(-90 20 264.0)">Proportion of Looks</text>
+<polygon points="82.00,237.48 104.60,241.77 127.20,246.42 149.80,245.78 172.40,243.13 195.00,242.41 217.60,238.60 240.20,236.30 262.80,244.57 285.40,256.82 308.00,272.46 330.60,291.26 353.20,293.16 375.80,290.84 398.40,285.22 421.00,306.89 443.60,305.48 466.20,309.01 488.80,306.63 511.40,308.30 534.00,302.01 556.60,294.58 579.20,290.71 601.80,309.74 624.40,324.25 647.00,328.59 669.60,321.05 692.20,312.45 714.80,318.13 737.40,313.10 760.00,306.58 760.00,377.61 737.40,381.74 714.80,386.48 692.20,382.10 669.60,390.42 647.00,394.69 624.40,391.15 601.80,379.70 579.20,363.15 556.60,367.30 534.00,373.14 511.40,378.52 488.80,377.56 466.20,378.53 443.60,376.82 421.00,375.71 398.40,357.27 375.80,362.73 353.20,365.95 330.60,362.17 308.00,345.96 285.40,333.02 262.80,320.77 240.20,312.41 217.60,313.76 195.00,317.24 172.40,319.43 149.80,320.72 127.20,322.42 104.60,317.00 82.00,311.81" fill="#CC3311" opacity="0.12"/>
+<path d="M82.00,274.65 L104.60,279.39 L127.20,284.42 L149.80,283.25 L172.40,281.28 L195.00,279.82 L217.60,276.18 L240.20,274.35 L262.80,282.67 L285.40,294.92 L308.00,309.21 L330.60,326.71 L353.20,329.56 L375.80,326.78 L398.40,321.24 L421.00,341.30 L443.60,341.15 L466.20,343.77 L488.80,342.10 L511.40,343.41 L534.00,337.58 L556.60,330.94 L579.20,326.93 L601.80,344.72 L624.40,357.70 L647.00,361.64 L669.60,355.73 L692.20,347.28 L714.80,352.31 L737.40,347.42 L760.00,342.10" fill="none" stroke="#CC3311" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="82.00,281.61 104.60,278.41 127.20,274.25 149.80,283.99 172.40,277.82 195.00,276.06 217.60,269.04 240.20,275.12 262.80,263.02 285.40,254.86 308.00,242.40 330.60,245.47 353.20,244.79 375.80,247.50 398.40,242.69 421.00,233.57 443.60,221.97 466.20,215.59 488.80,215.18 511.40,217.37 534.00,226.06 556.60,234.61 579.20,229.35 601.80,215.30 624.40,211.89 647.00,209.54 669.60,198.66 692.20,199.15 714.80,198.05 737.40,210.32 760.00,221.32 760.00,297.34 737.40,285.74 714.80,273.51 692.20,274.60 669.60,274.07 647.00,284.04 624.40,286.94 601.80,291.41 579.20,303.61 556.60,311.03 534.00,300.92 511.40,293.43 488.80,291.09 466.20,291.85 443.60,297.71 421.00,307.71 398.40,316.95 375.80,322.94 353.20,320.69 330.60,320.59 308.00,318.71 285.40,329.15 262.80,338.77 240.20,349.72 217.60,343.40 195.00,348.78 172.40,351.39 149.80,356.16 127.20,349.43 104.60,351.82 82.00,355.33" fill="#0077BB" opacity="0.12"/>
+<path d="M82.00,318.47 L104.60,315.12 L127.20,311.84 L149.80,320.08 L172.40,314.61 L195.00,312.42 L217.60,306.22 L240.20,312.42 L262.80,300.90 L285.40,292.00 L308.00,280.55 L330.60,283.03 L353.20,282.74 L375.80,285.22 L398.40,279.82 L421.00,270.64 L443.60,259.84 L466.20,253.72 L488.80,253.13 L511.40,255.40 L534.00,263.49 L556.60,272.82 L579.20,266.48 L601.80,253.35 L624.40,249.42 L647.00,246.79 L669.60,236.36 L692.20,236.87 L714.80,235.78 L737.40,248.03 L760.00,259.33" fill="none" stroke="#0077BB" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="605" x2="633" y1="76" y2="76" stroke="#CC3311" stroke-width="3"/>
+<text class="legend" x="643" y="80">Agent</text>
+<line x1="605" x2="633" y1="98" y2="98" stroke="#0077BB" stroke-width="3"/>
+<text class="legend" x="643" y="102">Patient</text>
+</svg>
