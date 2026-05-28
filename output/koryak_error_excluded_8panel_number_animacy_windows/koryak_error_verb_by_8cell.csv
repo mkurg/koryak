@@ -1,0 +1,82 @@
+sentence_type,condition_key,condition,verb,any_error_form_trials,vf_acc_inverse_marking_errors,vn_acc_verb_number_errors,pn_acc_patient_number_errors,participant_count,participants,image_count,images,pn_acc,vn_acc,vn_acc+pn_acc
+direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",scold,2,0,1,1,2,К17; К24,1,scold-1-1-r.png,1,1,0
+direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",feed,1,0,0,1,1,К16,1,feed-1-1-r.png,1,0,0
+direct,direct_1_agent_1_patient_animate_patient,"1 agent, 1 patient, animate patient",teach,1,0,1,0,1,К22,1,teach-1-1-r.png,0,1,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",boil,2,0,0,2,2,К05; К06,1,boil-1-1-r.png,2,0,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",carry,2,0,1,1,2,К05; К06,1,carry-1-1-r.png,1,1,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",water,2,0,0,2,2,К22; К24,1,water-1-1-r.png,2,0,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",hang,1,0,0,1,1,К06,1,hang-1-1-r.png,1,0,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",pull,1,0,0,1,1,К14,1,pull-1-1-r.png,1,0,0
+direct,direct_1_agent_1_patient_inanimate_patient,"1 agent, 1 patient, inanimate patient",saw,1,0,0,1,1,К05,1,saw-1-1-r.png,1,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",wake,5,0,1,4,5,К04; К05; К10; К22; К24,1,wake-1-2-l.png,4,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",cut_hair,3,0,0,3,3,К05; К14; К22,1,cut_hair-1-2-l.png,3,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",shoot,3,0,1,2,3,К04; К05; К06,1,shoot-1-2-l.png,2,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",tie,3,0,0,3,3,К04; К10; К17,1,tie-1-2-l.png,3,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",wash,3,0,0,3,3,К04; К05; К25,1,wash-1-2-l.png,3,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",dress,2,0,1,1,2,К03; К10,1,dress-1-2-l.png,1,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",feed,2,0,0,2,2,К05; К22,1,feed-1-2-l.png,2,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",hit,2,0,1,1,2,К03; К17,1,hit-1-2-l.png,1,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",push,2,0,1,1,2,К17; К22,1,push-1-2-l.png,1,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",teach,2,0,1,1,2,К04; К25,1,teach-1-2-l.png,1,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",call,1,0,1,0,1,К01,1,call-1-2-l.png,0,1,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",give_water,1,0,0,1,1,К05,1,give_water-1-2-l.png,1,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",makelaugh,1,0,0,1,1,К25,1,makelaugh-1-2-l.png,1,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",pour,1,0,0,1,1,К05,1,pour-1-2-l.png,1,0,0
+direct,direct_1_agent_2_patients_animate_patient,"1 agent, 2 patients, animate patient",treat,1,0,0,1,1,К05,1,treat-1-2-l.png,1,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",cover,5,0,0,5,5,К04; К05; К10; К16; К25,1,cover-1-2-l.png,5,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",hang,5,0,0,5,5,К04; К05; К06; К10; К14,1,hang-1-2-l.png,5,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",open,5,0,0,5,5,К01; К04; К05; К16; К25,1,open-1-2-l.png,5,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",burn,4,0,1,3,4,К01; К04; К05; К25,1,burn-1-2-l.png,3,1,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",carry,4,0,1,3,4,К01; К03; К10; К22,1,carry-1-2-l.png,3,1,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",pick,4,0,2,3,4,К01; К05; К17; К22,1,pick-1-2-l.png,2,1,1
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",break,3,0,0,3,3,К05; К22; К25,1,break-1-2-l.png,3,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",paint,3,0,0,3,3,К05; К06; К22,1,paint-1-2-l.png,3,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",plant,3,0,1,3,3,К04; К05; К25,1,plant-1-2-l.png,2,0,1
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",pull,3,0,0,3,3,К03; К05; К22,1,pull-1-2-l.png,3,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",boil,2,0,0,2,2,К06; К17,1,boil-1-2-l.png,2,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",eat,2,0,0,2,2,К04; К17,1,eat-1-2-l.png,2,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",water,2,0,0,2,2,К05; К25,1,water-1-2-l.png,2,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",saw,1,0,0,1,1,К20,1,saw-1-2-l.png,1,0,0
+direct,direct_1_agent_2_patients_inanimate_patient,"1 agent, 2 patients, inanimate patient",throw,1,0,0,1,1,К20,1,throw-1-2-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",cut_hair,1,0,0,1,1,К16,1,cut_hair-2-1-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",hit,1,0,0,1,1,К20,1,hit-2-1-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_animate_patient,"2 agents, 1 patient, animate patient",scold,1,0,0,1,1,К04,1,scold-2-1-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",carry,3,0,1,2,3,К01; К20; К25,1,carry-2-1-l.png,2,1,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",burn,2,0,1,2,2,К03; К05,1,burn-2-1-l.png,1,0,1
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",water,2,0,1,1,2,К10; К24,1,water-2-1-l.png,1,1,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",boil,1,0,0,1,1,К06,1,boil-2-1-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",hang,1,0,0,1,1,К06,1,hang-2-1-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",paint,1,0,0,1,1,К06,1,paint-2-1-l.png,1,0,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",pick,1,0,1,0,1,К22,1,pick-2-1-l.png,0,1,0
+inverse,inverse_2_agents_1_patient_inanimate_patient,"2 agents, 1 patient, inanimate patient",saw,1,0,0,1,1,К06,1,saw-2-1-l.png,1,0,0
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",feed,5,0,5,3,5,К05; К06; К10; К14; К22,1,feed-2-2-r.png,0,2,3
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",cut_hair,4,0,4,3,4,К04; К05; К06; К10,1,cut_hair-2-2-r.png,0,1,3
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",dress,4,0,3,3,4,К05; К06; К14; К22,1,dress-2-2-r.png,1,1,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",give_water,4,0,4,2,4,К04; К05; К07; К20,1,give_water-2-2-r.png,0,2,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",scold,4,0,4,1,4,К04; К05; К06; К17,1,scold-2-2-r.png,0,3,1
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",teach,4,0,4,2,4,К04; К06; К10; К17,1,teach-2-2-r.png,0,2,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",tie,4,0,4,2,4,К05; К06; К17; К24,1,tie-2-2-r.png,0,2,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",wake,4,0,4,2,4,К05; К06; К10; К17,1,wake-2-2-r.png,0,2,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",pour,3,0,3,1,3,К01; К04; К17,1,pour-2-2-r.png,0,2,1
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",treat,3,0,3,2,3,К05; К06; К22,1,treat-2-2-r.png,0,1,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",hit,2,0,2,2,2,К04; К05,1,hit-2-2-r.png,0,0,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",makelaugh,2,0,2,0,2,К01; К06,1,makelaugh-2-2-r.png,0,2,0
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",push,2,0,2,2,2,К10; К17,1,push-2-2-r.png,0,0,2
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",call,1,0,1,1,1,К05,1,call-2-2-r.png,0,0,1
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",shoot,1,0,1,1,1,К07,1,shoot-2-2-r.png,0,0,1
+inverse,inverse_2_agents_2_patients_animate_patient,"2 agents, 2 patients, animate patient",wash,1,0,1,1,1,К05,1,wash-2-2-r.png,0,0,1
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",break,6,0,6,5,6,К05; К06; К14; К16; К17; К22,1,break-2-2-r.png,0,1,5
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",pick,6,0,2,6,6,К04; К06; К16; К17; К20; К25,1,pick-2-2-r.png,4,0,2
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",water,6,0,6,5,6,К01; К04; К05; К06; К17; К25,1,water-2-2-r.png,0,1,5
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",carry,5,0,5,5,5,К05; К06; К10; К17; К22,1,carry-2-2-r.png,0,0,5
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",cover,4,0,4,3,4,К04; К06; К14; К17,1,cover-2-2-r.png,0,1,3
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",saw,4,0,4,2,4,К01; К05; К06; К20,1,saw-2-2-r.png,0,2,2
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",boil,3,0,3,3,3,К04; К05; К17,1,boil-2-2-r.png,0,0,3
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",clean,3,0,3,3,3,К17; К20; К22,1,clean-2-2-r.png,0,0,3
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",plant,3,0,2,3,3,К05; К20; К25,1,plant-2-2-r.png,1,0,2
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",hang,2,0,2,0,2,К01; К14,1,hang-2-2-r.png,0,2,0
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",pull,2,0,2,2,2,К04; К22,1,pull-2-2-r.png,0,0,2
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",burn,1,0,1,1,1,К05,1,burn-2-2-r.png,0,0,1
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",eat,1,0,1,1,1,К04,1,eat-2-2-r.png,0,0,1
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",paint,1,0,1,0,1,К22,1,paint-2-2-r.png,0,1,0
+inverse,inverse_2_agents_2_patients_inanimate_patient,"2 agents, 2 patients, inanimate patient",throw,1,0,1,0,1,К06,1,throw-2-2-r.png,0,1,0

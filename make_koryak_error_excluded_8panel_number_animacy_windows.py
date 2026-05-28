@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -29,6 +30,66 @@ PANELS = [
     ("inverse", "inverse_2_agents_2_patients_inanimate_patient", "Inverse 2-2, inanimate patient"),
 ]
 PANEL_ORDER = {(sentence_type, condition_key): index for index, (sentence_type, condition_key, _title) in enumerate(PANELS)}
+ANNOTATION_DETAIL_COLUMNS = [
+    "translation",
+    "transcription",
+    "verb_number",
+    "patient_number",
+    "word order",
+    "comments",
+]
+
+
+def normalize_participant_key(value: object) -> str:
+    text = str(value).strip().upper().replace("К", "K")
+    match = re.search(r"K\s*0*(\d+)", text)
+    if not match:
+        return str(value).strip()
+    return f"К{int(match.group(1)):02d}"
+
+
+def verb_from_image(image: str) -> str:
+    stem = Path(image).stem
+    match = re.match(r"^(.*)-[12]-[12]-[a-z]+$", stem)
+    if match:
+        return match.group(1)
+    return stem
+
+
+def load_annotation_details(path: Path | None) -> dict[tuple[str, str], dict[str, str]]:
+    if path is None or not path.exists():
+        return {}
+
+    details: dict[tuple[str, str], dict[str, str]] = {}
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            participant = normalize_participant_key(row.get("id", ""))
+            image = str(row.get("image", "")).strip()
+            if not participant or not image:
+                continue
+            details[(participant, image)] = {column: row.get(column, "") for column in ANNOTATION_DETAIL_COLUMNS}
+    return details
+
+
+def unique_join(values: list[str]) -> str:
+    return "; ".join(sorted({value for value in values if value}))
+
+
+def summarize_error_rows(rows: list[dict[str, str]], all_combos: list[str]) -> dict[str, object]:
+    combo_counter = Counter(row["error_fields"] for row in rows if row["error_fields"])
+    record: dict[str, object] = {
+        "any_error_form_trials": len(rows),
+        "vf_acc_inverse_marking_errors": sum(1 for row in rows if row["vf_acc"] == "0"),
+        "vn_acc_verb_number_errors": sum(1 for row in rows if row["vn_acc"] == "0"),
+        "pn_acc_patient_number_errors": sum(1 for row in rows if row["pn_acc"] == "0"),
+        "participant_count": len({row["participant"] for row in rows}),
+        "participants": unique_join([row["participant"] for row in rows]),
+        "image_count": len({row["image"] for row in rows}),
+        "images": unique_join([row["image"] for row in rows]),
+    }
+    for combo in all_combos:
+        record[combo] = combo_counter[combo]
+    return record
 
 
 def render_page(output_path: Path, input_dir: Path) -> list[dict[str, object]]:
@@ -122,7 +183,108 @@ def read_error_form_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(f))
 
 
-def write_error_count_outputs(input_dir: Path, output_dir: Path) -> None:
+def write_error_verb_outputs(
+    rows: list[dict[str, str]],
+    output_dir: Path,
+    annotations_csv: Path | None,
+    all_combos: list[str],
+) -> None:
+    annotation_details = load_annotation_details(annotations_csv)
+    error_rows = [row for row in rows if row["is_error_form"] == "yes"]
+
+    trial_rows: list[dict[str, object]] = []
+    for row in error_rows:
+        detail = annotation_details.get((normalize_participant_key(row["participant"]), row["image"]), {})
+        trial_rows.append(
+            {
+                "verb": verb_from_image(row["image"]),
+                "participant": row["participant"],
+                "image": row["image"],
+                "sentence_type": row["sentence_type"],
+                "condition_key": row["condition_key"],
+                "condition": row["condition"],
+                "agent_num": row["agent_num"],
+                "patient_num": row["patient_num"],
+                "patient_animacy": row["patient_animacy"],
+                "vf_acc": row["vf_acc"],
+                "vn_acc": row["vn_acc"],
+                "pn_acc": row["pn_acc"],
+                "error_fields": row["error_fields"],
+                "translation": detail.get("translation", ""),
+                "transcription": detail.get("transcription", ""),
+                "verb_number": detail.get("verb_number", ""),
+                "patient_number": detail.get("patient_number", ""),
+                "word_order": detail.get("word order", ""),
+                "comments": detail.get("comments", ""),
+            }
+        )
+
+    by_verb: dict[str, list[dict[str, str]]] = defaultdict(list)
+    by_cell_verb: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
+    for row in error_rows:
+        verb = verb_from_image(row["image"])
+        by_verb[verb].append(row)
+        by_cell_verb[(row["sentence_type"], row["condition_key"], verb)].append(row)
+
+    verb_rows: list[dict[str, object]] = []
+    for verb, verb_errors in by_verb.items():
+        condition_labels = [f"{row['sentence_type']}: {row['condition']}" for row in verb_errors]
+        verb_rows.append(
+            {
+                "verb": verb,
+                **summarize_error_rows(verb_errors, all_combos),
+                "condition_count": len(set(condition_labels)),
+                "conditions": unique_join(condition_labels),
+            }
+        )
+    verb_rows.sort(key=lambda row: (-int(row["any_error_form_trials"]), str(row["verb"])))
+
+    cell_verb_rows: list[dict[str, object]] = []
+    for (sentence_type, condition_key, verb), cell_verb_errors in by_cell_verb.items():
+        first = cell_verb_errors[0]
+        cell_verb_rows.append(
+            {
+                "sentence_type": sentence_type,
+                "condition_key": condition_key,
+                "condition": first["condition"],
+                "verb": verb,
+                **summarize_error_rows(cell_verb_errors, all_combos),
+            }
+        )
+    cell_verb_rows.sort(
+        key=lambda row: (
+            PANEL_ORDER.get((str(row["sentence_type"]), str(row["condition_key"])), 999),
+            -int(row["any_error_form_trials"]),
+            str(row["verb"]),
+        )
+    )
+
+    write_csv(output_dir / "koryak_error_trials_with_verbs.csv", trial_rows)
+    write_csv(output_dir / "koryak_error_verb_summary.csv", verb_rows)
+    write_csv(output_dir / "koryak_error_verb_by_8cell.csv", cell_verb_rows)
+    write_error_verb_markdown(output_dir / "koryak_error_verb_summary.md", verb_rows)
+
+
+def write_error_verb_markdown(path: Path, rows: list[dict[str, object]]) -> None:
+    lines = [
+        "# Koryak Error-Form Verbs",
+        "",
+        "Counts are error-form trial counts in the eight sentence type x patient animacy x argument-number cells.",
+        "`vn_acc`, `pn_acc`, and `vn_acc+pn_acc` are exact error combinations; marginal totals are in the CSV.",
+        "",
+        "| verb | any | vn only | pn only | vn+pn |",
+        "|---|---:|---:|---:|---:|",
+    ]
+    for row in rows:
+        lines.append(
+            f"| {row['verb']} | {row['any_error_form_trials']} | "
+            f"{row.get('vn_acc', 0)} | {row.get('pn_acc', 0)} | {row.get('vn_acc+pn_acc', 0)} |"
+        )
+    lines.append("")
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_error_count_outputs(input_dir: Path, output_dir: Path, annotations_csv: Path | None = None) -> None:
     rows = read_error_form_rows(input_dir / "speech_planning_error_form_trials.csv")
     by_cell: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     for row in rows:
@@ -171,6 +333,7 @@ def write_error_count_outputs(input_dir: Path, output_dir: Path) -> None:
 
     write_csv(output_dir / "koryak_error_counts_by_8cell_accuracy_column.csv", summary_rows)
     write_csv(output_dir / "koryak_error_counts_by_8cell_combinations.csv", combo_rows)
+    write_error_verb_outputs(rows, output_dir, annotations_csv, all_combos)
 
 
 def main() -> None:
@@ -179,6 +342,7 @@ def main() -> None:
     )
     parser.add_argument("--input-dir", default="output/koryak_number_animacy_sentence_graphs_error_excluded")
     parser.add_argument("--output-dir", default="output/koryak_error_excluded_8panel_number_animacy_windows")
+    parser.add_argument("--annotations-csv", default="Koryak_thesis.xlsx - v_2.csv")
     args = parser.parse_args()
 
     input_dir = Path(args.input_dir)
@@ -188,7 +352,7 @@ def main() -> None:
     svg_path = output_dir / "koryak_error_excluded_8panel_number_animacy_windows.svg"
     count_rows = render_page(svg_path, input_dir)
     write_csv(output_dir / "koryak_error_excluded_8panel_number_animacy_windows_counts.csv", count_rows)
-    write_error_count_outputs(input_dir, output_dir)
+    write_error_count_outputs(input_dir, output_dir, Path(args.annotations_csv) if args.annotations_csv else None)
     convert_svg_to_pdf(svg_path)
     print(svg_path.with_suffix(".pdf"))
 
