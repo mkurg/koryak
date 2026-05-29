@@ -1,0 +1,6 @@
+panel_group,panel,sentence_type,condition_key,window_key,window,sentence_count,usable_gaze_count
+inverse_2_2,All inverse 2-2,inverse,inverse_2_agents_2_patients,speech_planning,Planning,171,163
+inverse_2_2,All inverse 2-2,inverse,inverse_2_agents_2_patients,linguistic_encoding_1,LE I,171,163
+inverse_2_2,All inverse 2-2,inverse,inverse_2_agents_2_patients,linguistic_encoding_2,LE II,171,163
+inverse_2_2,All inverse 2-2,inverse,inverse_2_agents_2_patients,linguistic_encoding_3,LE III,171,163
+inverse_2_2,All inverse 2-2,inverse,inverse_2_agents_2_patients,post_onset_1000_2500,Post 1-2.5s,171,163

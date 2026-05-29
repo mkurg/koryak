@@ -1,0 +1,421 @@
+window_key,window,sentence_type,condition_key,condition,filename_suffix,agent_num,patient_num,patient_animacy,referent,time_rel,mean_prop,sd_prop,n_bins,lower,upper
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.000000,0.608163,0.466818,35,0.450350,0.765977
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.050000,0.611765,0.472232,17,0.382699,0.840831
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.100000,0.638421,0.452940,38,0.491468,0.785374
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.150000,0.627647,0.470358,34,0.466316,0.788979
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.200000,0.683333,0.456283,36,0.531239,0.835428
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.250000,0.582778,0.483963,36,0.421457,0.744099
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.300000,0.653529,0.477588,34,0.489718,0.817341
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.350000,0.641212,0.482570,33,0.473203,0.809221
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.400000,0.713684,0.433692,38,0.572976,0.854392
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.450000,0.773889,0.412486,36,0.636394,0.911384
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.500000,0.713514,0.448975,37,0.565891,0.861136
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.550000,0.757647,0.428550,34,0.610656,0.904638
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.600000,0.704848,0.430350,33,0.555020,0.854677
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.650000,0.674872,0.461957,39,0.526927,0.822817
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.700000,0.780000,0.403361,33,0.639568,0.920432
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.750000,0.907568,0.279736,37,0.815591,0.999544
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.800000,0.809412,0.389070,34,0.675962,0.942862
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.850000,0.911892,0.254054,37,0.828359,0.995424
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.900000,0.925294,0.252373,34,0.838731,1.000000
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.950000,0.857143,0.355036,35,0.737119,0.977167
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,1.000000,0.817532,0.375001,39,0.697436,0.937628
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.000000,0.285714,0.458349,35,0.130764,0.440665
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.050000,0.371765,0.480315,17,0.138777,0.604752
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.100000,0.297368,0.448497,38,0.151857,0.442880
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.150000,0.195294,0.381863,34,0.064316,0.326272
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.200000,0.247778,0.420918,36,0.107472,0.388084
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.250000,0.277778,0.454257,36,0.126359,0.429197
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.300000,0.235294,0.430562,34,0.087613,0.382976
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.350000,0.320000,0.462925,33,0.158830,0.481170
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.400000,0.224737,0.410390,38,0.091589,0.357885
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.450000,0.192778,0.386520,36,0.063938,0.321618
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.500000,0.243243,0.434959,37,0.100230,0.386257
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.550000,0.154706,0.359033,34,0.031559,0.277853
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.600000,0.141818,0.334827,33,0.025246,0.258390
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.650000,0.150256,0.357591,39,0.035736,0.264777
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.700000,0.104848,0.298372,33,0.000969,0.208728
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.750000,0.070270,0.235732,37,0.000000,0.147778
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.800000,0.124118,0.318397,34,0.014908,0.233327
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.850000,0.056757,0.229178,37,0.000000,0.132110
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.900000,0.072353,0.248243,34,0.000000,0.157500
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.950000,0.078286,0.261955,35,0.000000,0.166843
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,1.000000,0.102564,0.307355,39,0.004132,0.200996
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.000000,0.527211,0.521334,6,0.101543,0.952879
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.050000,0.750000,0.500000,4,0.250000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.100000,0.750000,0.462910,8,0.422673,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.150000,0.714286,0.487950,7,0.345430,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.200000,0.503333,0.544120,6,0.059061,0.947606
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.250000,0.571429,0.534522,7,0.167368,0.975490
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.300000,0.660000,0.472924,8,0.325592,0.994408
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.350000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.400000,0.700000,0.479583,7,0.337469,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.450000,0.417500,0.494014,8,0.068179,0.766821
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.500000,0.880000,0.268328,5,0.640000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.550000,0.875000,0.353553,8,0.625000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.600000,0.974286,0.068034,7,0.922857,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.650000,0.694286,0.477034,7,0.333682,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.700000,0.928571,0.188982,7,0.785714,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.750000,1.000000,0.000000,7,1.000000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.800000,0.937500,0.176777,8,0.812500,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.850000,0.800000,0.447214,5,0.400000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.900000,0.875000,0.353553,8,0.625000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.950000,0.960000,0.069282,7,0.907628,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,1.000000,0.833333,0.408248,6,0.500000,1.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.000000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.050000,0.250000,0.500000,4,0.000000,0.750000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.100000,0.250000,0.462910,8,0.000000,0.577327
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.150000,0.285714,0.487950,7,0.000000,0.654570
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.200000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.250000,0.285714,0.487950,7,0.000000,0.654570
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.300000,0.250000,0.462910,8,0.000000,0.577327
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.350000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.400000,0.285714,0.487950,7,0.000000,0.654570
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.450000,0.235000,0.436316,8,0.000000,0.543522
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.500000,0.096000,0.214663,5,0.000000,0.288000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.550000,0.000000,0.000000,8,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.600000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.650000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.700000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.750000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.800000,0.000000,0.000000,8,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.850000,0.000000,0.000000,5,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.900000,0.000000,0.000000,8,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.950000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,1.000000,0.000000,0.000000,6,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.000000,0.821143,0.337463,35,0.707060,0.935226
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.050000,0.705882,0.469668,17,0.478060,0.933705
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.100000,0.771579,0.401958,38,0.641166,0.901991
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.150000,0.818824,0.378864,34,0.688874,0.948773
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.200000,0.765556,0.416725,36,0.626647,0.904464
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.250000,0.776111,0.420851,36,0.635827,0.916395
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.300000,0.705294,0.446109,34,0.552280,0.858308
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.350000,0.823636,0.367983,33,0.695521,0.951752
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.400000,0.665789,0.461769,38,0.515972,0.815607
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.450000,0.774444,0.393188,36,0.643382,0.905507
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.500000,0.771351,0.405149,37,0.638139,0.904563
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.550000,0.805294,0.364760,34,0.680182,0.930406
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.600000,0.797576,0.388097,33,0.662458,0.932694
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.650000,0.682564,0.464943,39,0.533663,0.831465
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.700000,0.666061,0.463856,33,0.504567,0.827554
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.750000,0.653514,0.458162,37,0.502871,0.804156
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.800000,0.688824,0.458805,34,0.531455,0.846192
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.850000,0.692973,0.451694,37,0.544457,0.841489
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.900000,0.732353,0.446346,34,0.579258,0.885448
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.950000,0.779429,0.404722,35,0.642608,0.916249
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,1.000000,0.698405,0.452872,39,0.553369,0.843440
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.000000,0.076571,0.242656,35,0.000000,0.158604
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.050000,0.090588,0.268339,17,0.000000,0.220752
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.100000,0.105263,0.311012,38,0.004358,0.206169
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.150000,0.140000,0.343317,34,0.022243,0.257757
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.200000,0.098889,0.285455,36,0.003737,0.194040
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.250000,0.166667,0.377964,36,0.040679,0.292655
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.300000,0.130588,0.330921,34,0.017083,0.244093
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.350000,0.060606,0.242306,33,0.000000,0.144966
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.400000,0.127895,0.333614,38,0.019656,0.236133
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.450000,0.078333,0.251913,36,0.000000,0.162304
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.500000,0.189189,0.397061,37,0.058636,0.319742
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.550000,0.121176,0.315496,34,0.012962,0.229391
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.600000,0.118788,0.325036,33,0.005625,0.231951
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.650000,0.202564,0.392808,39,0.076765,0.328364
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.700000,0.181818,0.391675,33,0.045455,0.318182
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.750000,0.283243,0.445833,37,0.136654,0.429832
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.800000,0.231765,0.424553,34,0.086144,0.377385
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.850000,0.256757,0.433782,37,0.114130,0.399383
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.900000,0.182353,0.385204,34,0.050229,0.314477
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.950000,0.177143,0.381241,35,0.048260,0.306026
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,1.000000,0.216410,0.409335,39,0.085318,0.347502
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.000000,0.833333,0.408248,6,0.500000,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.050000,0.750000,0.500000,4,0.250000,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.100000,0.875000,0.353553,8,0.625000,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.150000,0.745714,0.438895,7,0.413941,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.200000,0.666667,0.516398,6,0.245030,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.250000,0.677143,0.467964,7,0.323395,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.300000,0.500000,0.534522,8,0.122036,0.877964
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.350000,0.643333,0.501265,6,0.234052,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.400000,0.571429,0.534522,7,0.167368,0.975490
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.450000,0.625000,0.517549,8,0.259037,0.990963
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.500000,0.592000,0.540666,5,0.108413,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.550000,0.515000,0.519973,8,0.147324,0.882676
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.600000,0.791429,0.388820,7,0.497508,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.650000,0.714286,0.487950,7,0.345430,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.700000,0.857143,0.377964,7,0.571429,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.750000,0.714286,0.487950,7,0.345430,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.800000,0.750000,0.462910,8,0.422673,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.850000,0.800000,0.447214,5,0.400000,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.900000,0.750000,0.462910,8,0.422673,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.950000,0.714286,0.487950,7,0.345430,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,1.000000,0.743902,0.422944,6,0.398570,1.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.000000,0.000000,0.000000,6,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.050000,0.000000,0.000000,4,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.100000,0.000000,0.000000,8,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.150000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.200000,0.000000,0.000000,6,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.250000,0.157143,0.373529,7,0.000000,0.439504
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.300000,0.375000,0.517549,8,0.009037,0.740963
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.350000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.400000,0.405714,0.508817,7,0.021084,0.790344
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.450000,0.375000,0.517549,8,0.009037,0.740963
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.500000,0.284000,0.439636,5,0.000000,0.677223
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.550000,0.000000,0.000000,8,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.600000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.650000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.700000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.750000,0.074286,0.196542,7,0.000000,0.222857
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.800000,0.125000,0.353553,8,0.000000,0.375000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.850000,0.000000,0.000000,5,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.900000,0.037500,0.106066,8,0.000000,0.112500
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.950000,0.000000,0.000000,7,0.000000,0.000000
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,1.000000,0.000000,0.000000,6,0.000000,0.000000
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.000000,0.616327,0.486025,35,0.452020,0.780633
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.050000,0.556000,0.476181,35,0.395021,0.716979
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.100000,0.426857,0.472887,35,0.266992,0.586722
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.150000,0.476571,0.499470,35,0.307720,0.645423
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.200000,0.487429,0.469846,35,0.328592,0.646265
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.250000,0.511429,0.492683,35,0.344871,0.677986
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.300000,0.511429,0.504551,35,0.340859,0.681998
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.350000,0.487429,0.504429,35,0.316900,0.657957
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.400000,0.454857,0.499137,35,0.286118,0.623596
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.450000,0.414857,0.492493,35,0.248364,0.581350
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.500000,0.406286,0.490061,35,0.240615,0.571956
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.550000,0.405714,0.492880,35,0.239090,0.572338
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.600000,0.437143,0.483374,35,0.273733,0.600553
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.650000,0.447429,0.497194,35,0.279346,0.615511
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.700000,0.397143,0.493776,35,0.230216,0.564070
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.750000,0.321143,0.467155,35,0.163216,0.479070
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.800000,0.317143,0.469346,35,0.158475,0.475811
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.850000,0.242286,0.416703,35,0.101414,0.383157
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.900000,0.234286,0.424224,35,0.090872,0.377700
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.950000,0.257143,0.443440,35,0.107233,0.407053
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,1.000000,0.236000,0.423092,35,0.092969,0.379031
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.000000,0.263557,0.436624,35,0.115951,0.411163
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.050000,0.237143,0.424323,35,0.093695,0.380590
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.100000,0.316000,0.456400,35,0.161709,0.470291
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.150000,0.314857,0.465096,35,0.157626,0.472088
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.200000,0.349143,0.469125,35,0.190550,0.507736
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.250000,0.424000,0.484217,35,0.260305,0.587695
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.300000,0.433714,0.497542,35,0.265515,0.601914
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.350000,0.428571,0.502096,35,0.258832,0.598311
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.400000,0.484000,0.490853,35,0.318061,0.649939
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.450000,0.467429,0.482569,35,0.304291,0.630567
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.500000,0.361143,0.476505,35,0.200055,0.522231
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.550000,0.338286,0.474884,35,0.177746,0.498826
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.600000,0.380571,0.454299,35,0.226990,0.534153
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.650000,0.373714,0.470988,35,0.214491,0.532937
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.700000,0.371429,0.490241,35,0.205697,0.537160
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.750000,0.454286,0.483847,35,0.290716,0.617856
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.800000,0.476571,0.494118,35,0.309529,0.643614
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.850000,0.555429,0.491770,35,0.389180,0.721677
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.900000,0.561714,0.496822,35,0.393758,0.729671
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.950000,0.541143,0.485991,35,0.376848,0.705438
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,1.000000,0.619429,0.475481,35,0.458687,0.780170
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.000000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.050000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.100000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.150000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.200000,0.456667,0.509182,6,0.040921,0.872412
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.250000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.300000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.350000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.400000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.450000,0.306667,0.477773,6,0.000000,0.696766
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.500000,0.166667,0.408248,6,0.000000,0.500000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.550000,0.216667,0.402078,6,0.000000,0.544962
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.600000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.650000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.700000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.750000,0.173333,0.405298,6,0.000000,0.504258
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.800000,0.166667,0.408248,6,0.000000,0.500000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.850000,0.166667,0.408248,6,0.000000,0.500000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.900000,0.223333,0.404063,6,0.000000,0.553249
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.950000,0.333333,0.516398,6,0.000000,0.754970
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,1.000000,0.313333,0.486895,6,0.000000,0.710881
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.000000,0.000000,0.000000,6,0.000000,0.000000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.050000,0.066667,0.163299,6,0.000000,0.200000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.100000,0.166667,0.408248,6,0.000000,0.500000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.150000,0.253333,0.420793,6,0.000000,0.596909
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.200000,0.356667,0.501265,6,0.000000,0.765948
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.250000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.300000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.350000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.400000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.450000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.500000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.550000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.600000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.650000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.700000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.750000,0.643333,0.501265,6,0.234052,1.000000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.800000,0.666667,0.516398,6,0.245030,1.000000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.850000,0.666667,0.516398,6,0.245030,1.000000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.900000,0.663333,0.513874,6,0.243757,1.000000
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.950000,0.500000,0.547723,6,0.052786,0.947214
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,1.000000,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.000000,0.236000,0.423092,35,0.092969,0.379031
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.033333,0.257143,0.443440,35,0.107233,0.407053
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.066667,0.283429,0.452587,35,0.130426,0.436431
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.100000,0.285714,0.458349,35,0.130764,0.440665
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.133333,0.348571,0.469350,35,0.189902,0.507241
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.166667,0.371429,0.490241,35,0.205697,0.537160
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.200000,0.346286,0.478448,35,0.184541,0.508031
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.233333,0.314286,0.471008,35,0.155056,0.473516
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.266667,0.314286,0.471008,35,0.155056,0.473516
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.300000,0.325714,0.468001,35,0.167501,0.483928
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.333333,0.362286,0.461093,35,0.206408,0.518163
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.366667,0.321143,0.468036,35,0.162918,0.479368
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.400000,0.276000,0.440903,35,0.126948,0.425052
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.433333,0.214857,0.401302,35,0.079192,0.350522
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.466667,0.231429,0.424799,35,0.087820,0.375037
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.500000,0.181143,0.354897,35,0.061166,0.301120
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.533333,0.161143,0.363834,35,0.038145,0.284141
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.566667,0.171429,0.382385,35,0.042159,0.300698
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.600000,0.183429,0.383436,35,0.053804,0.313054
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.633333,0.203429,0.404605,35,0.066647,0.340210
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.666667,0.201714,0.405096,35,0.064767,0.338662
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.700000,0.250857,0.434060,35,0.104118,0.397596
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.733333,0.250286,0.433355,35,0.103785,0.396787
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.766667,0.202286,0.404904,35,0.065403,0.339168
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.800000,0.171429,0.382385,35,0.042159,0.300698
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.833333,0.166286,0.371413,35,0.040725,0.291846
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.866667,0.114286,0.322803,35,0.005158,0.223413
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.900000,0.114286,0.322803,35,0.005158,0.223413
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.933333,0.139429,0.347003,35,0.022120,0.256737
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.966667,0.146857,0.354167,35,0.027127,0.266587
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,1.000000,0.168000,0.371331,35,0.042467,0.293533
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.000000,0.619429,0.475481,35,0.458687,0.780170
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.033333,0.628571,0.490241,35,0.462840,0.794303
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.066667,0.625143,0.485952,35,0.460861,0.789425
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.100000,0.628571,0.490241,35,0.462840,0.794303
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.133333,0.554857,0.475477,35,0.394116,0.715598
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.166667,0.484571,0.492367,35,0.318121,0.651022
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.200000,0.462286,0.497305,35,0.294166,0.630405
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.233333,0.508000,0.499981,35,0.338976,0.677024
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.266667,0.541714,0.502262,35,0.371919,0.711510
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.300000,0.549143,0.491081,35,0.383127,0.715159
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.333333,0.524571,0.487637,35,0.359720,0.689423
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.366667,0.514857,0.489930,35,0.349231,0.680484
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.400000,0.526286,0.489171,35,0.360916,0.691656
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.433333,0.565143,0.485831,35,0.400902,0.729384
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.466667,0.559429,0.465479,35,0.402068,0.716789
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.500000,0.582286,0.479627,35,0.420142,0.744429
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.533333,0.560571,0.484039,35,0.396936,0.724206
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.566667,0.521714,0.501207,35,0.352275,0.691153
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.600000,0.560000,0.486548,35,0.395517,0.724483
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.633333,0.604571,0.487589,35,0.439736,0.769407
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.666667,0.642857,0.473489,35,0.482789,0.802926
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.700000,0.632571,0.485510,35,0.468439,0.796704
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.733333,0.628571,0.490241,35,0.462840,0.794303
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.766667,0.655429,0.469520,35,0.496702,0.814155
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.800000,0.681714,0.468850,35,0.523214,0.840215
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.833333,0.682857,0.457310,35,0.528258,0.837456
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.866667,0.698857,0.455991,35,0.544704,0.853010
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.900000,0.690286,0.464894,35,0.533123,0.847449
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.933333,0.673143,0.456868,35,0.518693,0.827592
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.966667,0.606286,0.484216,35,0.442591,0.769981
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,1.000000,0.508571,0.487473,35,0.343775,0.673367
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.000000,0.313333,0.486895,6,0.000000,0.710881
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.033333,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.066667,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.100000,0.323333,0.501265,6,0.000000,0.732615
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.133333,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.166667,0.313333,0.486895,6,0.000000,0.710881
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.200000,0.373333,0.389803,6,0.055060,0.691606
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.233333,0.380000,0.465790,6,0.000000,0.760316
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.266667,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.300000,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.333333,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.366667,0.233333,0.408248,6,0.000000,0.566667
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.400000,0.303333,0.473357,6,0.000000,0.689828
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.433333,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.466667,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.500000,0.403333,0.489966,6,0.003278,0.803389
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.533333,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.566667,0.483333,0.530723,6,0.050000,0.916667
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.600000,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.633333,0.206667,0.400333,6,0.000000,0.533537
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.666667,0.166667,0.408248,6,0.000000,0.500000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.700000,0.166667,0.408248,6,0.000000,0.500000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.733333,0.160000,0.391918,6,0.000000,0.480000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.766667,0.000000,0.000000,6,0.000000,0.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.800000,0.000000,0.000000,6,0.000000,0.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.833333,0.000000,0.000000,6,0.000000,0.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.866667,0.000000,0.000000,6,0.000000,0.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.900000,0.000000,0.000000,6,0.000000,0.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.933333,0.000000,0.000000,6,0.000000,0.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.966667,0.123333,0.302104,6,0.000000,0.370000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,1.000000,0.166667,0.408248,6,0.000000,0.500000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.000000,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.033333,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.066667,0.370000,0.495379,6,0.000000,0.774475
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.100000,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.133333,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.166667,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.200000,0.350000,0.504975,6,0.000000,0.762311
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.233333,0.333333,0.516398,6,0.000000,0.754970
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.266667,0.480000,0.527636,6,0.049187,0.910813
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.300000,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.333333,0.476667,0.524659,6,0.048285,0.905049
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.366667,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.400000,0.420000,0.488262,6,0.021336,0.818664
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.433333,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.466667,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.500000,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.533333,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.566667,0.500000,0.547723,6,0.052786,0.947214
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.600000,0.666667,0.516398,6,0.245030,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.633333,0.780000,0.402989,6,0.450961,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.666667,0.833333,0.408248,6,0.500000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.700000,0.833333,0.408248,6,0.500000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.733333,0.713333,0.452843,6,0.343589,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.766667,0.936667,0.128010,6,0.832147,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.800000,0.866667,0.326599,6,0.600000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.833333,0.853333,0.359258,6,0.560000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.866667,0.986667,0.032660,6,0.960000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.900000,1.000000,0.000000,6,1.000000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.933333,1.000000,0.000000,6,1.000000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.966667,0.866667,0.326599,6,0.600000,1.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,1.000000,0.833333,0.408248,6,0.500000,1.000000
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.000000,0.326286,0.449281,35,0.174401,0.478170
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.100000,0.342857,0.419612,35,0.201003,0.484712
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.200000,0.401143,0.446422,35,0.250225,0.552061
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.300000,0.474286,0.499613,35,0.305386,0.643186
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.400000,0.485714,0.507093,35,0.314286,0.657143
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.500000,0.497143,0.485414,35,0.333043,0.661243
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.600000,0.525143,0.498642,35,0.356571,0.693714
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.700000,0.525714,0.460705,35,0.369968,0.681461
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.800000,0.533143,0.497546,35,0.364942,0.701344
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,0.900000,0.556571,0.493379,35,0.389779,0.723364
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,agent,1.000000,0.608000,0.466784,35,0.450198,0.765802
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.000000,0.053714,0.221852,35,0.000000,0.128714
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.100000,0.172571,0.324928,35,0.062726,0.282417
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.200000,0.318857,0.434618,35,0.171929,0.465785
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.300000,0.421143,0.487369,35,0.256382,0.585903
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.400000,0.462286,0.492312,35,0.295854,0.628718
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.500000,0.443429,0.496706,35,0.275511,0.611346
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.600000,0.416571,0.492974,35,0.249916,0.583227
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.700000,0.393143,0.467633,35,0.235054,0.551232
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.800000,0.353714,0.477463,35,0.192302,0.515126
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,0.900000,0.323429,0.460728,35,0.167674,0.479183
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,direct_2_2,2,2,mixed,patient,1.000000,0.285714,0.458349,35,0.130764,0.440665
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.000000,0.350000,0.504975,6,0.000000,0.762311
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.100000,0.460000,0.511468,6,0.042388,0.877612
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.200000,0.653333,0.507017,6,0.239355,1.000000
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.300000,0.560000,0.499600,6,0.152078,0.967922
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.400000,0.666667,0.516398,6,0.245030,1.000000
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.500000,0.450000,0.504975,6,0.037689,0.862311
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.600000,0.326667,0.406874,6,0.000000,0.658878
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.700000,0.333333,0.516398,6,0.000000,0.754970
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.800000,0.370000,0.495379,6,0.000000,0.774475
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,0.900000,0.500000,0.547723,6,0.052786,0.947214
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,agent,1.000000,0.526667,0.521792,6,0.100625,0.952708
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.000000,0.166667,0.408248,6,0.000000,0.500000
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.100000,0.166667,0.408248,6,0.000000,0.500000
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.200000,0.193333,0.400333,6,0.000000,0.520204
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.300000,0.406667,0.468131,6,0.024439,0.788894
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.400000,0.333333,0.516398,6,0.000000,0.754970
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.500000,0.470000,0.462299,6,0.092535,0.847465
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.600000,0.580000,0.492341,6,0.178005,0.981995
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.700000,0.500000,0.547723,6,0.052786,0.947214
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.800000,0.343333,0.402078,6,0.015038,0.671629
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,0.900000,0.333333,0.516398,6,0.000000,0.754970
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,inverse_1_1,1,1,mixed,patient,1.000000,0.333333,0.516398,6,0.000000,0.754970

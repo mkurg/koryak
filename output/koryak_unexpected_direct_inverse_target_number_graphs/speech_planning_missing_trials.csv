@@ -1,0 +1,6 @@
+window_key,window,participant,image,sentence_type,condition_key,condition,agent_num,patient_num,patient_animacy,rt
+speech_planning,Early event apprehension,К05,pick-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,inanimate,3131.000000
+linguistic_encoding_1,Linguistic encoding I,К05,pick-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,inanimate,3131.000000
+linguistic_encoding_2,Linguistic encoding II,К05,pick-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,inanimate,3131.000000
+linguistic_encoding_3,Linguistic encoding III,К05,pick-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,inanimate,3131.000000
+post_onset_1000_2500,1000-2500 ms after speech onset,К05,pick-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,inanimate,3131.000000

@@ -1,0 +1,6 @@
+panel_group,panel,sentence_type,condition_key,window_key,window,sentence_count,usable_gaze_count
+direct_2_1,All direct 2-1,direct,direct_2_agents_1_patient,speech_planning,Planning,43,43
+direct_2_1,All direct 2-1,direct,direct_2_agents_1_patient,linguistic_encoding_1,LE I,43,43
+direct_2_1,All direct 2-1,direct,direct_2_agents_1_patient,linguistic_encoding_2,LE II,43,43
+direct_2_1,All direct 2-1,direct,direct_2_agents_1_patient,linguistic_encoding_3,LE III,43,43
+direct_2_1,All direct 2-1,direct,direct_2_agents_1_patient,post_onset_1000_2500,Post 1-2.5s,43,43

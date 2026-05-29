@@ -1,0 +1,11 @@
+window_key,window,sentence_type,condition_key,condition,agent_num,patient_num,patient_animacy,clean_behavior_trials,plotted_trials,plotted_50ms_bins
+speech_planning,Early event apprehension,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,mixed,37,35,385
+speech_planning,Early event apprehension,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,1,1,inanimate,6,6,66
+linguistic_encoding_1,Linguistic encoding I,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,mixed,37,35,729
+linguistic_encoding_1,Linguistic encoding I,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,1,1,inanimate,6,6,142
+linguistic_encoding_2,Linguistic encoding II,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,mixed,37,35,729
+linguistic_encoding_2,Linguistic encoding II,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,1,1,inanimate,6,6,142
+linguistic_encoding_3,Linguistic encoding III,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,mixed,37,35,735
+linguistic_encoding_3,Linguistic encoding III,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,1,1,inanimate,6,6,126
+post_onset_1000_2500,1000-2500 ms after speech onset,direct,direct_2_agents_2_patients,Direct used for 2-2,2,2,mixed,37,35,1085
+post_onset_1000_2500,1000-2500 ms after speech onset,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,1,1,inanimate,6,6,186

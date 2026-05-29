@@ -1,0 +1,17 @@
+participant,image,sentence_type,condition_key,condition,number_source,agent_num,patient_num,patient_animacy,rt,translation,transcription,comments
+К01,carry-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,2677.000000,Двое мужчин несут два ведра,К'лаволаек нэкунн'ин'нын кукэн'эт,
+К04,push-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,animate,3163.000000,Две девочки толкают двух мальчиков,Н'авык'к'алю копэннылан' к'айыкмин'ын',девочки нападают на мальчиков (дат.)
+К05,pick-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,3131.000000,Два мальчика срывают два цветка,К'айыкмин'ыйык  каёйэнав'  в'ытв'ыто,
+К06,saw-1-1-r.png,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,target_filename,1,1,inanimate,1987.000000,Мужчина пилит бревно,Г’оляна нэкучг'ынин  уттыт,
+К17,hang-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,1911.000000,Две бабушки вешают две картины,Чачамйа коннёпаньн'ын каликал,
+К17,treat-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,animate,2477.000000,Две женщины лечат двух мужчин,Н'авычӈэ куенмэлэв'ын'нин г'олят,
+К17,throw-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,1362.000000,Две девочки бросают два мяча,Н'авык'к'алют куйичвылын к'апыла,
+К20,wake-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,animate,2857.000000,Две женщины будят двух мужчин,Н'авычӈэйык кукумг'эн'нын г'оляв',
+К22,scold-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,animate,4204.000000,Две девочки ругают двух мальчиков,Н'авык'к'алю кокомалын к'айыкмин'ын,
+К25,burn-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,1521.000000,Два дедушки сжигают две книги ,Ынпыӄлаволатэ  кумилгынг'энын калитг'кула,
+К07,call-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,animate,2773.000000,Две бабушки зовут двух дедушек,Эльг'ат кокомачэнын г’уемтэв’илг’ын,
+К13,break-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,3724.000000,Два мальчика ломают два домика,К'айнюнютык ганпачав'лэн рарав'э,
+К13,boil-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,3835.000000,Две женщины варят две курицы,Нав'г'аныну кокайвылаткын курицак,
+К15,break-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,inanimate,2041.000000,Два мальчика ломают два домика,К'айыкминыв' ганпачав'кын рарав'э,
+К15,give_water-2-2-r.png,direct,direct_2_agents_2_patients,Direct used for 2-2,target_filename,2,2,animate,3578.000000,Два мужчины поят двух женщин,так.. Г'олята нэнив'ичитыткынын нитык' нав'г'анэв',
+К16,open-1-1-r.png,inverse,inverse_1_agent_1_patient,Inverse used for 1-1,target_filename,1,1,inanimate,5981.000000,Дедушка открывает дверь,ага...  Ынпын'ытэ нэкуенв'эн'эньн'ынэн тыллытыл,
