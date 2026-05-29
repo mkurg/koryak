@@ -1,6 +1,11 @@
-# Koryak gaze dot overlays
+# Koryak GitHub Pages site
 
-Open `index.html` for links to the generated overlays.
+Open `index.html` for the `/docs` landing page. It links to:
+
+- `output-library.html`: searchable library of downloadable analysis outputs.
+- `gaze-dot-overlays.html`: Koryak gaze dot overlay browser.
+
+The gaze-dot overlay assets are:
 
 - `participant_trials/`: one SVG per participant/run/trial.
 - `aggregate_by_stimulus/`: one SVG per stimulus, pooling all plotted fixations.

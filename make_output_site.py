@@ -80,21 +80,38 @@ def should_include(path: Path, root: Path, site_filename: str) -> bool:
     return not any(part.startswith(".") for part in rel.parts)
 
 
-def collect_files(root: Path, site_filename: str) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+def collect_files(
+    root: Path,
+    site_filename: str,
+    url_prefix: str = "",
+    download_prefix: str = "",
+    max_file_bytes: int | None = None,
+) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
     files: list[dict[str, object]] = []
     by_dir: dict[str, list[dict[str, object]]] = defaultdict(list)
 
     for path in sorted(root.rglob("*")):
         if not path.is_file() or not should_include(path, root, site_filename):
             continue
+        if max_file_bytes is not None and path.stat().st_size > max_file_bytes:
+            continue
         rel = path.relative_to(root)
         rel_posix = rel.as_posix()
+        rel_url = quote(rel_posix)
+        download_url = rel_url
+        if url_prefix:
+            rel_url = f"{url_prefix.rstrip('/')}/{rel_url}"
+        if download_prefix:
+            download_url = f"{download_prefix.rstrip('/')}/{quote(rel_posix)}"
+        elif url_prefix:
+            download_url = rel_url
         top_dir = rel.parts[0] if len(rel.parts) > 1 else "."
         ext = path.suffix.lower()
         stat = path.stat()
         record = {
             "path": rel_posix,
-            "url": quote(rel_posix),
+            "url": rel_url,
+            "downloadUrl": download_url,
             "name": path.name,
             "dir": top_dir,
             "dirLabel": "Output root" if top_dir == "." else humanize(top_dir),
@@ -162,14 +179,19 @@ def format_bytes(size: int) -> str:
     return f"{value:.1f} GB"
 
 
-def render_html(files: list[dict[str, object]], directories: list[dict[str, object]], summary: dict[str, object]) -> str:
+def render_html(
+    files: list[dict[str, object]],
+    directories: list[dict[str, object]],
+    summary: dict[str, object],
+    title: str = "Koryak Output Library",
+) -> str:
     data_json = json.dumps({"files": files, "directories": directories, "summary": summary}, ensure_ascii=False)
     return f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Koryak Output Library</title>
+  <title>{title}</title>
   <style>
     :root {{
       --bg: #f6f7f9;
@@ -509,7 +531,7 @@ def render_html(files: list[dict[str, object]], directories: list[dict[str, obje
   <header class="app-header">
     <div class="header-row">
       <div>
-        <h1>Koryak Output Library</h1>
+        <h1>{title}</h1>
         <div class="subline" id="generated"></div>
       </div>
       <div class="stats" id="stats"></div>
@@ -763,7 +785,7 @@ def render_html(files: list[dict[str, object]], directories: list[dict[str, obje
             <div class="actions">
               ${{previewAction}}
               <a class="action" href="${{escapeAttr(file.url)}}" target="_blank" rel="noopener">Open</a>
-              <a class="action" href="${{escapeAttr(file.url)}}" download>Download</a>
+              <a class="action" href="${{escapeAttr(file.downloadUrl || file.url)}}" download>Download</a>
             </div>
           </td>
         </tr>
@@ -775,7 +797,7 @@ def render_html(files: list[dict[str, object]], directories: list[dict[str, obje
       el.previewMeta.textContent = `${{file.dirLabel}} · ${{file.type}} · ${{file.sizeLabel}} · ${{file.modified}}`;
       el.previewActions.innerHTML = `
         <a class="action" href="${{escapeAttr(file.url)}}" target="_blank" rel="noopener">Open</a>
-        <a class="action" href="${{escapeAttr(file.url)}}" download>Download</a>
+        <a class="action" href="${{escapeAttr(file.downloadUrl || file.url)}}" download>Download</a>
       `;
       const ext = file.extension.toLowerCase();
       if (['.png', '.jpg', '.jpeg', '.webp', '.svg'].includes(ext)) {{
@@ -815,12 +837,37 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate a static browser for every file under output/.")
     parser.add_argument("--output-root", default="output")
     parser.add_argument("--site-filename", default="index.html")
+    parser.add_argument("--site-path", default="")
+    parser.add_argument("--title", default="Koryak Output Library")
+    parser.add_argument(
+        "--url-prefix",
+        default="",
+        help="Optional URL prefix for generated file links, e.g. a raw GitHub output/ URL.",
+    )
+    parser.add_argument(
+        "--download-prefix",
+        default="",
+        help="Optional URL prefix for download links when it should differ from preview/open links.",
+    )
+    parser.add_argument(
+        "--max-file-bytes",
+        type=int,
+        default=0,
+        help="When positive, omit files larger than this many bytes from the generated index.",
+    )
     args = parser.parse_args()
 
     root = Path(args.output_root)
-    files, directories, summary = collect_files(root, args.site_filename)
-    site_path = root / args.site_filename
-    site_path.write_text(render_html(files, directories, summary), encoding="utf-8")
+    site_path = Path(args.site_path) if args.site_path else root / args.site_filename
+    files, directories, summary = collect_files(
+        root,
+        args.site_filename,
+        args.url_prefix,
+        args.download_prefix,
+        max_file_bytes=args.max_file_bytes if args.max_file_bytes > 0 else None,
+    )
+    site_path.parent.mkdir(parents=True, exist_ok=True)
+    site_path.write_text(render_html(files, directories, summary, title=args.title), encoding="utf-8")
     print(site_path)
 
 
