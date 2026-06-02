@@ -1,0 +1,11 @@
+sentence_type,word_order,window_key,window,participant_scope,behavior_apv_trials_including_error_forms,usable_gaze_trials
+direct,APV,speech_planning,Early event apprehension,all participants,53,53
+direct,APV,linguistic_encoding_1,Linguistic encoding I,all participants,53,53
+direct,APV,linguistic_encoding_2,Linguistic encoding II,all participants,53,53
+direct,APV,linguistic_encoding_3,Linguistic encoding III,all participants,53,53
+direct,APV,post_onset_1000_2500,1000-2500 ms after speech onset,all participants,53,53
+inverse,APV,speech_planning,Early event apprehension,all participants,39,39
+inverse,APV,linguistic_encoding_1,Linguistic encoding I,all participants,39,39
+inverse,APV,linguistic_encoding_2,Linguistic encoding II,all participants,39,39
+inverse,APV,linguistic_encoding_3,Linguistic encoding III,all participants,39,39
+inverse,APV,post_onset_1000_2500,1000-2500 ms after speech onset,all participants,39,39
