@@ -1,0 +1,7 @@
+graph_id,type,split,title,n_trials,n_participants,type_mean_speech_onset_ms,group_mean_speech_onset_ms,graph_end_ms,min_speech_onset_ms,max_speech_onset_ms,filename_stem
+act_all,act,all,All active sentences (N = 414),414,33,2575.869565,2575.869565,4075.869565,892.000000,6444.000000,all_active_sentences_mean_onset_plus_1500ms
+act_less_than_mean,act,less_than_mean,Active sentences with SOL less than mean (N = 239),239,32,2575.869565,1912.393305,3412.393305,892.000000,2570.000000,active_sentences_sol_less_than_mean_plus_1500ms
+act_greater_than_mean,act,greater_than_mean,Active sentences with SOL greater than mean (N = 175),175,30,2575.869565,3481.988571,4981.988571,2576.000000,6444.000000,active_sentences_sol_greater_than_mean_plus_1500ms
+pass_all,pass,all,All passive sentences (N=168),168,33,2387.761905,2387.761905,3887.761905,1018.000000,5926.000000,all_passive_sentences_mean_onset_plus_1500ms
+pass_less_than_mean,pass,less_than_mean,Passive sentences with SOL less than mean (N = 98),98,26,2387.761905,1728.387755,3228.387755,1018.000000,2353.000000,passive_sentences_sol_less_than_mean_plus_1500ms
+pass_greater_than_mean,pass,greater_than_mean,Passive sentences with SOL greater than mean (N = 70),70,27,2387.761905,3310.885714,4810.885714,2407.000000,5926.000000,passive_sentences_sol_greater_than_mean_plus_1500ms
