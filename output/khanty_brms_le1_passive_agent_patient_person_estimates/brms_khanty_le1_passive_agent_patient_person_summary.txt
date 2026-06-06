@@ -1,0 +1,27 @@
+ Family: binomial 
+  Links: mu = logit 
+Formula: agent_sum | trials(agent_patient_sum) ~ time_c + time_c2 + time_c3 + (1 + time_c || person) + (1 | item) 
+   Data: model_df (Number of observations: 2922) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Multilevel Hyperparameters:
+~item (Number of levels: 24) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.56      0.09     0.42     0.77 1.01      754     1246
+
+~person (Number of levels: 14) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.52      0.12     0.34     0.80 1.00     1020     1521
+sd(time_c)        1.57      0.37     1.04     2.50 1.00     1033     1501
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept     0.68      0.18     0.31     1.04 1.00      892     1148
+time_c       -1.35      0.44    -2.26    -0.50 1.01      879     1166
+time_c2      -1.33      0.08    -1.49    -1.18 1.00     2887     2311
+time_c3       8.07      0.30     7.49     8.65 1.00     2850     2179
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
